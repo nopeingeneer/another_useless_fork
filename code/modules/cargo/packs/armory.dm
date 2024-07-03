@@ -288,7 +288,7 @@
 					/obj/item/clothing/gloves/tackler/combat/insulated)
 	crate_name = "swat crate | Command"
 
-/datum/supply_pack/security/lasguns
+/datum/supply_pack/security/armory/lasguns
 	name = "Lasgun's Kit"
 	desc = "Коробочка с автоматическими лазерными винтовками."
 	cost = 6000
@@ -296,8 +296,8 @@
 					/obj/item/gun/ballistic/automatic/laser/lasgun)
 	crate_name = "Lasgun's Kit"
 
-/datum/supply_pack/security/armory/wt550ammo
-	name = "WT-550 Semi-Auto SMG Ammo Crate"
+/datum/supply_pack/security/armory/lasguns_ammo
+	name = "Lasgun's Ammo Crate"
 	desc = "Содержит четыре магазина на 32 патрона для полуавтоматического пистолета WT-550 SMG. Каждый магазин предназначен для быстрой тактической перезарядки. Для открытия требуется доступ к оружейной."
 	cost = 3250
 	contains = list(/obj/item/ammo_box/magazine/recharge/lasgun,
