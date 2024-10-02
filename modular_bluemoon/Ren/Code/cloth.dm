@@ -639,6 +639,8 @@
 		custom_price = 1000
 	if(class == "<span class='nicegreen'>ZAIN</span>")
 		custom_price = 500
+//донат вещи
+
 
 ///Чулки чулки чулки блять
 /obj/item/clothing/underwear/socks/thigh/stockings/socks_garterbelt

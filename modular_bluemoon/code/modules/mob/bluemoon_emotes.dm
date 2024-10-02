@@ -289,3 +289,43 @@
 	message_mime = "издаёт вокодерский смех."
 	emote_sound = 'sound/voice/cp_laugh.ogg'
 	emote_cooldown = 0.25 SECONDS
+
+/datum/emote/living/audio/oink1
+	key = "oink1"
+	key_third_person = "oink1"
+	message = "хрюкает."
+	message_mime = "кажется, хрюкает."
+	emote_sound = 'modular_bluemoon/sound/emotes/oink1.ogg'
+	emote_cooldown = 1 SECONDS
+
+/datum/emote/living/audio/oink2
+	key = "oink2"
+	key_third_person = "oink2"
+	message = "хрюкает."
+	message_mime = "кажется, хрюкает."
+	emote_sound = 'modular_bluemoon/sound/emotes/oink2.ogg'
+	emote_cooldown = 1 SECONDS
+
+/datum/emote/living/audio/oink3
+	key = "oink3"
+	key_third_person = "oink3"
+	message = "хрюкает."
+	message_mime = "кажется, хрюкает."
+	emote_sound = 'modular_bluemoon/sound/emotes/oink3.ogg'
+	emote_cooldown = 1 SECONDS
+
+/datum/emote/living/audio/mrrp3
+	key = "mrrp3"
+	key_third_person = "mrrp3"
+	message = "mrrp's."
+	message_mime = "silently mrrp's."
+	emote_sound = 'modular_bluemoon/sound/emotes/mrrps3.ogg'
+	emote_cooldown = 0.5 SECONDS
+
+/datum/emote/living/audio/squeal
+	key = "squeal"
+	key_third_person = "squeal"
+	message = "squeals."
+	message_mime = "silently squeals."
+	emote_sound = 'modular_bluemoon/sound/emotes/squeal.ogg'
+	emote_cooldown = 0.75 SECONDS
