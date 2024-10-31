@@ -1,0 +1,2222 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ad" = (
+/turf/open/floor/plating,
+/area/space)
+"ah" = (
+/obj/machinery/atmospherics/pipe/simple/multiz{
+	dir = 8;
+	piping_layer = 3
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"au" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"bt" = (
+/obj/machinery/door/window/northleft{
+	dir = 8;
+	name = "Atmos Monitoring";
+	req_access_txt = "12; 24"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/space)
+"bF" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"bT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"bZ" = (
+/obj/structure/chair/sofa/left,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"cK" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	req_access_txt = "13"
+	},
+/turf/open/floor/plating,
+/area/space)
+"du" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"eq" = (
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"fe" = (
+/mob/living/simple_animal/pet/penguin/baby,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"fp" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"ga" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"gk" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"gm" = (
+/obj/structure/window/spawner,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"gA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"hh" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"hO" = (
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"iu" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 5
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"jB" = (
+/obj/structure/table/wood,
+/obj/item/toy/fluff/bone_poly/squeak,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"jT" = (
+/obj/structure/chair/sofa{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"kD" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"kU" = (
+/obj/machinery/deepfryer,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"ll" = (
+/obj/machinery/atmospherics/components/binary/valve/digital/on{
+	name = "Digital Valve"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"lK" = (
+/obj/structure/disposalpipe/segment{
+	dir = 6
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"lT" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"mc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/tool_box,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"mk" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"mF" = (
+/obj/structure/disposalpipe/trunk/multiz/down,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 6
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"mK" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"oC" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space)
+"pA" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/window/westleft,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"pI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"pS" = (
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"ql" = (
+/obj/structure/window/spawner/north,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"qq" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"rv" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"rT" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/snacks/chilicheesefries,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"sH" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/low_tools,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"tC" = (
+/obj/structure/table/wood,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"tP" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/multiz,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/space)
+"uY" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/camera{
+	c_tag = "Southern Engineering Post"
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/power/apc{
+	areastring = "/area/engineering/substation/service/lower";
+	dir = 4;
+	name = "Lower East Engineering Post APC";
+	pixel_x = -24
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"vE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/spawner/lootdrop/glowstick,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"wa" = (
+/obj/machinery/light/floor,
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"wo" = (
+/obj/structure/window/spawner/east,
+/obj/structure/window/spawner,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"xb" = (
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 6
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"xM" = (
+/obj/structure/window/spawner/east,
+/obj/structure/window/spawner/north,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"yb" = (
+/obj/machinery/camera{
+	c_tag = "Northwestern Engineering Post";
+	dir = 1
+	},
+/obj/machinery/light,
+/obj/structure/disposalpipe/trunk/multiz{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"yN" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 9
+	},
+/obj/effect/spawner/lootdrop/glowstick,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"zF" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/door/window/eastleft,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"Ap" = (
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"Bu" = (
+/obj/machinery/atmospherics/pipe/simple/multiz{
+	dir = 8;
+	piping_layer = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"BG" = (
+/obj/structure/ladder,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"BM" = (
+/turf/open/floor/carpet/arcade,
+/area/space)
+"Ce" = (
+/obj/machinery/door/window/westright,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"CA" = (
+/obj/structure/window/spawner/north,
+/obj/structure/window/spawner/west,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"CG" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"CZ" = (
+/obj/structure/disposalpipe/trunk/multiz{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"DJ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden{
+	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ek" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plating,
+/area/space)
+"Ep" = (
+/obj/structure/window/spawner/west,
+/obj/structure/window/spawner,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"ER" = (
+/obj/machinery/door/airlock/atmos/abandoned{
+	name = "Atmospherics Maintenance";
+	req_access_txt = "12;24"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"EZ" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/floor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"FB" = (
+/obj/structure/table,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"FI" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"FR" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Ge" = (
+/turf/closed/wall/mineral/snow,
+/area/space)
+"Gq" = (
+/obj/structure/window/spawner/west,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"GF" = (
+/turf/closed/wall/r_wall,
+/area/space)
+"GO" = (
+/obj/structure/window/spawner/east,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"GZ" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/plating,
+/area/space)
+"Hs" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/spawner/lootdrop/grille_or_trash,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Hx" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light/floor,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"HV" = (
+/obj/effect/spawner/lootdrop/druggie_pill,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"IE" = (
+/obj/effect/spawner/lootdrop/tool_box,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"IN" = (
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	name = "External Access";
+	req_access_txt = "13"
+	},
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/space)
+"Jq" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"JD" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"Kd" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Km" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Ld" = (
+/obj/effect/spawner/lootdrop/trashbin,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Ly" = (
+/obj/structure/chair/sofa/corner{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Mv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"MF" = (
+/obj/machinery/atmospherics/pipe/simple/multiz{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"ML" = (
+/obj/structure/table,
+/obj/item/reagent_containers/food/snacks/hotdog{
+	desc = "Wow, they have it! GLIZZY!";
+	name = "glizzy"
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"MW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/door/window/westright,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"Nv" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"OF" = (
+/turf/closed/wall,
+/area/space)
+"OJ" = (
+/obj/structure/window/spawner/west,
+/obj/machinery/computer/arcade{
+	dir = 4
+	},
+/turf/open/floor/carpet/arcade,
+/area/space)
+"PK" = (
+/obj/structure/bonfire/prelit,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Qj" = (
+/obj/item/radio/intercom{
+	pixel_x = -30
+	},
+/turf/open/floor/plasteel,
+/area/space)
+"Ql" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/door/window/eastright,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"Qw" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"QW" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Rz" = (
+/obj/structure/disposalpipe/segment,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"RS" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"RW" = (
+/turf/open/openspace,
+/area/space)
+"SE" = (
+/obj/structure/disposalpipe/segment{
+	dir = 10
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"SZ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/food/snacks/meat/steak/penguin,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Tf" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"Ur" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/openspace,
+/area/space)
+"UF" = (
+/turf/open/floor/plasteel,
+/area/space)
+"UI" = (
+/turf/closed/mineral/random/snow,
+/area/space)
+"Vg" = (
+/obj/structure/chair/sofa/right{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"VQ" = (
+/obj/structure/window/spawner/east,
+/obj/machinery/computer/arcade{
+	dir = 8
+	},
+/turf/open/floor/carpet/arcade,
+/area/space)
+"Xc" = (
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Xk" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/railing/corner{
+	dir = 1
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+"Yi" = (
+/obj/effect/spawner/lootdrop/maintenance,
+/turf/open/floor/plating/ice/temperate,
+/area/space)
+"Zp" = (
+/obj/structure/chair/sofa,
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
+
+(1,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(2,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(3,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(4,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+hO
+Ld
+Ur
+RW
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(5,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+HV
+hO
+hO
+Ur
+RW
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(6,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+lK
+xb
+mF
+Rz
+iu
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(7,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+mk
+ah
+Bu
+Hs
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(8,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+SE
+Xc
+mK
+wa
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(9,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+SE
+gA
+Km
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(10,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+Ge
+Xk
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(11,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+FR
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(12,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+vE
+Kd
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(13,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+Ly
+jT
+Vg
+hO
+hO
+hO
+hO
+FR
+Kd
+hO
+hO
+hO
+hO
+rT
+hO
+kU
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(14,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+Zp
+jB
+SZ
+hO
+hO
+hO
+hO
+FR
+Kd
+hO
+hO
+hO
+hO
+ML
+hO
+kU
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(15,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+bZ
+tC
+tC
+hO
+hO
+hO
+hO
+Hx
+sH
+hO
+hO
+hO
+hO
+FB
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(16,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+hO
+hO
+CA
+Gq
+pA
+MW
+Gq
+Ep
+hO
+hO
+FB
+FB
+Ce
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(17,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+du
+hO
+hO
+CA
+Ap
+Ap
+qq
+Jq
+Ap
+Ap
+Ep
+hO
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(18,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+CA
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+Ep
+hO
+hO
+Ld
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(19,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+ql
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+gm
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(20,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+ql
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+gm
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(21,1,1) = {"
+UI
+UI
+UI
+RS
+RS
+Ge
+hO
+hO
+hO
+ql
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+gm
+hO
+hO
+hO
+Ge
+RS
+RS
+UI
+UI
+UI
+UI
+UI
+"}
+(22,1,1) = {"
+UI
+UI
+UI
+cK
+ad
+IN
+hO
+hO
+hO
+ql
+Ap
+Ap
+fe
+EZ
+Jq
+Ap
+Ap
+Yi
+gm
+hO
+hO
+hO
+cK
+ad
+IN
+UI
+UI
+UI
+UI
+UI
+"}
+(23,1,1) = {"
+UI
+UI
+UI
+RS
+RS
+Ge
+du
+hO
+hO
+ql
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+gm
+hO
+hO
+hO
+Ge
+RS
+RS
+UI
+UI
+UI
+UI
+UI
+"}
+(24,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+ql
+Yi
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+gm
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(25,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+xM
+Ap
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+Ap
+wo
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(26,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+hO
+hO
+hO
+xM
+Ap
+Ap
+CG
+Jq
+Ap
+Ap
+wo
+hO
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(27,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+BM
+BM
+BM
+hO
+hO
+xM
+GO
+Ql
+zF
+GO
+wo
+hO
+hO
+hO
+du
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(28,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+VQ
+VQ
+VQ
+hO
+hO
+hO
+hO
+FR
+mc
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(29,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+OJ
+OJ
+OJ
+hO
+hO
+hO
+hO
+Hx
+Kd
+du
+hO
+hO
+hO
+hO
+PK
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(30,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+BM
+BM
+BM
+hO
+hO
+hO
+hO
+FR
+Kd
+hO
+hO
+hO
+hO
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(31,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+FR
+Kd
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(32,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+lK
+pS
+pS
+Mv
+Kd
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(33,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+hO
+mk
+lK
+pS
+au
+fp
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(34,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+GF
+GF
+gk
+gk
+oC
+rv
+bF
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(35,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+uY
+Qj
+ga
+JD
+ER
+hh
+bF
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(36,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+FI
+UF
+kD
+pI
+oC
+hO
+bF
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(37,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+bt
+tP
+Qw
+Tf
+Ek
+QW
+lT
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(38,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+DJ
+eq
+ll
+Nv
+Ek
+bT
+yN
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(39,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+GZ
+MF
+CZ
+yb
+oC
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(40,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+GF
+OF
+oC
+oC
+oC
+OF
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(41,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+BG
+IE
+hO
+hO
+hO
+hO
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(42,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+Ge
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(43,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(44,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
+(45,1,1) = {"
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+UI
+"}
