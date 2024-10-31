@@ -1075,3 +1075,8 @@
 	id = "east_icering"
 	suffix = "icemaint_east_icering.dmm"
 	name = "Icemaint East Icering"
+
+/datum/map_template/ruin/station/maint/smexi3/icemaint_east_maze
+	id = "east_maze"
+	suffix = "icemaint_east_maze.dmm"
+	name = "Icemaint East Maze"

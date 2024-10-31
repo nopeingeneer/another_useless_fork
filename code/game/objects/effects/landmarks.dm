@@ -650,4 +650,4 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	template_names = list("Icemaint West Boring")
 
 /obj/effect/landmark/stationroom/maint/smexi3
-	template_names = list("Icemaint East Boring", "Icemaint East Danger", "Icemaint East Knotways", "Icemaint East Icering")
+	template_names = list("Icemaint East Boring", "Icemaint East Danger", "Icemaint East Knotways", "Icemaint East Icering", "Icemaint East Maze")
