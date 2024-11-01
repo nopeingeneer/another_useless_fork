@@ -647,6 +647,20 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/space)
+"Pk" = (
+/obj/structure/closet/cabinet,
+/obj/item/clothing/suit/hooded/wintercoat,
+/obj/item/clothing/suit/hooded/wintercoat,
+/obj/item/clothing/shoes/winterboots{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/obj/item/clothing/shoes/winterboots{
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/space)
 "PK" = (
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -1363,7 +1377,7 @@ UI
 UI
 UI
 Ge
-hO
+Pk
 hO
 hO
 ql
@@ -1395,7 +1409,7 @@ UI
 UI
 UI
 Ge
-hO
+Pk
 hO
 hO
 ql
@@ -1427,7 +1441,7 @@ UI
 RS
 RS
 Ge
-hO
+Pk
 hO
 hO
 ql

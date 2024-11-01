@@ -1045,6 +1045,16 @@
 	suffix = "icemaint_center_boring.dmm"
 	name = "Icemaint Center Boring"
 
+/datum/map_template/ruin/station/maint/smexi1/icemaint_center_danger
+	id = "center_danger"
+	suffix = "icemaint_center_danger.dmm"
+	name = "Icemaint Center Danger"
+
+/datum/map_template/ruin/station/maint/smexi1/icemaint_center_frosty
+	id = "center_frosty"
+	suffix = "icemaint_center_frosty.dmm"
+	name = "Icemaint Center Frosty"
+
 /datum/map_template/ruin/station/maint/smexi2
 	prefix = "_maps/RandomRuins/StationRuins/maint/icemaint_west/"
 

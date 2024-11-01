@@ -644,7 +644,7 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	"Maint sixsectorsdown", "Maint advbotany", "Maint beach", "Maint botany_apiary", "Maint gamercave", "Maint ladytesla_altar", "Maint olddiner", "Maint smallmagician", "Maint fourshops", "Maint fishinghole", "Maint fakewalls", "Maint wizard", "Maint halloween")
 
 /obj/effect/landmark/stationroom/maint/smexi1
-	template_names = list("Icemaint Center Boring")
+	template_names = list("Icemaint Center Boring", "Icemaint Center Danger", "Icemaint Center Frosty")
 
 /obj/effect/landmark/stationroom/maint/smexi2
 	template_names = list("Icemaint West Boring")
