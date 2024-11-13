@@ -239,3 +239,4 @@
 	if(H)
 		var/datum/physiology/P = H.physiology
 		P.thirst_mod /= 2
+
