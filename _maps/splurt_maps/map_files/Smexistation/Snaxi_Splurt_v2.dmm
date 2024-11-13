@@ -1005,7 +1005,6 @@
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/commandsec/upper";
-	dir = 4;
 	name = "Upper Southern Engineering Post APC";
 	pixel_x = -24
 	},
@@ -6613,6 +6612,15 @@
 /obj/effect/turf_decal/bot,
 /turf/open/floor/plasteel,
 /area/mine/production)
+"chZ" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/disposalpipe/segment,
+/turf/open/floor/plating/snowed/smoothed/icemoon,
+/area/icemoon/surface/outdoors)
 "cia" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -7299,6 +7307,13 @@
 /obj/structure/table/wood,
 /turf/open/floor/plasteel/dark,
 /area/service/chapel/main/monastery)
+"ctA" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/turf/open/floor/plating,
+/area/engineering/substation/service/upper)
 "ctG" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/hidden{
 	dir = 4
@@ -12690,9 +12705,8 @@
 /turf/open/floor/plasteel/grimy,
 /area/tcommsat/computer)
 "ecV" = (
-/obj/structure/disposalpipe/segment,
 /obj/structure/disposalpipe/segment{
-	dir = 4
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
@@ -13324,7 +13338,6 @@
 /turf/open/floor/carpet,
 /area/hallway/primary/central)
 "eqH" = (
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -13629,7 +13642,6 @@
 /turf/open/floor/plasteel,
 /area/science)
 "evP" = (
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/junction{
 	dir = 1
 	},
@@ -13786,10 +13798,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/icemoon/surface/outdoors)
-"ezE" = (
-/obj/structure/ladder,
-/turf/open/floor/plating,
-/area/maintenance/starboard/aft)
 "ezH" = (
 /obj/machinery/computer/shuttle/snow_taxi,
 /obj/machinery/light{
@@ -16480,7 +16488,6 @@
 /turf/open/floor/plating/asteroid/snow/icemoon,
 /area/maintenance/solars/port/fore)
 "fBi" = (
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment{
 	dir = 10
 	},
@@ -18064,17 +18071,6 @@
 	},
 /turf/open/floor/plasteel/freezer,
 /area/mine/living_quarters)
-"gco" = (
-/obj/machinery/camera{
-	c_tag = "Northwestern Engineering Post";
-	dir = 1
-	},
-/obj/machinery/light,
-/obj/structure/disposalpipe/trunk/multiz/down{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/engineering/substation/service/upper)
 "gcu" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -18108,9 +18104,6 @@
 /area/engineering/main/reactor_control)
 "gdg" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -21274,6 +21267,10 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
+"hhW" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/icemoon/surface/outdoors)
 "hic" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -21351,11 +21348,11 @@
 /turf/open/floor/carpet,
 /area/command/heads_quarters/hos)
 "hjH" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/item/radio/intercom{
 	pixel_x = -30
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
 /turf/open/floor/plasteel,
 /area/engineering/substation/service/upper)
@@ -23007,7 +23004,6 @@
 /turf/open/floor/plating,
 /area/maintenance/department/science)
 "hKY" = (
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
@@ -26758,6 +26754,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel,
 /area/cargo/storage)
+"jdK" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/upper)
 "jdY" = (
 /obj/structure/table,
 /obj/item/storage/secure/briefcase/permits,
@@ -29621,6 +29620,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/stripes/line,
+/obj/structure/disposalpipe/segment{
+	dir = 5
+	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
 "jYx" = (
@@ -34209,9 +34211,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden{
 	dir = 4
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/upper)
 "lAp" = (
@@ -37853,7 +37852,7 @@
 	dir = 4;
 	icon_state = "stairs_t"
 	},
-/turf/closed/mineral/random/snow/underground,
+/turf/open/space/basic,
 /area/maintenance/central/frozen/lower)
 "mMt" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -38803,13 +38802,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/security)
-"ncg" = (
-/obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
-	dir = 4
-	},
-/turf/open/floor/plasteel,
-/area/hallway/primary/starboard/aft)
 "nci" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /obj/machinery/airalarm{
@@ -39745,9 +39737,6 @@
 /obj/machinery/atmospherics/components/binary/valve/digital/on{
 	name = "Digital Valve"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/upper)
 "nsh" = (
@@ -40618,6 +40607,9 @@
 /area/maintenance/aft/secondary)
 "nGL" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/engineering/substation/commandsec/upper)
 "nGX" = (
@@ -43729,7 +43721,6 @@
 	},
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/commandsec/lower";
-	dir = 4;
 	name = "Lower Southern Engineering Post APC";
 	pixel_x = -24
 	},
@@ -44062,9 +44053,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 9
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
 "oSG" = (
@@ -44335,9 +44324,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/open/floor/plasteel,
 /area/engineering/substation/service/upper)
 "oYm" = (
@@ -44596,7 +44582,7 @@
 	},
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/disposalpipe/segment{
-	dir = 5
+	dir = 4
 	},
 /turf/open/floor/plasteel/dark,
 /area/hallway/secondary/entry)
@@ -44797,6 +44783,17 @@
 "pgT" = (
 /turf/open/floor/wood,
 /area/medical/psychology)
+"pgU" = (
+/obj/machinery/light,
+/obj/machinery/camera{
+	c_tag = "Northwestern Engineering Post";
+	dir = 1
+	},
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/upper)
 "phk" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/food/drinks/drinkingglass{
@@ -46034,7 +46031,6 @@
 "pEB" = (
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/commandsec/lower";
-	dir = 4;
 	name = "Upper East Engineering Post APC";
 	pixel_x = -24
 	},
@@ -50769,7 +50765,7 @@
 	dir = 1
 	},
 /obj/machinery/light,
-/obj/structure/disposalpipe/trunk/multiz/down{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -52770,6 +52766,9 @@
 /obj/machinery/atmospherics/components/binary/valve/digital/on{
 	name = "Digital Valve"
 	},
+/obj/structure/disposalpipe/trunk/multiz/down{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/engineering/substation/commandsec/upper)
 "rOb" = (
@@ -52806,9 +52805,6 @@
 	name = "Secondary Bridge";
 	pixel_y = 21;
 	pixel_x = 32
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
 	},
 /turf/open/floor/plating/snowed/smoothed/icemoon,
 /area/icemoon/surface/outdoors)
@@ -53550,6 +53546,11 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/aft)
+"scf" = (
+/obj/structure/disposalpipe/segment,
+/obj/effect/turf_decal/delivery,
+/turf/open/floor/plasteel,
+/area/hallway/primary/starboard/aft)
 "sct" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -54328,7 +54329,6 @@
 /turf/open/floor/plasteel/dark,
 /area/hallway/primary/port/fore)
 "srE" = (
-/obj/effect/turf_decal/delivery,
 /obj/structure/disposalpipe/segment{
 	dir = 9
 	},
@@ -54351,7 +54351,7 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard/fore)
 "srY" = (
-/obj/structure/disposalpipe/trunk/multiz/down{
+/obj/structure/disposalpipe/segment{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -54360,6 +54360,7 @@
 /obj/machinery/door/firedoor/border_only{
 	dir = 4
 	},
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "ssO" = (
@@ -55117,8 +55118,13 @@
 /turf/open/floor/engine,
 /area/science/xenobiology)
 "sHA" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/machinery/atmospherics/pipe/layer_manifold,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden,
 /turf/open/floor/plating,
 /area/engineering/substation/service/upper)
 "sHE" = (
@@ -57439,6 +57445,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "ttI" = (
@@ -61515,6 +61522,7 @@
 /obj/structure/disposalpipe/junction/yjunction{
 	dir = 8
 	},
+/obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/hallway/primary/starboard/aft)
 "uKK" = (
@@ -62915,6 +62923,11 @@
 /obj/machinery/power/apc/auto_name/north,
 /turf/open/floor/plasteel,
 /area/science)
+"vmO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/atmospherics/pipe/layer_manifold,
+/turf/open/floor/plating,
+/area/icemoon/surface/outdoors)
 "vmQ" = (
 /obj/structure/chair/sofa/right,
 /turf/open/floor/plasteel/grimy,
@@ -186952,10 +186965,10 @@ itW
 itW
 itW
 itW
-itW
-itW
-itW
-itW
+uBi
+tKi
+uBi
+uBi
 itW
 itW
 itW
@@ -187209,10 +187222,10 @@ itW
 itW
 itW
 itW
-itW
-itW
-itW
-itW
+uBi
+jOR
+jOR
+uBi
 itW
 itW
 itW
@@ -187466,10 +187479,10 @@ uBi
 oeW
 uBi
 uBi
-itW
-itW
-itW
-itW
+uBi
+jOR
+jOR
+uBi
 itW
 itW
 itW
@@ -187723,10 +187736,10 @@ med
 med
 med
 uBi
-itW
-itW
-itW
-itW
+jOR
+jOR
+jOR
+uBi
 itW
 itW
 itW
@@ -187980,9 +187993,9 @@ med
 iEh
 hGk
 uBi
-uBi
-uBi
-uBi
+jOR
+jOR
+jOR
 uBi
 itW
 itW
@@ -248877,13 +248890,13 @@ xuH
 tVp
 wBf
 krX
-krX
+scf
 uKD
-krX
+scf
 krX
 evP
 srE
-ncg
+obu
 jWm
 xnk
 lew
@@ -248894,8 +248907,8 @@ wNg
 rZA
 qxF
 eim
+rjV
 ltX
-qUz
 qUz
 qUz
 qUz
@@ -249152,10 +249165,10 @@ pXu
 chi
 eKi
 rOP
+chZ
 ozu
 jWu
 dNR
-hWd
 qUz
 nQP
 nQP
@@ -249408,11 +249421,11 @@ iXj
 npg
 bHk
 npg
-huQ
-huQ
 npg
+huQ
+huQ
+vQQ
 qpt
-nQP
 nQP
 nQP
 nQP
@@ -249667,9 +249680,9 @@ nzJ
 pEB
 oYj
 hjH
-npg
+wPO
+vQQ
 qpt
-nQP
 nQP
 nQP
 nQP
@@ -249924,9 +249937,9 @@ maX
 jVk
 gdg
 wPO
-hqX
+wPO
+hhW
 qpt
-nQP
 nQP
 nQP
 dxG
@@ -250182,8 +250195,8 @@ haM
 lAj
 gZx
 sHA
+vmO
 poE
-nQP
 nQP
 nQP
 dxG
@@ -250438,9 +250451,9 @@ hci
 rWy
 nse
 xOo
-sHA
+ctA
+vmO
 qKQ
-nQP
 nQP
 nQP
 dxG
@@ -250693,10 +250706,10 @@ otp
 npg
 cxa
 ccN
+jdK
 wZF
-gco
-hqX
-nQP
+pgU
+hhW
 nQP
 nQP
 nQP
@@ -250953,7 +250966,7 @@ jsK
 jsK
 jsK
 jsK
-nQP
+qqV
 nQP
 nQP
 nQP
@@ -251206,7 +251219,7 @@ gvZ
 bxC
 ojB
 wZz
-ezE
+ojB
 swX
 iFc
 nQP

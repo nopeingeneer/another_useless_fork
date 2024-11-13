@@ -353,7 +353,6 @@
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
-	dir = 4;
 	name = "Lower East Engineering Post APC";
 	pixel_x = -24
 	},
@@ -491,10 +490,6 @@
 /turf/closed/wall,
 /area/engineering/substation/service/lower)
 "Rl" = (
-/turf/open/floor/plating/snowed/smoothed/warmer,
-/area/maintenance/central/frozen/upper)
-"RO" = (
-/obj/structure/ladder,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
 "RR" = (
@@ -1822,9 +1817,9 @@ CT
 CT
 CT
 CT
-CT
-Vf
-Vf
+iW
+iW
+iW
 WA
 PQ
 qV
@@ -1854,12 +1849,12 @@ CT
 CT
 CT
 CT
-CT
-Vf
-Vf
-Vf
 iW
-RO
+Rl
+Rl
+Rl
+Rl
+Rl
 Sf
 Rl
 Rl
@@ -1886,10 +1881,10 @@ CT
 CT
 CT
 CT
-CT
-Vf
-Vf
-Vf
+iW
+Rl
+Rl
+Rl
 iW
 iW
 iW
@@ -1918,11 +1913,11 @@ CT
 CT
 CT
 CT
-CT
-CT
-Vf
-Vf
-Vf
+iW
+Rl
+Rl
+Rl
+iW
 Vf
 Vf
 Vf
@@ -1950,11 +1945,11 @@ CT
 CT
 CT
 CT
-CT
-CT
-Vf
-Vf
-Vf
+iW
+Rl
+Rl
+Rl
+iW
 Vf
 Vf
 Vf
@@ -1982,11 +1977,11 @@ CT
 CT
 CT
 CT
-CT
-CT
-CT
-CT
-CT
+iW
+Rl
+Rl
+Rl
+iW
 CT
 CT
 CT

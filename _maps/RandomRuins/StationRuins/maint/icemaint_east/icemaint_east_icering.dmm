@@ -9,6 +9,9 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/space)
+"ap" = (
+/turf/closed/mineral/random/snow,
+/area/icemoon/underground/unexplored/rivers)
 "au" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
@@ -116,6 +119,9 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/space)
+"hF" = (
+/turf/closed/wall/mineral/snow,
+/area/maintenance/central/frozen/upper)
 "hO" = (
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/space)
@@ -229,6 +235,10 @@
 /obj/machinery/door/window/westleft,
 /turf/open/floor/plating/ice/temperate,
 /area/space)
+"pB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "pI" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -238,6 +248,9 @@
 	},
 /turf/open/floor/plasteel,
 /area/space)
+"pM" = (
+/turf/closed/wall/r_wall,
+/area/engineering/substation/service/lower)
 "pS" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -304,7 +317,6 @@
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
-	dir = 4;
 	name = "Lower East Engineering Post APC";
 	pixel_x = -24
 	},
@@ -388,10 +400,6 @@
 	dir = 8;
 	piping_layer = 1
 	},
-/turf/open/floor/plating/snowed/smoothed/warmer,
-/area/space)
-"BG" = (
-/obj/structure/ladder,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/space)
 "BM" = (
@@ -527,7 +535,7 @@
 "IE" = (
 /obj/effect/spawner/lootdrop/tool_box,
 /turf/open/floor/plating/snowed/smoothed/warmer,
-/area/space)
+/area/maintenance/central/frozen/upper)
 "IN" = (
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
@@ -639,7 +647,7 @@
 /area/space)
 "OF" = (
 /turf/closed/wall,
-/area/space)
+/area/engineering/substation/service/lower)
 "OJ" = (
 /obj/structure/window/spawner/west,
 /obj/machinery/computer/arcade{
@@ -647,6 +655,9 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/space)
+"OP" = (
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/maintenance/central/frozen/upper)
 "Pk" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/suit/hooded/wintercoat,
@@ -665,6 +676,9 @@
 /obj/structure/bonfire/prelit,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/space)
+"Qi" = (
+/turf/closed/mineral/random/snow,
+/area/icemoon/surface/outdoors)
 "Qj" = (
 /obj/item/radio/intercom{
 	pixel_x = -30
@@ -2047,14 +2061,14 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-GF
+hF
+hF
+hF
+pM
 OF
-oC
-oC
-oC
+pB
+pB
+pB
 OF
 hO
 hO
@@ -2079,15 +2093,15 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-UI
-Ge
-BG
+hF
+OP
+OP
+OP
+OP
+OP
 IE
-hO
-hO
+OP
+OP
 hO
 hO
 Ge
@@ -2111,15 +2125,15 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-UI
-Ge
-Ge
-Ge
-Ge
-Ge
+hF
+OP
+OP
+OP
+hF
+hF
+hF
+hF
+hF
 Ge
 Ge
 Ge
@@ -2143,15 +2157,15 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
+hF
+OP
+OP
+OP
+hF
+Qi
+Qi
+Qi
+Qi
 UI
 UI
 UI
@@ -2175,15 +2189,15 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
+hF
+OP
+OP
+OP
+hF
+Qi
+Qi
+Qi
+Qi
 UI
 UI
 UI
@@ -2207,15 +2221,15 @@ UI
 UI
 UI
 UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
-UI
+hF
+OP
+OP
+OP
+hF
+ap
+ap
+ap
+ap
 UI
 UI
 UI

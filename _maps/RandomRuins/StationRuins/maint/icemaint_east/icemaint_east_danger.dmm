@@ -285,10 +285,6 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
-"ut" = (
-/obj/structure/ladder,
-/turf/open/floor/plating/snowed/smoothed/warmer,
-/area/maintenance/central/frozen/upper)
 "vG" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 4
@@ -380,7 +376,6 @@
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
-	dir = 4;
 	name = "Lower East Engineering Post APC";
 	pixel_x = -24
 	},
@@ -746,6 +741,9 @@
 	req_access_txt = "12"
 	},
 /turf/open/floor/wood/shadow,
+/area/maintenance/central/frozen/upper)
+"ZP" = (
+/turf/closed/wall/mineral/snow,
 /area/maintenance/central/frozen/upper)
 "ZR" = (
 /obj/machinery/atmospherics/pipe/simple/violet/hidden{
@@ -2007,9 +2005,9 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Yi
-Yi
+ZP
+ZP
+ZP
 BX
 nI
 sd
@@ -2039,12 +2037,12 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Yi
-Yi
-Yi
-YA
-ut
+ZP
+td
+td
+td
+td
+td
 JH
 td
 td
@@ -2071,15 +2069,15 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Yi
-Yi
-Yi
-YA
-YA
-YA
-YA
-YA
+ZP
+td
+td
+td
+ZP
+ZP
+ZP
+ZP
+ZP
 YA
 YA
 YA
@@ -2103,11 +2101,11 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Yi
-Yi
-Yi
+ZP
+td
+td
+td
+ZP
 Yi
 Yi
 Yi
@@ -2135,11 +2133,11 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Yi
-Yi
-Yi
+ZP
+td
+td
+td
+ZP
 Yi
 Yi
 Yi
@@ -2167,11 +2165,11 @@ Ot
 Ot
 Ot
 Ot
-Ot
-Ot
-Ot
-Ot
-Ot
+ZP
+td
+td
+td
+ZP
 Ot
 Ot
 Ot

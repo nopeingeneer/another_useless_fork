@@ -151,6 +151,9 @@
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
+"jk" = (
+/turf/closed/mineral/random/snow,
+/area/icemoon/surface/outdoors)
 "jm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 6
@@ -702,10 +705,6 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
-"Fm" = (
-/obj/structure/ladder,
-/turf/open/floor/plating/snowed/smoothed/warmer,
-/area/maintenance/central/frozen/upper)
 "FC" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -909,7 +908,6 @@
 /obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
-	dir = 4;
 	name = "Lower East Engineering Post APC";
 	pixel_x = -24
 	},
@@ -953,6 +951,9 @@
 	color = "#cc0000"
 	},
 /area/maintenance/central/frozen/upper)
+"Uj" = (
+/turf/closed/mineral/random/snow,
+/area/icemoon/underground/unexplored/rivers)
 "UO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -2335,9 +2336,9 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
+ax
+ax
+ax
 kJ
 YE
 gu
@@ -2367,12 +2368,12 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
-RM
 ax
-Fm
+kz
+kz
+kz
+kz
+kz
 qp
 kz
 kz
@@ -2399,10 +2400,10 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
-RM
+ax
+kz
+kz
+kz
 ax
 ax
 ax
@@ -2431,15 +2432,15 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
+ax
+kz
+kz
+kz
+ax
+jk
+jk
+jk
+jk
 RM
 RM
 RM
@@ -2463,15 +2464,15 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
+ax
+kz
+kz
+kz
+ax
+jk
+jk
+jk
+jk
 RM
 RM
 RM
@@ -2495,15 +2496,15 @@ RM
 RM
 RM
 RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
-RM
+ax
+kz
+kz
+kz
+ax
+Uj
+Uj
+Uj
+Uj
 RM
 RM
 RM
