@@ -3219,9 +3219,6 @@
 /turf/open/floor/circuit,
 /area/mine/maintenance)
 "beW" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -3231,6 +3228,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/open/floor/plasteel/dark/side,
 /area/hallway/primary/starboard/aft)
