@@ -64495,6 +64495,12 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/commandsec/lower)
+"vMd" = (
+/obj/structure/disposalpipe/segment{
+	dir = 9
+	},
+/turf/closed/wall/r_wall,
+/area/medical/medbay/zone3)
 "vMp" = (
 /obj/machinery/hydroponics/soil,
 /obj/item/seeds/poppy,
@@ -249414,7 +249420,7 @@ wwS
 mAw
 ybS
 beW
-iXj
+vMd
 kzX
 wbV
 iXj
