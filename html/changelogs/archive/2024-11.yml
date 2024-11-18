@@ -8,3 +8,7 @@
   - bugfix: Code disabling the shuttle_catastrophe event while a BYOS is active.
   LeDrascol:
   - rscadd: 'Added a new quirk: Sanguine Metabolism (variant of Bloodsucker Fledgling)'
+2024-11-14:
+  LeDrascol:
+  - code_imp: Modular quirks are now in separate files
+  - code_imp: Modularized edits to upstream quirks
