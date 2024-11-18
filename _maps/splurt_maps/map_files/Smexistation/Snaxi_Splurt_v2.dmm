@@ -3166,7 +3166,9 @@
 	dir = 4
 	},
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark/side,
+/turf/open/floor/plasteel/dark/texcorner{
+	dir = 8
+	},
 /area/hallway/primary/starboard/aft)
 "beF" = (
 /obj/structure/weightmachine/weightlifter,
@@ -3886,7 +3888,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/plasteel/dark/corner{
+/turf/open/floor/plasteel/dark/texcorner{
 	dir = 1
 	},
 /area/engineering/main)
@@ -37852,7 +37854,7 @@
 	dir = 4;
 	icon_state = "stairs_t"
 	},
-/turf/open/space/basic,
+/turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/lower)
 "mMt" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -50526,7 +50528,7 @@
 	name = "Station Intercom (General)";
 	pixel_y = 20
 	},
-/turf/open/floor/plasteel/dark/corner{
+/turf/open/floor/plasteel/dark/texcorner{
 	dir = 1
 	},
 /area/engineering/main)
@@ -53674,7 +53676,7 @@
 	dir = 4
 	},
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark/corner{
+/turf/open/floor/plasteel/dark/texcorner{
 	dir = 8
 	},
 /area/hallway/primary/starboard/aft)
@@ -54234,7 +54236,7 @@
 	dir = 8
 	},
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark/corner,
+/turf/open/floor/plasteel/dark/texcorner,
 /area/hallway/primary/starboard/aft)
 "soJ" = (
 /obj/effect/turf_decal/tile/brown,
@@ -57798,7 +57800,7 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/turf/open/floor/plasteel/dark/corner{
+/turf/open/floor/plasteel/dark/texcorner{
 	dir = 1
 	},
 /area/engineering/main)
@@ -61745,7 +61747,7 @@
 /obj/item/pickaxe,
 /obj/item/pickaxe,
 /obj/item/pickaxe,
-/turf/open/space/basic,
+/turf/open/floor/plasteel/dark,
 /area/ai_monitored/command/storage/eva)
 "uON" = (
 /obj/structure/cable{
@@ -65214,7 +65216,7 @@
 /area/hallway/primary/aft)
 "vZr" = (
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark/corner,
+/turf/open/floor/plasteel/dark/texcorner,
 /area/hallway/primary/starboard/aft)
 "vZs" = (
 /obj/effect/turf_decal/tile/blue{
