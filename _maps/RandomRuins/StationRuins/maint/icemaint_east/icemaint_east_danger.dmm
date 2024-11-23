@@ -25,14 +25,20 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"cu" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "cI" = (
 /obj/effect/spawner/lootdrop/gloves,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
 "cR" = (
-/obj/machinery/power/deck_relay,
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
@@ -59,6 +65,12 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"eW" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "fx" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/heater,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -91,6 +103,9 @@
 	},
 /turf/open/floor/wood/wood_large,
 /area/maintenance/central/frozen/upper)
+"gK" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "hb" = (
 /obj/structure/disposalpipe/trunk/multiz/down,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -101,6 +116,10 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"he" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/engineering/substation/service/lower)
 "hJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 9
@@ -170,9 +189,6 @@
 	},
 /turf/open/floor/glass,
 /area/maintenance/central/frozen/upper)
-"nI" = (
-/turf/closed/wall,
-/area/engineering/substation/service/lower)
 "nW" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -373,7 +389,6 @@
 /obj/machinery/camera{
 	c_tag = "Southern Engineering Post"
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
 	name = "Lower East Engineering Post APC";
@@ -1813,9 +1828,9 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
+BX
 BX
 BX
 BX
@@ -1824,7 +1839,7 @@ xG
 sd
 bZ
 hU
-YA
+ZP
 Yi
 Yi
 Ot
@@ -1845,10 +1860,10 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
 BX
+he
 Az
 BO
 xm
@@ -1856,7 +1871,7 @@ wN
 zo
 Kc
 hU
-YA
+ZP
 Yi
 Yi
 Ot
@@ -1877,10 +1892,10 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
 BX
+mP
 Wf
 mP
 zm
@@ -1888,7 +1903,7 @@ AC
 sd
 td
 hU
-YA
+ZP
 Yi
 Yi
 Ot
@@ -1909,10 +1924,10 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
 BX
+eW
 Ge
 KP
 Ck
@@ -1920,7 +1935,7 @@ CT
 ko
 QM
 hJ
-YA
+ZP
 Yi
 Yi
 Ot
@@ -1941,10 +1956,10 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
 BX
+gK
 Ny
 wy
 uo
@@ -1952,7 +1967,7 @@ MY
 ko
 PU
 SG
-YA
+ZP
 Yi
 Yi
 Ot
@@ -1973,10 +1988,10 @@ Ot
 Ot
 Ot
 Ot
-Ot
 Yi
 Yi
 BX
+cu
 cR
 wp
 ui
@@ -1984,7 +1999,7 @@ GY
 sd
 td
 td
-YA
+ZP
 Yi
 Yi
 Ot
@@ -2007,16 +2022,16 @@ Ot
 Ot
 ZP
 ZP
-ZP
 BX
-nI
+BX
+BX
 sd
 sd
 sd
-nI
+BX
 td
 td
-YA
+ZP
 Yi
 Yi
 Ot
@@ -2048,7 +2063,7 @@ td
 td
 td
 td
-YA
+ZP
 Yi
 Yi
 Ot
@@ -2078,9 +2093,9 @@ ZP
 ZP
 ZP
 ZP
-YA
-YA
-YA
+ZP
+ZP
+ZP
 Yi
 Yi
 Ot

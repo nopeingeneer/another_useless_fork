@@ -307,7 +307,6 @@
 /obj/machinery/camera{
 	c_tag = "Southern Engineering Post"
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
 	name = "Lower East Engineering Post APC";
@@ -491,10 +490,15 @@
 /obj/structure/window/spawner/east,
 /turf/open/floor/plating/ice/temperate,
 /area/maintenance/central/frozen/upper)
+"GP" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "GZ" = (
-/obj/machinery/power/deck_relay,
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
@@ -632,9 +636,6 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
-"OF" = (
-/turf/closed/wall,
-/area/engineering/substation/service/lower)
 "OJ" = (
 /obj/structure/window/spawner/west,
 /obj/machinery/computer/arcade{
@@ -768,6 +769,10 @@
 	},
 /turf/open/floor/carpet/arcade,
 /area/maintenance/central/frozen/upper)
+"VU" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/engineering/substation/service/lower)
 "Xc" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -790,6 +795,16 @@
 /obj/effect/spawner/lootdrop/maintenance,
 /turf/open/floor/plating/ice/temperate,
 /area/maintenance/central/frozen/upper)
+"Yk" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
+"Ym" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "Zp" = (
 /obj/structure/chair/sofa,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -1856,9 +1871,9 @@ ap
 ap
 ap
 ap
-ap
 Qi
 Qi
+pM
 pM
 pM
 pM
@@ -1888,10 +1903,10 @@ ap
 ap
 ap
 ap
-ap
 Qi
 Qi
 pM
+VU
 uY
 Qj
 ga
@@ -1920,10 +1935,10 @@ ap
 ap
 ap
 ap
-ap
 Qi
 Qi
 pM
+UF
 FI
 UF
 kD
@@ -1952,10 +1967,10 @@ ap
 ap
 ap
 ap
-ap
 Qi
 Qi
 pM
+GP
 bt
 tP
 Qw
@@ -1982,12 +1997,12 @@ ap
 (38,1,1) = {"
 ap
 ap
-Qi
-Qi
-Qi
+ap
+ap
 Qi
 Qi
 pM
+Ym
 DJ
 eq
 ll
@@ -2014,12 +2029,12 @@ ap
 (39,1,1) = {"
 ap
 ap
-Qi
-Qi
-Qi
+ap
+ap
 Qi
 Qi
 pM
+Yk
 GZ
 MF
 CZ
@@ -2046,17 +2061,17 @@ ap
 (40,1,1) = {"
 ap
 ap
-Qi
-Qi
-hF
+ap
+ap
 hF
 hF
 pM
-OF
+pM
+pM
 pB
 pB
 pB
-OF
+pM
 OP
 OP
 hF
@@ -2078,8 +2093,8 @@ ap
 (41,1,1) = {"
 ap
 ap
-Qi
-Qi
+ap
+ap
 hF
 OP
 OP
@@ -2110,8 +2125,8 @@ ap
 (42,1,1) = {"
 ap
 ap
-Qi
-Qi
+ap
+ap
 hF
 OP
 OP
@@ -2142,8 +2157,8 @@ ap
 (43,1,1) = {"
 ap
 ap
-Qi
-Qi
+ap
+ap
 hF
 OP
 OP
@@ -2174,8 +2189,8 @@ ap
 (44,1,1) = {"
 ap
 ap
-Qi
-Qi
+ap
+ap
 hF
 OP
 OP
@@ -2206,15 +2221,15 @@ ap
 (45,1,1) = {"
 ap
 ap
-Qi
-Qi
+ap
+ap
 hF
 OP
 OP
 OP
 hF
-Qi
-Qi
+ap
+ap
 ap
 ap
 ap

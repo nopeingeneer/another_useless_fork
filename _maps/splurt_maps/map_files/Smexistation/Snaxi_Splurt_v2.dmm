@@ -15053,14 +15053,14 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/open/floor/plasteel,
 /area/medical/genetics)
@@ -38234,6 +38234,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 5
 	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
 /turf/open/floor/plasteel,
 /area/medical/genetics)
 "mSp" = (
@@ -43969,6 +43972,9 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/tile/purple,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/white/side{
 	dir = 1
 	},
@@ -59136,6 +59142,9 @@
 	name = "south facing firelock"
 	},
 /obj/structure/fans/tiny,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/dark,
 /area/commons/dorms)
 "tWn" = (

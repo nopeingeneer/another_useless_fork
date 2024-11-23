@@ -51,7 +51,6 @@
 /obj/machinery/camera{
 	c_tag = "Southern Engineering Post"
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
 	name = "Lower East Engineering Post APC";
@@ -72,6 +71,9 @@
 "em" = (
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"eI" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "eU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -153,6 +155,13 @@
 /obj/effect/spawner/lootdrop/glowstick,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"iZ" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "jb" = (
 /turf/open/openspace,
 /area/maintenance/central/frozen/upper)
@@ -430,9 +439,8 @@
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
 "yH" = (
-/obj/machinery/power/deck_relay,
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
@@ -886,6 +894,10 @@
 /obj/machinery/light/floor,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"Uh" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/engineering/substation/service/lower)
 "Uq" = (
 /obj/structure/chair/sofa/right/brown,
 /turf/open/floor/wood/wood_tiled,
@@ -903,8 +915,11 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
-"UW" = (
-/turf/closed/wall,
+"UU" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plating,
 /area/engineering/substation/service/lower)
 "Va" = (
 /obj/structure/disposalpipe/trunk/multiz/down,
@@ -2013,9 +2028,9 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
+qF
 qF
 qF
 qF
@@ -2045,10 +2060,10 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
 qF
+Uh
 dA
 ho
 fn
@@ -2077,10 +2092,10 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
 qF
+za
 Rs
 za
 ze
@@ -2109,10 +2124,10 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
 qF
+UU
 Ng
 Kz
 kI
@@ -2141,10 +2156,10 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
 qF
+eI
 wx
 Dj
 Fz
@@ -2173,10 +2188,10 @@ Pe
 Pe
 Pe
 Pe
-Pe
 oe
 oe
 qF
+iZ
 yH
 DP
 Ge
@@ -2207,13 +2222,13 @@ Pe
 Pe
 Ys
 Ys
-Ys
 qF
-UW
+qF
+qF
 jZ
 jZ
 jZ
-UW
+qF
 em
 em
 em

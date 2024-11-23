@@ -200,6 +200,12 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"rp" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "ru" = (
 /turf/open/openspace,
 /area/maintenance/central/frozen/upper)
@@ -222,10 +228,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"uq" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plasteel,
+/area/engineering/substation/service/lower)
 "uK" = (
-/obj/machinery/power/deck_relay,
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
@@ -350,7 +359,6 @@
 /obj/machinery/camera{
 	c_tag = "Southern Engineering Post"
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
 	name = "Lower East Engineering Post APC";
@@ -393,6 +401,9 @@
 /obj/effect/spawner/lootdrop/trashbin,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"Gl" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "Gm" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -462,6 +473,13 @@
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
+"NU" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "Ol" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/snowed/smoothed/warmer,
@@ -486,9 +504,6 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
-"PQ" = (
-/turf/closed/wall,
-/area/engineering/substation/service/lower)
 "Rl" = (
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
@@ -1561,7 +1576,7 @@ CT
 CT
 CT
 CT
-CT
+Vf
 Vf
 Vf
 Vf
@@ -1593,7 +1608,7 @@ CT
 CT
 CT
 CT
-CT
+Vf
 Vf
 Vf
 Vf
@@ -1625,9 +1640,9 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
+WA
 WA
 WA
 WA
@@ -1657,10 +1672,10 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
 WA
+uq
 CL
 pT
 fs
@@ -1689,10 +1704,10 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
 WA
+ga
 qD
 ga
 lt
@@ -1721,10 +1736,10 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
 WA
+rp
 as
 Yl
 ed
@@ -1753,10 +1768,10 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
 WA
+Gl
 co
 Jq
 NA
@@ -1785,10 +1800,10 @@ CT
 CT
 CT
 CT
-CT
 Vf
 Vf
 WA
+NU
 uK
 EF
 yr
@@ -1819,13 +1834,13 @@ CT
 CT
 iW
 iW
-iW
 WA
-PQ
+WA
+WA
 qV
 qV
 qV
-PQ
+WA
 Rl
 Rl
 iW

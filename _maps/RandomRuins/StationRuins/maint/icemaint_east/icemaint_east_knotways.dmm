@@ -13,6 +13,12 @@
 "ax" = (
 /turf/closed/wall/mineral/snow,
 /area/maintenance/central/frozen/upper)
+"br" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "bK" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -149,6 +155,13 @@
 /area/maintenance/central/frozen/upper)
 "gu" = (
 /obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
+"ip" = (
+/obj/machinery/power/deck_relay,
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
 "jk" = (
@@ -523,6 +536,9 @@
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
+"yt" = (
+/turf/open/floor/plating,
+/area/engineering/substation/service/lower)
 "yM" = (
 /obj/machinery/power/deck_relay,
 /obj/structure/cable{
@@ -601,23 +617,14 @@
 	},
 /area/maintenance/central/frozen/upper)
 "Bn" = (
-/obj/machinery/power/deck_relay,
 /obj/structure/cable{
-	icon_state = "0-8"
+	icon_state = "1-8"
 	},
 /turf/open/floor/plating,
 /area/engineering/substation/service/lower)
 "By" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
-	},
-/turf/open/floor/plating/snowed/smoothed/warmer,
-/area/maintenance/central/frozen/upper)
-"BE" = (
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/machinery/door/airlock/external{
-	name = "External Access";
-	req_access_txt = "13"
 	},
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/upper)
@@ -688,6 +695,10 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/turf/open/floor/plasteel,
+/area/engineering/substation/service/lower)
+"Es" = (
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/plasteel,
 /area/engineering/substation/service/lower)
 "EF" = (
@@ -902,7 +913,6 @@
 /obj/machinery/camera{
 	c_tag = "Southern Engineering Post"
 	},
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/power/apc{
 	areastring = "/area/engineering/substation/service/lower";
 	name = "Lower East Engineering Post APC";
@@ -1043,9 +1053,6 @@
 	color = "#cc0000"
 	},
 /area/maintenance/central/frozen/upper)
-"YE" = (
-/turf/closed/wall,
-/area/engineering/substation/service/lower)
 "YN" = (
 /obj/structure/table/glass,
 /turf/open/floor/plating/snowed/smoothed/warmer{
@@ -2141,9 +2148,9 @@ Uj
 Uj
 Uj
 Uj
-Uj
 jk
 jk
+kJ
 kJ
 kJ
 kJ
@@ -2173,10 +2180,10 @@ Uj
 Uj
 Uj
 Uj
-Uj
 jk
 jk
 kJ
+Es
 Sv
 PK
 Pa
@@ -2205,10 +2212,10 @@ Uj
 Uj
 Uj
 Uj
-Uj
 jk
 jk
 kJ
+oj
 TC
 oj
 ul
@@ -2237,10 +2244,10 @@ Uj
 Uj
 Uj
 Uj
-Uj
 jk
 jk
 kJ
+br
 zi
 tn
 EF
@@ -2267,12 +2274,12 @@ Uj
 (38,1,1) = {"
 Uj
 Uj
-jk
-jk
-jk
+Uj
+Uj
 jk
 jk
 kJ
+yt
 or
 kc
 PX
@@ -2299,12 +2306,12 @@ Uj
 (39,1,1) = {"
 Uj
 Uj
-jk
-jk
-jk
+Uj
+Uj
 jk
 jk
 kJ
+ip
 Bn
 Kh
 mj
@@ -2312,7 +2319,7 @@ Ok
 gu
 kz
 kz
-Sw
+ax
 Sw
 Sw
 jk
@@ -2331,20 +2338,20 @@ Uj
 (40,1,1) = {"
 Uj
 Uj
-jk
-jk
-ax
+Uj
+Uj
 ax
 ax
 kJ
-YE
+kJ
+kJ
 gu
 gu
 gu
-YE
+kJ
 kz
 kz
-BE
+ax
 kz
 ar
 jk
@@ -2363,8 +2370,8 @@ Uj
 (41,1,1) = {"
 Uj
 Uj
-jk
-jk
+Uj
+Uj
 ax
 kz
 kz
@@ -2376,7 +2383,7 @@ kz
 kz
 kz
 kz
-Sw
+ax
 Sw
 Sw
 jk
@@ -2395,8 +2402,8 @@ Uj
 (42,1,1) = {"
 Uj
 Uj
-jk
-jk
+Uj
+Uj
 ax
 kz
 kz
@@ -2427,8 +2434,8 @@ Uj
 (43,1,1) = {"
 Uj
 Uj
-jk
-jk
+Uj
+Uj
 ax
 kz
 kz
@@ -2459,8 +2466,8 @@ Uj
 (44,1,1) = {"
 Uj
 Uj
-jk
-jk
+Uj
+Uj
 ax
 kz
 kz
@@ -2491,15 +2498,15 @@ Uj
 (45,1,1) = {"
 Uj
 Uj
-jk
-jk
+Uj
+Uj
 ax
 kz
 kz
 kz
 ax
-jk
-jk
+Uj
+Uj
 Uj
 Uj
 Uj
