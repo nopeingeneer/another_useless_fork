@@ -556,6 +556,7 @@
 	outfit = /datum/outfit/ert/sol_soldier
 	assignedrole = "Solar Federation Operative"
 	can_load_appearance = TRUE
+	loadout_enabled = TRUE
 
 /obj/effect/mob_spawn/human/solfed/demoman
 	name = "Solar Federation Support"
@@ -565,8 +566,22 @@
 	name = "Solar Federation Field Officer"
 	outfit = /datum/outfit/ert/sol_soldier_leader
 
-/obj/effect/mob_spawn/human/solfed/admiral
+/obj/effect/mob_spawn/human/solfed/diplomacy
+	name = "Solar Federation Diplomacy Worker"
+	short_desc = "Вы - дипломат Солнечной Федерации."
+	flavour_text = "Вы - дипломат, который должен обеспечить мирное сосуществование с другими расами. Вы - не боец, но вы должны быть готовы защищать себя и своих коллег."
+	important_info = "Защитите корабль и Адмирала ценой своей жизни."
+	outfit = /datum/outfit/sol_diplomacy
+
+/obj/effect/mob_spawn/human/solfed/diplomacy/slut
+	name = "Solar Federation Secretary (SLUT)"
+	outfit = /datum/outfit/sol_diplomacy/slut
+
+/obj/effect/mob_spawn/human/solfed/diplomacy/admiral
 	name = "Solar Federation Battle Admiral"
+	short_desc = "Вы - Адмирал Солнечной Федерации."
+	flavour_text = "Вы - Адмирал. Вы - лидер экипажа и ответственный за его безопасность. Вам нужно найти способ обеспечить корабль энергией."
+	important_info = "Защитите корабль и секретные документы ценой своей жизни."
 	outfit = /datum/outfit/sol_diplomacy/consul/admiral
 
 /datum/outfit/syndicate_empty
@@ -1029,6 +1044,8 @@
 	l_pocket = /obj/item/card/mining_point_card
 	r_pocket = /obj/item/mining_voucher
 	ears = /obj/item/radio/headset/tarkoff
+
+	implants = list(/obj/item/implant/anchor)
 
 /datum/outfit/tarkoff/post_equip(mob/living/carbon/human/tarkoff, visualsOnly = FALSE)
 	var/obj/item/card/id/id_card = tarkoff.wear_id
