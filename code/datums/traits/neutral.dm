@@ -256,28 +256,28 @@ proc/kartavo(message)
 	medical_record_text = "Пациент - азиат."
 
 proc/asiatish(message)
-	if(prob(75))
-		message = replacetext_char(message, "ра", "ля")
-		message = replacetext_char(message, "ла", "ля")
-		message = replacetext_char(message, "ло", "льо")
-		message = replacetext_char(message, "да", "тя")
-		message = replacetext_char(message, "бо", "по")
-		message = replacetext_char(message, "за", "ся")
-		message = replacetext_char(message, "чу", "сю")
-		message = replacetext_char(message, "та", "тя")
-		message = replacetext_char(message, "же", "се")
-		message = replacetext_char(message, "хо", "ха")
-		message = replacetext_char(message, "гд", "кт")
-		message = replacetextEx(message, "д", "т")
-		message = replacetextEx(message, "ч", "с")
-		message = replacetextEx(message, "з", "с")
-		message = replacetextEx(message, "р", "л")
-		message = replacetextEx(message, "ы", "и")
-		message = replacetextEx(message, "Д", "т")
-		message = replacetextEx(message, "Ч", "с")
-		message = replacetextEx(message, "З", "с")
-		message = replacetextEx(message, "Р", "л")
-		message = replacetextEx(message, "Ы", "и")
+	message = replacetext_char(message, "ра", "ля")
+	message = replacetext_char(message, "ла", "ля")
+	message = replacetext_char(message, "ло", "льо")
+	message = replacetext_char(message, "да", "тя")
+	message = replacetext_char(message, "бо", "по")
+	message = replacetext_char(message, "за", "ся")
+	message = replacetext_char(message, "чу", "сю")
+	message = replacetext_char(message, "та", "тя")
+	message = replacetext_char(message, "же", "се")
+	message = replacetext_char(message, "хо", "ха")
+	message = replacetext_char(message, "гд", "кт")
+	message = replacetextEx(message, "д", "т")
+	message = replacetextEx(message, "ч", "с")
+	message = replacetextEx(message, "з", "с")
+	message = replacetextEx(message, "р", "л")
+	message = replacetextEx(message, "ы", "и")
+	message = replacetextEx(message, "Д", "т")
+	message = replacetextEx(message, "Ч", "с")
+	message = replacetextEx(message, "З", "с")
+	message = replacetextEx(message, "Р", "л")
+	message = replacetextEx(message, "Ы", "и")
+
 	return message
 
 /datum/quirk/ukraine
@@ -289,71 +289,60 @@ proc/asiatish(message)
 	lose_text = span_danger("А что такое?")
 	medical_record_text = "Пациент испытывает любовь к синим и жёлтым цветам."
 
-var/static/list/ukraine_replacements = list(
-	"зажигалка" = "спалахуйка",
-	"зеркало" = "пикогляд",
-	"презерватив" = "нацюцюрник",
-	"пизда" = "піхва",
-	"хуй" = "прутень",
-	"врач" = "лікар",
-	"бармен" = "наливайко",
-	"повар" = "кухар",
-	"капитан" = "гетьман",
-	"предатель" = "зрадник",
-	"генокрад" = "москаль",
-	"мостик" = "майдан",
-	"ученый" = "вчений",
-	"инженер" = "слюсар",
-	"маг" = "чаклун",
-	"лоза" = "бур'ян",
-	"культ" = "нехристь",
-	"КМ" = "комірник",
-	"СМО" = "головний ліпило",
-	"ГСБ" = "дільничий",
-	"ХОС" = "дільничий",
-	"водка" = "горілка",
-	"что" = "шо",
-	"добрый день" = "доброго дня",
-	"привет" = "здоровенькі були",
-	"блять" = "дідько",
-	"или" = "чи",
-	"кто" = "хто",
-	"пофиг" = "байдуже",
-	"мне" = "мені",
-	"сигареты" = "цигарки",
-	"сигарета" = "цигарка",
-	"арбуз" = "кавун",
-	"сука" = "курва",
-	"бред" = "маячня",
-	"лук" = "цибуля",
-	"хорошо" = "гарно",
-	"звезда" = "зірка",
-	"хлеб" = "хліб",
-	"фонарик" = "ліхтарик",
-	"СБ" = "охорона",
-	"победа" = "перемога",
-	"это" = "це",
-	"почему" = "чому",
-	"зачем" = "навіщо",
-	"добро пожаловать" = "ласкаво просимо",
-	"РНД" = "наукове суспільство"
-)
-
 /proc/ukraine(message)
-
-	if (prob(75))
-		for (var/key in ukraine_replacements)
-			var/regex/rg = regex("(\\A|\[\\s|.,\\-!/?~\])([key])(\\Z|\[\\s|.,\\-!/?~\])")
-			message = rg.Replace(message, GLOBAL_PROC_REF(ukraine_replace))
-
-		message = replacetextEx_char(message, "ы", "и")
-		message = replacetextEx_char(message, "и", "і")
-		message = replacetextEx_char(message, "ъ", "ї")
+	message = replacetextEx_char(message, "РНД", "наукове суспільство")
+	message = replacetextEx_char(message, "добро пожаловать", "ласкаво просимо")
+	message = replacetextEx_char(message, "зачем", "навіщо")
+	message = replacetextEx_char(message, "победа", "перемога")
+	message = replacetextEx_char(message, "это", "це")
+	message = replacetextEx_char(message, "почему", "чому")
+	message = replacetextEx_char(message, "хлеб", "хліб")
+	message = replacetextEx_char(message, "фонарик", "ліхтарик")
+	message = replacetextEx_char(message, "СБ", "охорона")
+	message = replacetextEx_char(message, "лук", "цибуля")
+	message = replacetextEx_char(message, "хорошо", "гарно")
+	message = replacetextEx_char(message, "звезда", "зірка")
+	message = replacetextEx_char(message, "арбуз", "кавун")
+	message = replacetextEx_char(message, "сука", "курва")
+	message = replacetextEx_char(message, "бред", "маячня")
+	message = replacetextEx_char(message, "мне", "мені")
+	message = replacetextEx_char(message, "сигареты", "цигарки")
+	message = replacetextEx_char(message, "сигарета", "цигарка")
+	message = replacetextEx_char(message, "или", "чи")
+	message = replacetextEx_char(message, "кто", "хто")
+	message = replacetextEx_char(message, "пофиг", "байдуже")
+	message = replacetextEx_char(message, "добрый день", "доброго дня")
+	message = replacetextEx_char(message, "привет", "здоровенькі були")
+	message = replacetextEx_char(message, "блять", "дідько")
+	message = replacetextEx_char(message, "блядь", "дідько")
+	message = replacetextEx_char(message, "ХОС", "дільничий")
+	message = replacetextEx_char(message, "водка", "горілка")
+	message = replacetextEx_char(message, "что", "шо")
+	message = replacetextEx_char(message, "КМ", "комірник")
+	message = replacetextEx_char(message, "СМО", "головний ліпило")
+	message = replacetextEx_char(message, "ГСБ", "дільничий")
+	message = replacetextEx_char(message, "маг", "чаклун")
+	message = replacetextEx_char(message, "лоза", "бур'ян")
+	message = replacetextEx_char(message, "культ", "нехристь")
+	message = replacetextEx_char(message, "мостик", "майдан")
+	message = replacetextEx_char(message, "ученый", "вчений")
+	message = replacetextEx_char(message, "инженер", "слюсар")
+	message = replacetextEx_char(message, "капитан", "гетьман")
+	message = replacetextEx_char(message, "предатель", "зрадник")
+	message = replacetextEx_char(message, "генокрад", "москаль")
+	message = replacetextEx_char(message, "зажигалка", "спалахуйка")
+	message = replacetextEx_char(message, "зеркало", "пикогляд")
+	message = replacetextEx_char(message, "презерватив", "нацюцюрник")
+	message = replacetextEx_char(message, "пизда", "піхва")
+	message = replacetextEx_char(message, "хуй", "прутень")
+	message = replacetextEx_char(message, "врач", "лікар")
+	message = replacetextEx_char(message, "бармен", "наливайко")
+	message = replacetextEx_char(message, "повар", "кухар")
+	message = replacetextEx_char(message, "ы", "и")
+	message = replacetextEx_char(message, "и", "і")
+	message = replacetextEx_char(message, "ъ", "ї")
 
 	return message
-
-/proc/ukraine_replace(match, group1, key, group2)
-		return "[group1][ukraine_replacements[key]][group2]"
 
 /datum/quirk/russian
 	name = "Русский дух"
