@@ -741,7 +741,7 @@
 	name = "Officer token"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/neck/tie/oftok
-	ckeywhitelist = list("xaeshkavd", "akinight")
+	ckeywhitelist = list("xaeshkavd", "akinight", "heathkit1", "scrambles_cream", "definitelynotnesuby", "sosnovskii")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/rt46
@@ -1076,4 +1076,18 @@
 	slot = ITEM_SLOT_OCLOTHING
 	path = /obj/item/storage/box/poster_box
 	ckeywhitelist = list("tonya677")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/ushankich
+    name = "Soviet ushanka"
+    slot = ITEM_SLOT_HEAD
+    path = /obj/item/clothing/head/donator/bm/ushankich
+    ckeywhitelist = list("fedor1545")
+    subcategory = LOADOUT_SUBCATEGORIES_DON04
+
+/datum/gear/donator/bm/razorsong
+	name = "Razorsong Kit"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/modkit/razorsong_kit
+	ckeywhitelist = list("xaeshkavd")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
