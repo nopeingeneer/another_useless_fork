@@ -18,13 +18,3 @@
 	build_path = /obj/item/construction/rld
 	category = list("Tool Designs")
 	departmental_flags =  DEPARTMENTAL_FLAG_ENGINEERING | DEPARTMENTAL_FLAG_CARGO | DEPARTMENTAL_FLAG_SCIENCE
-
-/datum/design/rld
-	name = "Glass Gasmask"
-	desc = "A face-covering mask that can be connected to an air supply. This one doesn't obscure your face however."
-	id = "glass"
-	build_type = PROTOLATHE
-	materials = list(/datum/material/iron = 20000, /datum/material/glass = 10000)
-	build_path = /obj/item/clothing/mask/gas/glass
-	category = list("Tool Designs")
-	departmental_flags =  DEPARTMENTAL_FLAG_ALL
