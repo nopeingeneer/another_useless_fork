@@ -11,31 +11,31 @@
 	desc = "Oh shit, boss is here."
 	icon_state = "centcom"
 	item_state = "centcom"
-	can_adjust = FALSE
+	can_adjust = TRUE
 /obj/item/clothing/under/rank/centcom/highrankingfem
 	name = "high ranking centcom officer jumpskirt"
 	desc = "Oh shit, boss is here."
 	icon_state = "centcom_skirt"
 	item_state = "centcom_skirt"
-	can_adjust = FALSE
+	can_adjust = TRUE
 /obj/item/clothing/under/rank/centcom/officer
 	name = "centcom officer jumpsuit"
 	desc = "Lean, Green and Mean. Smells of self importance."
 	icon_state = "official"
 	item_state = "official"
-	can_adjust = FALSE
+	can_adjust = TRUE
 /obj/item/clothing/under/rank/centcom/sweater
 	name = "high ranking centcom officer sweater"
 	desc = "Favored by a certain bridge \"advisor\"."
 	icon_state = "officer"
 	item_state = "officer"
-	can_adjust = FALSE
+	can_adjust = TRUE
 /obj/item/clothing/under/rank/centcom/sweaterfem
 	name = "high ranking centcom officer sweaterskirt"
 	desc = "Favored by a certain femboy bride \"advisor\"."
 	icon_state = "officer_skirt"
 	item_state = "officer_skirt"
-	can_adjust = FALSE
+	can_adjust = TRUE
 /obj/item/clothing/under/rank/centcom/intern
 	name = "centcom intern jumpsuit"
 	desc = "Cheap and mass produced, very itchy."
