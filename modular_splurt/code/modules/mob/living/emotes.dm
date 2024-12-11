@@ -1635,4 +1635,4 @@ To add randomization to your emote, copy and paste this line of code:
 	message = "squirms in place!"
 	message_mime = "squirms in place!"
 	emote_type = EMOTE_VISIBLE
-	emote_cooldown = 0.8 SECONDS // mrrp mrrp meow
+	emote_cooldown = 0.8 SECONDS
