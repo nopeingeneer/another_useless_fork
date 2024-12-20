@@ -69,13 +69,13 @@
 		// Check for a malformed history object
 		if (!row || row.len < 3 || (!row["ckey"] || !row["address"] || !row["computer_id"]))
 			return
-		if (world.IsBanned(row["ckey"], row["address"], row["computer_id"], real_bans_only = TRUE))
+		if (world.IsBanned(row["ckey"], row["address"], row["computer_id"], real_bans_only = TRUE, guest_ban_check=FALSE))
 			found = row
 			break
 		CHECK_TICK
 	// This fucker has a history of playing on a banned account.
 	if(found)
 		var/msg = "[key_name(client)] has a banned account in connection history! https://iphub.info/?ip=[client.address] (Actual: [client.ckey], [client.address], [client.computer_id] ) (Matched: [found["ckey"]], [found["address"]], [found["computer_id"]])"
-		suspect_message_to_admin_chat(msg)
+		suspect_message_to_admin_chat(msg) // BLUEMOON EDIT: Telemetry
 		log_admin_private(msg)
 		log_suspicious_login(msg, access_log_mirror = FALSE)
