@@ -1,3 +1,4 @@
+/*
 #define JUKEBOX_MAX_SONGS_PER_PAGE 25
 /obj/item/jukebox
 	var/ui_page = 0
@@ -165,3 +166,4 @@
 
  //<\Moniq mod>
 #undef JUKEBOX_MAX_SONGS_PER_PAGE
+*/

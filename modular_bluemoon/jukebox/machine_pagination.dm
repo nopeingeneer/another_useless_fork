@@ -1,3 +1,4 @@
+/*
 #define JUKEBOX_MAX_SONGS_PER_PAGE 25
 
 
@@ -168,3 +169,5 @@
 
  //<\Moniq mod>
 #undef JUKEBOX_MAX_SONGS_PER_PAGE
+
+*/
