@@ -99,6 +99,7 @@
 	// 	var/list/track_data = list(name = S.song_name)
 	// 	data["songs"] += list(track_data)
 	// BLUEMOON DEL END
+	// BLUEMOON EDIT START: Better Jukebox
 	data["queued_tracks"] = list()
 	for (var/i = 1, i <= queuedplaylist.len, i++)
 		var/datum/track/S = queuedplaylist[i]
@@ -108,6 +109,7 @@
 				name = S.song_name
 			)
 		)
+	// BLUEMOON EDIT END: Better Jukebox
 	data["track_selected"] = null
 	data["track_length"] = null
 	if(playing)

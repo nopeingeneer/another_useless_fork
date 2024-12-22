@@ -181,7 +181,7 @@ export const Jukebox = (props, context) => {
               currentSongs.map(track => (
                 <Stack key={track} mb={1} align="center">
                   <Stack.Item grow>
-                    <Box>{truncate(track, 50)}</Box>
+                    <Box color="gray">{truncate(track, 50)}</Box>
                   </Stack.Item>
                   <Stack.Item>
                     <Button

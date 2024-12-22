@@ -135,6 +135,7 @@
 	// 	var/list/track_data = list(name = S.song_name)
 	// 	data["songs"] += list(track_data)
 	// BLUEMOON DEL END
+	// BLUEMOON EDIT START: Better Jukebox
 	data["queued_tracks"] = list()
 	for (var/i = 1, i <= queuedplaylist.len, i++)
 		var/datum/track/S = queuedplaylist[i]
@@ -144,6 +145,7 @@
 				name = S.song_name
 			)
 		)
+	// BLUEMOON EDIT END: Better Jukebox
 	data["track_selected"] = null
 	data["track_length"] = null
 	if(playing)
@@ -154,10 +156,12 @@
 	data["cost_for_play"] = queuecost
 	data["has_access"] = allowed(user)
 	data["repeat"] = repeat		//BLUEMOON ADD
+	// BLUEMOON EDIT START: Better Jukebox
 	var/list/all_song_names = list()
 	for (var/datum/track/T in SSjukeboxes.songs)
 		all_song_names += T.song_name
 	data["songs"] = all_song_names
+	// BLUEMOON EDIT END: Better Jukebox
 	return data
 
 /obj/item/jukebox/ui_act(action, list/params)
