@@ -6,7 +6,7 @@
 #define STICKYBAN_MAX_EXISTING_USER_MATCHES 5 //ie, users who were connected before the ban triggered
 #define STICKYBAN_MAX_ADMIN_MATCHES 2
 
-/world/IsBanned(key, address, computer_id, type, real_bans_only=FALSE, guest_ban_check=TRUE) // BLUEMOON EDIT: TELEMETRY
+/world/IsBanned(key, address, computer_id, type, real_bans_only=FALSE)
 	var/static/key_cache = list()
 	if(!real_bans_only)
 		if(key_cache[key] >= REALTIMEOFDAY)
@@ -52,19 +52,17 @@
 				key_cache[key] = 0
 				return list("reason"="whitelist", "desc" = "\nReason: You are not on the white list for this server")
 
-	// BLUEMOON EDIT START: TELEMETRY
 	//	Guest Checking
-	if(guest_ban_check) // Check if guest_ban_check is enabled
-		if(!real_bans_only && IsGuestKey(key))
-			if (CONFIG_GET(flag/guest_ban))
-				log_access("Failed Login: [key] - Guests not allowed")
-				key_cache[key] = 0
-				return list("reason"="guest", "desc"="\nReason: Guests not allowed. Please sign in with a byond account.")
-			if (CONFIG_GET(flag/panic_bunker) && SSdbcore.Connect())
-				log_access("Failed Login: [key] - Guests not allowed during panic bunker")
-				key_cache[key] = 0
-				return list("reason"="guest", "desc"="\nReason: Sorry but the server is currently not accepting connections from never before seen players or guests. If you have played on this server with a byond account before, please log in to the byond account you have played from.")
-	// BLUEMOON EDIT END: TELEMETRY
+	if(!real_bans_only && IsGuestKey(key))
+		if (CONFIG_GET(flag/guest_ban))
+			log_access("Failed Login: [key] - Guests not allowed")
+			key_cache[key] = 0
+			return list("reason"="guest", "desc"="\nReason: Guests not allowed. Please sign in with a byond account.")
+		if (CONFIG_GET(flag/panic_bunker) && SSdbcore.Connect())
+			log_access("Failed Login: [key] - Guests not allowed during panic bunker")
+			key_cache[key] = 0
+			return list("reason"="guest", "desc"="\nReason: Sorry but the server is currently not accepting connections from never before seen players or guests. If you have played on this server with a byond account before, please log in to the byond account you have played from.")
+
 
 	//Population Cap Checking
 	var/extreme_popcap = CONFIG_GET(number/extreme_popcap)
