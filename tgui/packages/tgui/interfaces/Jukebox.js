@@ -33,7 +33,6 @@ export const Jukebox = (props, context) => {
                 config?.title?.toLowerCase() === 'handled jukebox' ? 'main' :
                 'main';
 
-  // Cостояния фронтенда для поиска
   const [query, setQuery] = useSharedState(context, 'query', '');
   const [page, setPage] = useSharedState(context, 'page', 1);
   const [tab, setTab] = useSharedState(context, 'tab', 1);
@@ -162,13 +161,6 @@ export const Jukebox = (props, context) => {
               const randomSongName = songs[Math.floor(Math.random() * songs.length)];
               act('add_to_queue', { track: randomSongName });
             }}
-          />
-          <Button
-            color="transparent"
-            icon="random"
-            tooltip="Включить/Выключить автоматическую рандомизацию"
-            selected={random_mode}
-            onClick={() => act('random_song')}
           />
         </Tabs>
 

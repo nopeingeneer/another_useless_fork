@@ -118,10 +118,12 @@
 	data["cost_for_play"] = queuecost
 	data["has_access"] = allowed(user)
 	data["repeat"] = repeat		//BLUEMOON ADD
+	// BLUEMOON EDIT:START
 	var/list/all_song_names = list()
 	for (var/datum/track/T in SSjukeboxes.songs)
 		all_song_names += T.song_name
 	data["songs"] = all_song_names
+	// BLUEMOON EDIT:END
 	return data
 
 /obj/machinery/jukebox/ui_act(action, list/params)
