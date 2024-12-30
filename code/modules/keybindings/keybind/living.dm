@@ -68,6 +68,8 @@
 
 /datum/keybinding/living/jump/down(client/user)
 	var/mob/living/L = user.mob
+	if(L.resting)
+		return FALSE
 	L.emote("jump")
 	SEND_SIGNAL(L, COMSIG_KB_LIVING_JUMP)
 	return TRUE

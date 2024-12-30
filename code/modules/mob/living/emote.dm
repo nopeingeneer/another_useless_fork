@@ -281,6 +281,12 @@
 	restraint_check = TRUE
 	emote_cooldown = 1 SECONDS
 
+/datum/emote/sound/human/jump/run_emote(mob/user, params)
+	var/mob/living/L = user
+	if(L.resting)
+		return FALSE
+	. = ..()
+
 /datum/emote/sound/human/kiss
 	key = "kiss"
 	key_third_person = "kisses"
