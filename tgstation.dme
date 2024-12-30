@@ -4304,6 +4304,7 @@
 #include "modular_bluemoon\code\modules\mob\dead\new_player\sprite_accesories\tertiary.dm"
 #include "modular_bluemoon\code\modules\mob\dead\new_player\sprite_accesories\vox.dm"
 #include "modular_bluemoon\code\modules\projectiles\projectile.dm"
+#include "modular_bluemoon\code\modules\lewd_russian_revlover\lewd_russian_revolver.dm"
 #include "modular_bluemoon\code\modules\reagents\chemistry\reagents\other_reagents.dm"
 #include "modular_bluemoon\code\modules\reagents\chemistry\recipes\recipes.dm"
 #include "modular_bluemoon\code\modules\resize\resizing.dm"
