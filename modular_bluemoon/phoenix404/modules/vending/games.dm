@@ -28,7 +28,7 @@
 				/obj/item/canvas/twentyfour_twentyfour = 5,
 				/obj/item/canvas/twentythreeXnineteen = 5,
 				/obj/item/canvas/twentythreeXtwentythree = 5,
-				/obj/item/wallframe/painting/ = 5,
+				/obj/item/wallframe/painting = 5,
 			),
 		),
 		list(
@@ -46,6 +46,7 @@
 				/obj/item/toy/prizeball/therapy = 6,
 				/obj/item/tvcamera = 3,
 				/obj/item/toy/nyamagotchi = 10,
+				/obj/item/gun/ballistic/revolver/russian/lewd = 5,
 			),
 		),
 	)
