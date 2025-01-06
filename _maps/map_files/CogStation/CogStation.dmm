@@ -24064,11 +24064,11 @@
 /turf/open/floor/plasteel,
 /area/tcommsat/computer)
 "fAg" = (
-/obj/machinery/field/generator,
 /obj/effect/decal/cleanable/dirt{
 	desc = "A thin layer of dust coating the floor.";
 	name = "dust"
 	},
+/obj/machinery/power/tesla_coil,
 /turf/open/floor/plasteel/dark,
 /area/commons/storage/primary)
 "fAv" = (
@@ -25530,10 +25530,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 9;
 	name = "low pressure supply"
-	},
-/obj/machinery/door/airlock/security/glass{
-	name = "Security Desk";
-	req_access_txt = "63"
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/port/fore)
@@ -38920,6 +38916,14 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/security/brig)
+"iZS" = (
+/obj/effect/decal/cleanable/dirt{
+	desc = "A thin layer of dust coating the floor.";
+	name = "dust"
+	},
+/obj/machinery/portable_atmospherics/canister/toxins,
+/turf/open/floor/plasteel/dark,
+/area/commons/storage/primary)
 "jac" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -62759,7 +62763,6 @@
 /turf/open/floor/plasteel,
 /area/hallway/primary/aft)
 "osh" = (
-/obj/machinery/portable_atmospherics/canister/toxins,
 /obj/machinery/camera{
 	c_tag = "Engineering - Secure Storage";
 	dir = 4
@@ -62768,6 +62771,7 @@
 	desc = "A thin layer of dust coating the floor.";
 	name = "dust"
 	},
+/obj/machinery/power/rad_collector,
 /turf/open/floor/plasteel/dark,
 /area/commons/storage/primary)
 "osw" = (
@@ -80613,8 +80617,7 @@
 	alpha = 150
 	},
 /obj/machinery/conveyor_switch/oneway{
-	dir = 8;
-	id = "AtmosLoad"
+	id = "QMLoad"
 	},
 /turf/open/floor/plasteel,
 /area/cargo/storage)
@@ -81120,6 +81123,14 @@
 	},
 /turf/open/floor/plating,
 /area/ai_monitored/turret_protected/ai)
+"syu" = (
+/obj/effect/decal/cleanable/dirt{
+	desc = "A thin layer of dust coating the floor.";
+	name = "dust"
+	},
+/obj/machinery/power/rad_collector,
+/turf/open/floor/plasteel/dark,
+/area/commons/storage/primary)
 "syC" = (
 /obj/machinery/door/airlock/command{
 	name = "Head of Security's Office";
@@ -150219,8 +150230,8 @@ pZn
 kOp
 uAp
 guF
-xcv
-xcv
+syu
+syu
 osh
 fAg
 fAg
@@ -150478,7 +150489,7 @@ uAp
 guF
 xcv
 xcv
-dJm
+iZS
 fAg
 fAg
 fAg
