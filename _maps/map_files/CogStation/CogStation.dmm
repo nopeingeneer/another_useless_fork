@@ -68258,17 +68258,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
-"pun" = (
-/obj/docking_port/stationary{
-	dir = 8;
-	dwidth = 11;
-	height = 22;
-	shuttle_id = "whiteship_home";
-	name = "SS13: Auxiliary Dock, Station-Port";
-	width = 35
-	},
-/turf/open/space/basic,
-/area/space)
 "puq" = (
 /obj/machinery/airalarm{
 	pixel_y = 24
@@ -124156,7 +124145,7 @@ jdU
 jdU
 jdU
 jdU
-pun
+jdU
 jdU
 jdU
 jdU
