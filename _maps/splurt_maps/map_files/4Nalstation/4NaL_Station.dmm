@@ -21502,7 +21502,9 @@
 	},
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/five,
-/obj/machinery/status_display/evac,
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "gIM" = (
@@ -35328,7 +35330,9 @@
 /obj/effect/turf_decal/arrows/white{
 	dir = 1
 	},
-/obj/machinery/status_display/evac,
+/obj/machinery/status_display/evac{
+	pixel_x = -32
+	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "lbz" = (
