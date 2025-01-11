@@ -26785,7 +26785,6 @@
 /obj/item/reagent_containers/syringe{
 	name = "steel point"
 	},
-/obj/machinery/airalarm/directional/west,
 /obj/machinery/camera{
 	c_tag = "Brig Infirmary";
 	dir = 4
@@ -38164,6 +38163,10 @@
 	icon_state = "wood_tile"
 	},
 /area/maintenance/space_hut/cabin)
+"maa" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plasteel/showroomfloor,
+/area/security/prison)
 "maf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/structure/cable{
@@ -110639,7 +110642,7 @@ yka
 ijf
 qfH
 waV
-oDy
+maa
 aPU
 fkj
 uTp
