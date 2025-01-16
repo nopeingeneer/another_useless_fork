@@ -940,8 +940,7 @@ BLUEMOON REMOVAL END*/
 	for(var/datum/mind/M in assigned)
 		if (leader)
 			leader = FALSE
-			var/datum/antagonist/slaver/leader/slavers_op = M.add_antag_datum(antag_leader_datum)
-			slavers_team = slavers_op.slaver_team
+			M.add_antag_datum(antag_leader_datum)
 		else
 			var/datum/antagonist/slaver/slavers_op = new antag_datum()
 			M.add_antag_datum(slavers_op)
