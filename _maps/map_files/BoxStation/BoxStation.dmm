@@ -40534,11 +40534,9 @@
 /area/maintenance/starboard/aft)
 "eDH" = (
 /obj/machinery/button/door{
-	id = "secdorm2";
+	id = "secdorm1";
 	name = "Cabin Bolt Control";
-	normaldoorcontrol = 1;
-	pixel_y = -25;
-	specialfunctions = 4
+	pixel_y = -25
 	},
 /turf/open/floor/plasteel/dark,
 /area/security/office)
@@ -56090,7 +56088,7 @@
 /obj/item/bedsheet/red,
 /obj/structure/bed,
 /obj/machinery/button/door{
-	id = "secdormone";
+	id = "secdormtwo";
 	name = "Cabin Bolt Control";
 	normaldoorcontrol = 1;
 	pixel_y = -25;
@@ -60911,6 +60909,16 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/service/library)
+"pSP" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "secdorm1"
+	},
+/turf/open/floor/plating,
+/area/security/office)
 "pTa" = (
 /obj/structure/table,
 /obj/machinery/microwave{
@@ -64953,6 +64961,22 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/range)
+"shO" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "secdorm1"
+	},
+/turf/open/floor/plating,
+/area/security/office)
 "shR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -68726,6 +68750,14 @@
 	dir = 1
 	},
 /area/science)
+"urM" = (
+/obj/machinery/button/door{
+	id = "secdorm2";
+	name = "Cabin Shutters";
+	pixel_y = -25
+	},
+/turf/open/floor/plasteel/dark,
+/area/security/office)
 "usE" = (
 /obj/effect/spawner/lootdrop/maintenance,
 /obj/structure/rack,
@@ -69949,6 +69981,16 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood,
 /area/service/bar)
+"veL" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/door/poddoor/preopen{
+	id = "secdorm1"
+	},
+/turf/open/floor/plating,
+/area/security/office)
 "vfS" = (
 /turf/open/floor/carpet,
 /area/commons/cryopod)
@@ -105517,7 +105559,7 @@ aaa
 aaa
 aaa
 aaa
-orP
+veL
 bvj
 kHv
 adR
@@ -105774,7 +105816,7 @@ aaa
 aaa
 aaa
 aaf
-joD
+shO
 gnA
 gnA
 uNQ
@@ -106031,7 +106073,7 @@ aaa
 aaa
 aaa
 aaa
-jke
+pSP
 eDH
 adR
 adR
@@ -106546,7 +106588,7 @@ aaa
 aaa
 aaa
 orP
-eDH
+urM
 adR
 adR
 kfC
