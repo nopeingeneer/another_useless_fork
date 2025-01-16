@@ -13103,7 +13103,7 @@
 /area/centcom/control)
 "eqf" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Medical Bay";
+	name = "VIP cell 1";
 	req_access_txt = "154"
 	},
 /turf/open/floor/plasteel/dark/side{
@@ -18243,7 +18243,7 @@
 /area/syndicate_mothership/control)
 "iNE" = (
 /obj/machinery/door/airlock/centcom{
-	name = "Medical Bay";
+	name = "VIP cell 3";
 	req_access_txt = "154"
 	},
 /turf/open/floor/plating,
@@ -27468,7 +27468,7 @@
 	dir = 8
 	},
 /obj/machinery/door/airlock/centcom{
-	name = "Medical Bay";
+	name = "VIP cells";
 	req_access_txt = "154"
 	},
 /turf/open/floor/plasteel,
