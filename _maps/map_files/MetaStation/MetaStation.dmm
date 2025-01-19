@@ -29072,6 +29072,9 @@
 	name = "Operating Theatre";
 	req_access_txt = "45"
 	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
+	},
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "cnq" = (
@@ -61882,6 +61885,9 @@
 /obj/machinery/door/airlock/medical/glass{
 	name = "Operating Theatre";
 	req_access_txt = "45"
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 1
 	},
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
