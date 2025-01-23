@@ -190,7 +190,7 @@
 /turf/open/floor/grass/grass0,
 /area/shuttle/escape)
 "iq" = (
-/obj/machinery/modular_computer/console/buildable{
+/obj/machinery/modular_computer/console/preset{
 	dir = 1
 	},
 /turf/open/floor/carpet,
