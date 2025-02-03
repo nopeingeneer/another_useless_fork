@@ -1,0 +1,8 @@
+author: SaraSayomi
+delete-after: true
+changes:
+  - rscadd: Civilian bounty space
+  - rscadd: A maintenance area that snaxi has always lacked
+  - tweak: Sci mains are now public as on every map
+  - rscadd: Several random map gens
+  - rscadd: Nav beacons
