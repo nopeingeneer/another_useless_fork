@@ -4383,14 +4383,6 @@
 	icon_state = "darkfull_whole_alt"
 	},
 /area/service/chapel/main)
-"bzT" = (
-/obj/machinery/door/poddoor/preopen{
-	id = "heads_meeting";
-	name = "privacy shutters"
-	},
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/wood,
-/area/command/meeting_room)
 "bAf" = (
 /obj/effect/landmark/navigate_destination/tools,
 /obj/effect/decal/cleanable/dirt,
@@ -21502,7 +21494,9 @@
 	},
 /obj/item/stack/sheet/metal/fifty,
 /obj/item/stack/sheet/glass/five,
-/obj/machinery/status_display/evac,
+/obj/machinery/status_display/evac{
+	pixel_y = 32
+	},
 /turf/open/floor/plasteel,
 /area/cargo/office)
 "gIM" = (
@@ -26791,7 +26785,6 @@
 /obj/item/reagent_containers/syringe{
 	name = "steel point"
 	},
-/obj/machinery/airalarm/directional/west,
 /obj/machinery/camera{
 	c_tag = "Brig Infirmary";
 	dir = 4
@@ -30197,6 +30190,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/machinery/door/firedoor,
 /turf/open/floor/plasteel/white,
 /area/science/xenobiology)
 "jyr" = (
@@ -34447,7 +34441,6 @@
 	name = "Bathroom"
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/mineral/titanium/blue,
 /area/command/bridge/upper)
@@ -35328,7 +35321,9 @@
 /obj/effect/turf_decal/arrows/white{
 	dir = 1
 	},
-/obj/machinery/status_display/evac,
+/obj/machinery/status_display/evac{
+	pixel_x = -32
+	},
 /turf/open/floor/wood,
 /area/command/heads_quarters/hop)
 "lbz" = (
@@ -38168,6 +38163,10 @@
 	icon_state = "wood_tile"
 	},
 /area/maintenance/space_hut/cabin)
+"maa" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/plasteel/showroomfloor,
+/area/security/prison)
 "maf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/structure/cable{
@@ -52352,6 +52351,7 @@
 /area/command/heads_quarters/ce)
 "qvt" = (
 /obj/machinery/computer/nanite_cloud_controller,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/circuit,
 /area/science/nanite)
 "qvu" = (
@@ -110642,7 +110642,7 @@ yka
 ijf
 qfH
 waV
-oDy
+maa
 aPU
 fkj
 uTp
@@ -234757,7 +234757,7 @@ mUB
 aoN
 xYQ
 sTL
-bzT
+sTL
 gHi
 gHi
 dLy
