@@ -1,0 +1,20 @@
+author: Noktpapilio
+delete-after: true
+changes:
+  - rscadd: Yes
+  - rscadd: Yes
+  - rscdel: Technically?
+  - tweak: One hundred percent yes
+  - balance: Yes
+  - bugfix: The previous small outpost being dogshit
+  - soundadd: No
+  - sounddel: No
+  - imageadd: No
+  - imagedel: No
+  - spellcheck: Yes
+  - code_imp: Only for the Outpost
+  - refactor: Not sure what that is
+  - config: No
+  - admin: No
+  - server: Nothing really
+  - tgs: Not sure what that is
