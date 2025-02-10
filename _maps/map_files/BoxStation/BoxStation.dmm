@@ -72714,11 +72714,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/surgery)
 "vZw" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	external_pressure_bound = 140;
-	name = "killroom vent";
-	pressure_checks = 0
-	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/plasteel/white,
 /area/medical/virology)
 "vZA" = (
