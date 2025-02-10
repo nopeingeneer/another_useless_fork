@@ -23019,9 +23019,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/hallway/primary/central)
-"blp" = (
-/turf/open/space/basic,
-/area/engineering/atmos)
 "blt" = (
 /obj/structure/table_frame,
 /obj/effect/decal/cleanable/glass,
@@ -26711,10 +26708,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/maintenance/central/secondary)
-"bwP" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/engineering/atmos)
 "bwR" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	name = "air scrubber"
@@ -40774,7 +40767,7 @@
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/engine_waste,
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
-/area/engineering/atmospherics_engine)
+/area/space/nearstation)
 "cpN" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/light{
@@ -97707,7 +97700,7 @@
 	dir = 8
 	},
 /turf/open/space/basic,
-/area/maintenance/disposal/incinerator)
+/area/space/nearstation)
 "ufv" = (
 /obj/machinery/light_switch/directional/east,
 /turf/open/floor/wood,
@@ -97906,7 +97899,7 @@
 /obj/structure/lattice/catwalk,
 /obj/structure/grille,
 /turf/open/space/basic,
-/area/security/execution/education)
+/area/space/nearstation)
 "uiq" = (
 /obj/machinery/atmospherics/pipe/simple/general/hidden{
 	dir = 4
@@ -145574,7 +145567,7 @@ kiR
 wwL
 cMt
 cau
-blp
+qPd
 cww
 bow
 atF
@@ -146327,11 +146320,11 @@ lbt
 ufH
 uYN
 nZC
-bwP
-bwP
-bwP
-bwP
-bwP
+aWj
+aWj
+aWj
+aWj
+aWj
 dtO
 oYe
 syo
@@ -146584,7 +146577,7 @@ aQJ
 ufH
 uYN
 aSv
-bwP
+aWj
 cww
 cww
 cww
@@ -146841,7 +146834,7 @@ pMG
 ufH
 uYN
 aSv
-bwP
+aWj
 cww
 bca
 cat
@@ -147098,7 +147091,7 @@ pMG
 ufH
 sbL
 nZC
-bwP
+aWj
 cww
 bZI
 bca
@@ -147355,7 +147348,7 @@ oHE
 ufH
 uYN
 aSv
-bwP
+aWj
 cww
 bca
 cKQ
@@ -147612,7 +147605,7 @@ qBR
 sOE
 gzr
 aSv
-bwP
+aWj
 cww
 cww
 cww
@@ -147869,7 +147862,7 @@ oHy
 dCK
 fBo
 nZC
-bwP
+aWj
 cww
 bSb
 bSb
@@ -148126,7 +148119,7 @@ yaj
 ufH
 uYN
 aSv
-bwP
+aWj
 cww
 bZL
 wNk
@@ -148383,7 +148376,7 @@ sOE
 sOE
 gzr
 aSv
-bwP
+aWj
 cww
 bSb
 bSb
@@ -148640,7 +148633,7 @@ mwD
 uqx
 aRV
 nZC
-bwP
+aWj
 cww
 cww
 cww
@@ -148897,7 +148890,7 @@ liQ
 uSy
 uYN
 aSv
-bwP
+aWj
 cww
 bTH
 bTH
@@ -149154,7 +149147,7 @@ dLg
 xgE
 uYN
 aSv
-bwP
+aWj
 cww
 bZO
 jOx
@@ -149411,7 +149404,7 @@ lCd
 lCd
 uYN
 nZC
-bwP
+aWj
 cww
 bTH
 bTH
@@ -149668,7 +149661,7 @@ hrR
 szT
 uYN
 aSv
-bwP
+aWj
 cww
 cww
 cww
@@ -149925,7 +149918,7 @@ vzX
 dJi
 uYN
 aSv
-bwP
+aWj
 cww
 bTK
 bTK
@@ -150182,7 +150175,7 @@ uPI
 dXd
 uYN
 nZC
-bwP
+aWj
 cww
 bZP
 lKq
@@ -150439,7 +150432,7 @@ uPI
 biV
 awQ
 bge
-bwP
+aWj
 cww
 bTK
 bTK
@@ -150696,7 +150689,7 @@ uPI
 eFq
 kGU
 bge
-bwP
+aWj
 cww
 cww
 cww
@@ -150953,13 +150946,13 @@ dYM
 iMw
 rtz
 bge
-bwP
-bwP
-bwP
-bwP
-bwP
-bwP
-bwP
+aWj
+aWj
+aWj
+aWj
+aWj
+aWj
+aWj
 cww
 vGZ
 cfv
