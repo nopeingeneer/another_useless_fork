@@ -1169,7 +1169,7 @@
 /obj/machinery/door/firedoor/border_only{
 	name = "south facing firelock"
 	},
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/plasteel,
 /area/service/bar)
 "asj" = (
@@ -1759,7 +1759,7 @@
 	name = "north facing firelock"
 	},
 /obj/structure/disposalpipe/segment,
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/plasteel,
 /area/service/bar)
 "aAY" = (
@@ -3366,7 +3366,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/industrial,
 /turf/open/floor/plating,
 /area/maintenance/department/electrical2)
 "bhl" = (
@@ -4194,7 +4194,7 @@
 /turf/open/floor/plasteel/white,
 /area/medical/medbay/central)
 "bur" = (
-/obj/machinery/suit_storage_unit/engine,
+/obj/machinery/suit_storage_unit/industrial,
 /turf/open/floor/plasteel,
 /area/engineering/main)
 "bus" = (
@@ -10486,7 +10486,7 @@
 /obj/item/book/manual/wiki/barman_recipes,
 /obj/item/reagent_containers/food/drinks/shaker,
 /obj/item/paper/fluff{
-	info = "<b>Renovation Notice</b><br><br>The bar layout for the station is very old. We've decided to give it a facelift after our partnership with IKEA Intergalactic?.</li><li>We added some sweet retro arcade machines and much more seating area. We removed the stage since it hasn't ever been used.</li><li>You can run this place like a restaurant now that you have tables. Go whip up a menu with the Chef. You have a condiments table and your Requests Console has been moved so a noticeboard can be placed there. Take tickets from customers and pin them on the noticeboard for the Chef.</li><li><b>We hope you like the new bar!</ b>";
+	default_raw_text = "<b>Renovation Notice</b><br><br>The bar layout for the station is very old. We've decided to give it a facelift after our partnership with IKEA Intergalactic?.</li><li>We added some sweet retro arcade machines and much more seating area. We removed the stage since it hasn't ever been used.</li><li>You can run this place like a restaurant now that you have tables. Go whip up a menu with the Chef. You have a condiments table and your Requests Console has been moved so a noticeboard can be placed there. Take tickets from customers and pin them on the noticeboard for the Chef.</li><li><b>We hope you like the new bar!</ b>";
 	name = "Renovation Notice - Bar";
 	pixel_x = -5;
 	pixel_y = 3
@@ -14061,6 +14061,12 @@
 	},
 /turf/closed/wall,
 /area/maintenance/disposal/incinerator)
+"eDS" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/turf/open/floor/plating/snowed/smoothed/warmer,
+/area/template_noop)
 "eDU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -17944,7 +17950,7 @@
 /area/hallway/primary/starboard/aft)
 "fZE" = (
 /obj/structure/table/wood/fancy,
-/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/machinery/computer/library/checkout,
 /turf/open/floor/plasteel/cult,
 /area/service/library)
 "fZV" = (
@@ -22869,7 +22875,7 @@
 /area/service/janitor)
 "hIV" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole,
+/obj/machinery/libraryscanner,
 /obj/machinery/light/small,
 /turf/open/floor/wood,
 /area/service/library)
@@ -22878,7 +22884,7 @@
 	pixel_x = 27
 	},
 /obj/structure/rack,
-/obj/item/clothing/suit/armor/laserproof,
+/obj/item/clothing/suit/hooded/ablative,
 /obj/item/clothing/suit/armor/bulletproof{
 	pixel_x = 3;
 	pixel_y = -3
@@ -23224,7 +23230,7 @@
 /turf/open/floor/plasteel,
 /area/security/checkpoint/supply)
 "hPS" = (
-/obj/machinery/door/airlock/glass_large,
+/obj/machinery/door/airlock/multi_tile/glass,
 /turf/open/floor/plasteel,
 /area/commons/fitness)
 "hPX" = (
@@ -27914,7 +27920,7 @@
 /area/command/bridge)
 "jxw" = (
 /obj/structure/cable,
-/obj/machinery/suit_storage_unit/ce,
+/obj/machinery/suit_storage_unit/industrial/ce,
 /obj/machinery/power/apc/highcap/five_k{
 	areastring = "/area/command/heads_quarters/ce";
 	name = "CE Office APC";
@@ -32012,7 +32018,7 @@
 /turf/open/floor/plasteel/white,
 /area/security/prison)
 "kOa" = (
-/obj/machinery/suit_storage_unit/atmos,
+/obj/machinery/suit_storage_unit/industrial/atmos,
 /turf/open/floor/plasteel,
 /area/engineering/atmos)
 "kOu" = (
@@ -42168,7 +42174,7 @@
 /area/ai_monitored/turret_protected/ai)
 "oiE" = (
 /obj/structure/table/wood,
-/obj/machinery/computer/libraryconsole/bookmanagement,
+/obj/machinery/computer/library/checkout,
 /obj/structure/sign/plaques/kiddie/library{
 	pixel_y = 31
 	},
@@ -57071,7 +57077,7 @@
 	pixel_y = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/clothing/suit/brigdoc/armor,
+/obj/item/clothing/suit/armor/brigdoc,
 /obj/item/clothing/head/helmet/brigdoc,
 /turf/open/floor/plasteel/dark,
 /area/ai_monitored/security/armory)
@@ -107323,7 +107329,7 @@ iCD
 iCD
 pcU
 xfN
-qqG
+eDS
 dyL
 dyL
 dyL

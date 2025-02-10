@@ -21681,10 +21681,6 @@
 /obj/effect/turf_decal/stripes/full,
 /turf/open/floor/plasteel/dark/telecomms,
 /area/tcommsat/server)
-"bhS" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/hallway/primary/central)
 "bhU" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -24282,7 +24278,7 @@
 	on = 1
 	},
 /turf/open/space/basic,
-/area/engineering/atmos)
+/area/space/nearstation)
 "bpf" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -26311,7 +26307,7 @@
 	dir = 8
 	},
 /turf/open/space/basic,
-/area/engineering/atmos)
+/area/space/nearstation)
 "bvw" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/yellow{
@@ -38358,9 +38354,6 @@
 /obj/effect/turf_decal/stripes/full,
 /turf/open/floor/plasteel/dark,
 /area/engineering/atmospherics_engine)
-"chD" = (
-/turf/open/space/basic,
-/area/maintenance/central)
 "chJ" = (
 /obj/machinery/door/airlock/maintenance{
 	name = "Security Maintenance";
@@ -50777,10 +50770,6 @@
 /obj/machinery/light,
 /turf/open/floor/plasteel,
 /area/command/bridge)
-"ddV" = (
-/obj/structure/lattice,
-/turf/open/space/basic,
-/area/command/heads_quarters/captain)
 "def" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -51614,10 +51603,6 @@
 /obj/structure/fans/tiny,
 /turf/open/floor/plasteel/dark,
 /area/engineering/atmos)
-"dtY" = (
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/command/heads_quarters/captain)
 "dud" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 8;
@@ -61737,7 +61722,7 @@
 	on = 1
 	},
 /turf/open/space/basic,
-/area/engineering/atmos)
+/area/space/nearstation)
 "htr" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/portable_atmospherics/canister/air,
@@ -101304,19 +101289,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/research)
-"vxy" = (
-/obj/structure/lattice/catwalk,
-/obj/item/stack/marker_beacon{
-	anchored = 1;
-	icon_state = "markerburgundy-on";
-	light_color = "#FA644B";
-	light_power = 3;
-	light_range = 3;
-	name = "Docking Beacon";
-	picked_color = "Burgundy"
-	},
-/turf/open/space/basic,
-/area/hallway/primary/central)
 "vxz" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -103055,9 +103027,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/department/security)
-"wgs" = (
-/turf/open/space/basic,
-/area/science/research)
 "wgu" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	name = "low pressure supply"
@@ -127078,7 +127047,7 @@ wpA
 bkC
 aQW
 aQW
-ddV
+aaU
 aaU
 aaa
 aaa
@@ -127334,8 +127303,8 @@ aVP
 cpt
 bOR
 bXI
-dtY
-ddV
+aWj
+aaU
 aaU
 aaa
 aaa
@@ -127591,8 +127560,8 @@ bRb
 bOQ
 bOS
 cbi
-dtY
-ddV
+aWj
+aaU
 gZs
 aaa
 aaa
@@ -127848,8 +127817,8 @@ aVR
 bBj
 raq
 phI
-dtY
-ddV
+aWj
+aaU
 aaU
 aaa
 aaa
@@ -129657,7 +129626,7 @@ hVV
 aaa
 aaa
 aaa
-vxy
+gZs
 bdg
 not
 gGs
@@ -129914,7 +129883,7 @@ iLx
 wsn
 aaa
 aaa
-bhS
+aaU
 bdg
 not
 beJ
@@ -130171,7 +130140,7 @@ vvQ
 wsn
 aaU
 aaU
-bhS
+aaU
 bGI
 nPr
 beJ
@@ -131456,7 +131425,7 @@ aaU
 aaU
 aaU
 aaU
-bhS
+aaU
 bGI
 bGI
 not
@@ -131713,8 +131682,8 @@ aaa
 aaa
 aaU
 aaa
-bhS
-bhS
+aaU
+aaU
 bGI
 paX
 mpm
@@ -132005,9 +131974,9 @@ bYA
 bYb
 cbf
 ccJ
-wgs
-wgs
-wgs
+qPd
+qPd
+qPd
 ccJ
 ckQ
 clg
@@ -132262,9 +132231,9 @@ bYG
 bYZ
 cbj
 ccJ
-wgs
-wgs
-wgs
+qPd
+qPd
+qPd
 ccJ
 ckQ
 clh
@@ -132519,9 +132488,9 @@ cGT
 jSL
 cbB
 ccJ
-wgs
-wgs
-wgs
+qPd
+qPd
+qPd
 ccJ
 ckQ
 clg
@@ -144574,7 +144543,7 @@ arp
 wAX
 jfy
 aEQ
-chD
+qPd
 aEQ
 bfM
 ckz
@@ -147409,8 +147378,8 @@ jCr
 bpb
 bvv
 hto
-bwP
-bwP
+aWj
+aWj
 bpv
 cdj
 bpv
@@ -147667,7 +147636,7 @@ cww
 cww
 cww
 cww
-bwP
+aWj
 bpv
 cdk
 bpv
@@ -147924,7 +147893,7 @@ cLt
 bkZ
 bkZ
 cww
-bwP
+aWj
 bpv
 cdl
 bpv
@@ -148181,7 +148150,7 @@ bpg
 bwJ
 cay
 cww
-bwP
+aWj
 bpv
 cds
 cdC
@@ -148438,7 +148407,7 @@ cLu
 bkZ
 bkZ
 cww
-bwP
+aWj
 bpv
 csz
 cdw
@@ -148695,7 +148664,7 @@ cww
 cww
 cww
 cww
-bwP
+aWj
 cpm
 gtP
 bUN
@@ -148952,7 +148921,7 @@ cpk
 cLv
 blL
 cww
-bwP
+aWj
 cpm
 itf
 bUO
@@ -149209,7 +149178,7 @@ cpo
 cpT
 caF
 cww
-bwP
+aWj
 bpv
 itf
 bUN
@@ -149466,7 +149435,7 @@ cpA
 cLw
 blL
 cww
-bwP
+aWj
 cpm
 qJl
 bUN
@@ -149723,7 +149692,7 @@ cpF
 cww
 cww
 cww
-bwP
+aWj
 cpm
 bgl
 bUN
@@ -149980,7 +149949,7 @@ cie
 cLx
 blM
 cww
-bwP
+aWj
 bpv
 bgn
 dOL
@@ -150237,7 +150206,7 @@ bkB
 blM
 caJ
 cww
-bwP
+aWj
 bpv
 bpv
 bho
@@ -150494,7 +150463,7 @@ bkM
 cLy
 blM
 cww
-bwP
+aWj
 bpv
 kDE
 mJv
@@ -150751,7 +150720,7 @@ cww
 cww
 cww
 cww
-bwP
+aWj
 bpv
 bgH
 mJv
@@ -151002,13 +150971,13 @@ nTq
 eep
 pPC
 bfN
-bwP
-bwP
-bwP
-bwP
-bwP
-bwP
-bwP
+aWj
+aWj
+aWj
+aWj
+aWj
+aWj
+aWj
 bpv
 bgI
 mJv

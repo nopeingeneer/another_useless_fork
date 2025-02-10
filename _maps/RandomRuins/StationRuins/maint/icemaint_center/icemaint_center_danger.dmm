@@ -134,10 +134,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating/snowed/smoothed/warmer,
 /area/maintenance/central/frozen/lower)
-"V" = (
-/obj/effect/spawner/structure/window/ice,
-/turf/open/space/basic,
-/area/maintenance/central/frozen/lower)
 "Y" = (
 /turf/open/floor/plasteel/stairs/right{
 	dir = 4
@@ -300,14 +296,14 @@ a
 "}
 (15,1,1) = {"
 a
-V
-V
-V
-V
-V
-V
-V
-V
+a
+a
+a
+a
+a
+a
+a
+a
 "}
 (16,1,1) = {"
 M
