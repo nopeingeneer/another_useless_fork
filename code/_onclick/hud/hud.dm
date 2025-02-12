@@ -176,7 +176,6 @@ GLOBAL_LIST_INIT(available_ui_styles, list(
 
 	return ..()
 
-
 /mob/proc/create_mob_hud()
 	if(!client || hud_used)
 		return
