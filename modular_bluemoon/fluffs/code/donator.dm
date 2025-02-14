@@ -1152,3 +1152,17 @@
 	path = /obj/item/clothing/under/donator/bm/urban_misteran
 	ckeywhitelist = list("misteran")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/SyndAngelicJaket
+	name = "Angelic-made Syndicate parade Jacket"
+	slot = ITEM_SLOT_OCLOTHING
+	path = /obj/item/clothing/suit/donator/bm/SyndAngelicJaket
+	ckeywhitelist = list("akiyamagw")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/royal_hunters
+	name = "Royal hunters hat"
+	slot = ITEM_SLOT_HEAD
+	path = /obj/item/clothing/head/donator/bm/royal_hunters
+	ckeywhitelist = list("gisya")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
