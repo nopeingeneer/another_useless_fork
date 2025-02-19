@@ -15603,10 +15603,9 @@
 /obj/effect/turf_decal/tile/red/opposingcorners{
 	dir = 1
 	},
-/obj/item/stack/sheet/glass{
-	amount = 20;
-	pixel_x = -3;
-	pixel_y = 6
+/obj/item/reagent_containers/rag{
+	pixel_x = 5;
+	pixel_y = -11
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
@@ -20385,6 +20384,11 @@
 	},
 /obj/structure/table,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
+/obj/item/reagent_containers/food/condiment/milk{
+	pixel_x = 6;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/food/condiment/milk,
 /turf/open/floor/plasteel,
 /area/service/bar)
 "bJU" = (
@@ -20900,7 +20904,7 @@
 	},
 /obj/machinery/door/window{
 	dir = 8;
-	req_access_txt = "25"
+	req_access_txt = "28"
 	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -21320,8 +21324,8 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/door/airlock/maintenance{
-	name = "Kitchen Maintenance";
-	req_one_access_txt = "35;28;25"
+	name = "Service Maintenance";
+	req_one_access_txt = "35;28;25;26"
 	},
 /turf/open/floor/plating,
 /area/maintenance/starboard)
@@ -60650,6 +60654,7 @@
 /area/security/prison/upper)
 "jIS" = (
 /obj/structure/dresser,
+/obj/machinery/light_switch/directional/south,
 /turf/open/floor/wood,
 /area/service/theater)
 "jIU" = (
@@ -67619,11 +67624,6 @@
 "mPv" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
-/obj/item/reagent_containers/food/condiment/milk,
-/obj/item/reagent_containers/food/condiment/milk{
-	pixel_x = 6;
-	pixel_y = 2
-	},
 /turf/open/floor/plasteel,
 /area/service/bar)
 "mPQ" = (
@@ -79006,10 +79006,6 @@
 /obj/item/clothing/glasses/meson/engine,
 /turf/open/floor/plasteel,
 /area/engineering/main)
-"rWE" = (
-/obj/machinery/light_switch/directional/south,
-/turf/closed/wall,
-/area/service/theater)
 "rXs" = (
 /obj/machinery/door/airlock{
 	name = "Unit B"
@@ -81064,12 +81060,12 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/obj/machinery/door/airlock/public{
-	name = "Kitchen";
-	req_one_access_txt = "28;25"
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
+	},
+/obj/machinery/door/airlock/public/glass{
+	name = "Kitchen";
+	req_one_access_txt = "28;25"
 	},
 /turf/open/floor/plasteel/cafeteria,
 /area/service/kitchen)
@@ -131129,7 +131125,7 @@ bFA
 xze
 xze
 xze
-rWE
+xze
 oCU
 bPf
 oCU
