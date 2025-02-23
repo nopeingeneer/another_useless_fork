@@ -3318,7 +3318,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/supply)
 "anM" = (
-/obj/item/toy/plush/mammal/fox/emma/aiko,
+/obj/item/toy/plush/bm/emma/aiko,
 /turf/open/space/basic,
 /area/space)
 "anU" = (
@@ -5801,7 +5801,7 @@
 	dir = 4
 	},
 /obj/structure/table/wood,
-/obj/item/toy/plush/mammal/fox/emma/aiko{
+/obj/item/toy/plush/bm/emma/aiko{
 	name = "Niklach Tahazunein Plushie"
 	},
 /obj/item/book/manual/splurt_space_law{
@@ -24135,7 +24135,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/item/toy/plush/shark{
+/obj/item/toy/plush/bm/shark{
 	name = "Izumi plushie";
 	desc = "Izumi's stuffed toy. She smells of vodka and cigarettes, and if you hug her for some reason, you get a strange feeling that someone wants to break your jaw..."
 	},
@@ -25707,7 +25707,7 @@
 /turf/open/floor/grass/grass2,
 /area/centcom/evac)
 "pEN" = (
-/obj/item/toy/plush/mammal/fox/emma/rozgo,
+/obj/item/toy/plush/bm/emma/rozgo,
 /turf/open/floor/carpet/red,
 /area/centcom/holding)
 "pFp" = (
@@ -31349,7 +31349,7 @@
 /area/syndicate_mothership/control)
 "uPX" = (
 /obj/structure/table/wood,
-/obj/item/toy/plush/deer/qm{
+/obj/item/toy/plush/bm/qm{
 	pixel_y = 3
 	},
 /turf/open/floor/wood/wood_parquet,
@@ -33178,7 +33178,7 @@
 /turf/open/floor/light/colour_cycle/dancefloor_a,
 /area/centcom/evac)
 "wwK" = (
-/obj/item/toy/plush/mammal/fox/emma/aiko{
+/obj/item/toy/plush/bm/emma/aiko{
 	desc = "Smiles like :)"
 	},
 /turf/open/floor/carpet/red,
@@ -34156,7 +34156,7 @@
 /turf/open/floor/plasteel/dark,
 /area/centcom/control)
 "xnG" = (
-/obj/item/toy/plush/mammal/fox/emma/taliza,
+/obj/item/toy/plush/bm/emma/taliza,
 /obj/item/storage/box/tentaclescubes,
 /obj/structure/tentacles/node,
 /turf/open/floor/plating/dirt/dark/jungle{
