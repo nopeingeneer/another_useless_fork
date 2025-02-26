@@ -112,7 +112,7 @@
 	pixel_y = -8
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "az" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
 /obj/effect/decal/cleanable/blood,
@@ -267,10 +267,11 @@
 /obj/machinery/porta_turret/syndicate{
 	dir = 5;
 	faction = list("152","neutral");
-	pixel_y = -31
+	pixel_x = -32;
+	pixel_y = 0
 	},
-/turf/template_noop,
-/area/ruin/unpowered/no_grav)
+/turf/open/floor/holofloor/asteroid,
+/area/ruin/space)
 "bb" = (
 /obj/structure/chair{
 	dir = 4
@@ -495,7 +496,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "cm" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -617,7 +618,7 @@
 	pixel_y = 28
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "dd" = (
 /obj/structure/filingcabinet,
 /obj/machinery/door/window{
@@ -688,6 +689,10 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
+"dr" = (
+/mob/living/simple_animal/hostile/carp,
+/turf/open/space/basic,
+/area/space/nearstation)
 "dt" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plating,
@@ -768,7 +773,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "dW" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
@@ -895,7 +900,7 @@
 	dir = 9
 	},
 /turf/template_noop,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "eJ" = (
 /obj/machinery/light{
 	dir = 8
@@ -921,7 +926,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "eY" = (
 /obj/effect/decal/cleanable/ash/large,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "fi" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -945,8 +950,8 @@
 	pixel_y = 15;
 	pixel_x = 26
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "fl" = (
 /obj/structure/chair/stool/bar/directional/south,
 /obj/effect/turf_decal/tile/brown/opposingcorners,
@@ -1086,7 +1091,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "fM" = (
 /obj/structure/cable/yellow{
@@ -1269,7 +1274,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "gG" = (
 /obj/machinery/smartfridge/chemistry/preloaded,
@@ -1670,7 +1675,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "iL" = (
 /obj/machinery/light{
@@ -1723,7 +1728,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "jn" = (
 /obj/effect/turf_decal/stripes{
 	dir = 1;
@@ -1749,7 +1754,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 10
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/plasteel/dark/smooth/large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "jq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1859,7 +1864,7 @@
 /obj/item/storage/box/ingredients/wildcard,
 /obj/item/storage/fancy/egg_box,
 /obj/machinery/light/dim/directional/east,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "jz" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -2291,7 +2296,7 @@
 	pixel_y = 32
 	},
 /turf/closed/mineral/random,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "lJ" = (
 /obj/effect/turf_decal/tile/brown/anticorner{
 	dir = 1
@@ -2323,7 +2328,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_atmos)
 "lO" = (
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "lP" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-8"
@@ -2511,7 +2516,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "mD" = (
 /obj/effect/mob_spawn/human/corpse/damaged,
@@ -2681,7 +2686,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "ng" = (
 /turf/template_noop,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "nk" = (
 /obj/structure/window/reinforced/spawner/north,
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -2728,7 +2733,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "nt" = (
 /obj/effect/turf_decal/trimline/blue/filled/line{
@@ -2798,7 +2803,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "nU" = (
 /turf/open/floor/carpet/royalblack,
@@ -3024,8 +3029,12 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "oz" = (
-/turf/open/floor/holofloor/asteroid,
-/area/template_noop)
+/obj/machinery/porta_turret/syndicate{
+	faction = list("InteQ");
+	pixel_y = 32
+	},
+/turf/open/space/basic,
+/area/space/nearstation)
 "oB" = (
 /obj/machinery/vending/wallmed{
 	pixel_y = 29
@@ -3061,7 +3070,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "oF" = (
 /obj/structure/chair/office/light{
@@ -3125,7 +3134,7 @@
 /obj/machinery/biogenerator,
 /obj/effect/turf_decal/siding/dark,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/plasteel/dark/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "oN" = (
 /obj/structure/table/reinforced,
@@ -3214,7 +3223,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "pi" = (
 /obj/structure/cable/yellow{
@@ -3366,8 +3375,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "qa" = (
 /turf/open/floor/wood/wood_large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
@@ -3760,7 +3769,7 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/inteq_forgotten_bridge)
 "sf" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/on{
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon{
 	dir = 8;
 	id_tag = "forgotten_outpost_tox_out";
 	name = "toxin out"
@@ -3904,8 +3913,8 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "sx" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ruin/space/has_grav/inteq_forgotten_inspection)
@@ -3948,8 +3957,8 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "sD" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
 /obj/structure/cable/yellow{
@@ -4077,7 +4086,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "tL" = (
 /obj/effect/turf_decal/trimline/red/filled/corner,
@@ -4087,8 +4096,11 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
+"tS" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "tV" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks/beer,
@@ -4222,7 +4234,7 @@
 "uJ" = (
 /obj/machinery/seed_extractor,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/plasteel/dark/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "uM" = (
 /obj/structure/table/reinforced,
@@ -4288,7 +4300,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 8
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "vd" = (
 /obj/machinery/vending/boozeomat,
@@ -4424,7 +4436,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "2-8"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "vw" = (
 /obj/machinery/light{
@@ -4442,7 +4454,7 @@
 "vB" = (
 /obj/machinery/vending/sustenance,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/plasteel/dark/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "vJ" = (
 /obj/effect/decal/cleanable/blood,
@@ -4462,7 +4474,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "vM" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -4733,7 +4745,7 @@
 	dir = 8
 	},
 /obj/item/trash/pistachios,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "xj" = (
 /obj/machinery/computer/operating,
@@ -4758,7 +4770,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "xt" = (
 /obj/structure/closet/crate/secure/gear{
@@ -4805,7 +4817,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "xD" = (
 /obj/structure/table/glass,
@@ -4855,7 +4867,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/end{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/plasteel/dark/smooth/large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "xO" = (
 /obj/machinery/light/dim/directional/west,
@@ -4912,7 +4924,7 @@
 	anchored = 1
 	},
 /obj/machinery/atmospherics/components/unary/portables_connector/layer3,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "yc" = (
 /obj/machinery/light/dim/directional/east,
@@ -4932,7 +4944,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_inspection)
 "ye" = (
 /turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "yf" = (
 /obj/structure/table,
 /obj/effect/turf_decal/tile/brown/fourcorners,
@@ -4954,7 +4966,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 6
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "yi" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -5049,7 +5061,7 @@
 	},
 /obj/structure/curtain,
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "yB" = (
 /obj/machinery/door/poddoor/incinerator_syndicatelava_main,
 /turf/open/floor/engine/vacuum,
@@ -5597,7 +5609,7 @@
 "BA" = (
 /obj/machinery/hydroponics/constructable,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/textured_large,
+/turf/open/floor/plasteel/dark/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "BC" = (
 /obj/machinery/computer/message_monitor,
@@ -5608,7 +5620,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "BE" = (
 /obj/effect/turf_decal/tile/brown/anticorner{
@@ -5692,7 +5704,7 @@
 	dir = 1
 	},
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "Cd" = (
 /obj/machinery/computer/turbine_computer{
 	dir = 4;
@@ -5771,7 +5783,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Cu" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
@@ -5801,7 +5813,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "CF" = (
 /obj/structure/chair/stool/bar/directional/south,
@@ -5955,6 +5967,14 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
+"CZ" = (
+/obj/machinery/porta_turret/syndicate{
+	faction = list("InteQ");
+	pixel_x = 32;
+	pixel_y = 0
+	},
+/turf/open/floor/holofloor/asteroid,
+/area/ruin/space)
 "Dc" = (
 /obj/effect/turf_decal/bluemoon_decals/enclave/middle/right,
 /turf/open/floor/mineral/plastitanium,
@@ -5963,7 +5983,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Dh" = (
 /obj/effect/decal/cleanable/blood/footprints{
@@ -5978,7 +5998,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Di" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -6018,7 +6038,7 @@
 	},
 /obj/effect/spawner/lootdrop/prison_loot_toilet,
 /obj/structure/closet/crate/bin,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Dm" = (
 /obj/effect/turf_decal/siding/dark{
@@ -6196,7 +6216,7 @@
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/semki,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Em" = (
 /obj/structure/toilet/secret/low_loot{
@@ -6209,14 +6229,14 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "Eo" = (
 /obj/machinery/processor,
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Ep" = (
 /obj/machinery/power/smes{
@@ -6263,7 +6283,7 @@
 	},
 /obj/machinery/deepfryer,
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "EC" = (
 /obj/effect/turf_decal/stripes/line,
@@ -6300,9 +6320,12 @@
 /obj/effect/spawner/structure/window/plastitanium,
 /turf/open/floor/plasteel/damturf/platdmg1,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
+"EU" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "Fb" = (
 /obj/machinery/light,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Fc" = (
 /obj/structure/chair/sofa/corp/left,
@@ -6344,7 +6367,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "Fk" = (
 /obj/machinery/door/window{
 	dir = 1;
@@ -6373,7 +6396,7 @@
 	dir = 8;
 	layer = 2
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Fn" = (
 /obj/effect/decal/cleanable/blood,
@@ -6401,7 +6424,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "FK" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -6713,7 +6736,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Hm" = (
 /obj/structure/table/wood,
@@ -6764,7 +6787,7 @@
 	name = "Bathroom"
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "HA" = (
 /turf/closed/wall/r_wall/syndicate,
 /area/ruin/space/has_grav/inteq_forgotten_atmos)
@@ -6910,7 +6933,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot_white,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Ij" = (
 /obj/structure/sign/flag/inteq,
@@ -7004,7 +7027,7 @@
 	pixel_x = 31
 	},
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "IS" = (
 /obj/effect/turf_decal/tile/brown/half,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
@@ -7040,7 +7063,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Jc" = (
 /turf/closed/mineral/random,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "Jd" = (
 /obj/machinery/camera/xray{
 	c_tag = "Conference room";
@@ -7060,7 +7083,7 @@
 /obj/item/storage/box/beakers/bluespace,
 /obj/item/circuitboard/machine/autolathe,
 /obj/item/storage/box/rndboards,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Je" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
@@ -7104,6 +7127,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
+"Jv" = (
+/mob/living/simple_animal/hostile/carp/megacarp,
+/turf/open/space/basic,
+/area/space/nearstation)
 "Jx" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Recreation";
@@ -7132,7 +7159,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "JD" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -7200,8 +7227,8 @@
 	},
 /obj/machinery/pool/drain,
 /obj/structure/curtain,
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "JX" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -7273,7 +7300,7 @@
 	volume_rate = 200
 	},
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "Kg" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
@@ -7406,7 +7433,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 9
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/plasteel/dark/smooth/large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "KO" = (
 /obj/machinery/air_sensor{
@@ -7426,7 +7453,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = -29
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "KT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
@@ -7552,8 +7579,8 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "Ly" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 8
@@ -7616,7 +7643,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/plasteel/dark/smooth/large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "LC" = (
 /obj/machinery/door/airlock/grunge{
@@ -7705,7 +7732,7 @@
 /obj/structure/sign/poster/contraband/inteq/inteq_sign{
 	pixel_y = 32
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "LV" = (
 /obj/structure/cable{
@@ -7949,7 +7976,7 @@
 "Nc" = (
 /obj/structure/window/reinforced/spawner/east,
 /obj/structure/window/reinforced/spawner/west,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Nf" = (
 /turf/open/floor/plasteel/dark,
@@ -7967,7 +7994,7 @@
 "Nk" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "Nm" = (
 /obj/structure/table/reinforced,
 /obj/effect/turf_decal/tile/brown/fourcorners,
@@ -8044,7 +8071,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/scrubbers/hidden/layer3,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "ND" = (
 /obj/effect/turf_decal/tile/brown/half{
@@ -8170,8 +8197,8 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "Of" = (
 /obj/effect/decal/cleanable/glass,
 /obj/item/trash/semki,
@@ -8197,13 +8224,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "Os" = (
-/obj/machinery/porta_turret/syndicate{
-	dir = 5;
-	faction = list("152","neutral");
-	pixel_y = -31
-	},
-/turf/closed/mineral/random/high_chance,
-/area/ruin/unpowered/no_grav)
+/turf/open/space/basic,
+/area/space/nearstation)
 "Ow" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/network_builder/power_cable/auto,
@@ -8278,7 +8300,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 5
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "OY" = (
 /obj/structure/table/glass,
@@ -8438,7 +8460,7 @@
 /area/ruin/space/has_grav/inteq_forgotten_rnd)
 "Ql" = (
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "Qo" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -8534,7 +8556,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "QX" = (
 /obj/structure/window/reinforced/spawner,
@@ -8564,7 +8586,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-4"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Ra" = (
 /obj/effect/turf_decal/trimline/green/filled/line{
@@ -8750,7 +8772,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/components/unary/vent_pump,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "RV" = (
 /mob/living/simple_animal/hostile/carp/megacarp,
@@ -8795,7 +8817,7 @@
 	dir = 1
 	},
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "Sr" = (
 /obj/structure/dresser,
 /turf/open/floor/carpet/royalblack,
@@ -8900,7 +8922,7 @@
 "SP" = (
 /obj/effect/turf_decal/stripes/red/line,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/white/textured_large,
+/turf/open/floor/plasteel/white/textured/large,
 /area/ruin/space/has_grav/inteq_forgotten_permabrig)
 "SS" = (
 /obj/machinery/atmospherics/pipe/simple/orange,
@@ -9043,7 +9065,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "TF" = (
 /obj/machinery/door/airlock/grunge{
@@ -9066,7 +9088,7 @@
 	pixel_y = 2
 	},
 /turf/open/floor/plasteel/freezer,
-/area/ruin/space/has_grav/inteq_forgotten_outpost)
+/area/ruin/space/has_grav/inteq_forgotten_outpost/shower)
 "TL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
@@ -9153,7 +9175,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Ur" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
@@ -9422,7 +9444,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "VM" = (
 /obj/machinery/computer/arcade/tetris{
@@ -9472,7 +9494,7 @@
 	dir = 1
 	},
 /turf/template_noop,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "VY" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -9581,7 +9603,7 @@
 /obj/effect/turf_decal/trimline/yellow/filled/corner{
 	dir = 4
 	},
-/turf/open/floor/iron/dark/smooth_large,
+/turf/open/floor/plasteel/dark/smooth/large,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "WH" = (
 /obj/machinery/door/airlock/external{
@@ -9595,7 +9617,7 @@
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_outpost)
 "WJ" = (
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "WL" = (
 /obj/machinery/porta_turret/syndicate{
@@ -9603,7 +9625,7 @@
 	pixel_y = 32
 	},
 /turf/open/floor/holofloor/asteroid,
-/area/ruin/unpowered/no_grav)
+/area/ruin/space)
 "WN" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
 	dir = 8
@@ -9667,7 +9689,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 9
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Xf" = (
 /obj/effect/turf_decal/tile/brown/opposingcorners,
@@ -9872,7 +9894,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/inteq_forgotten_ship)
 "Yc" = (
 /obj/effect/turf_decal/trimline/yellow/filled/line{
@@ -9995,8 +10017,8 @@
 	faction = list("152","neutral");
 	pixel_y = -31
 	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/space/basic,
+/area/space/nearstation)
 "YH" = (
 /obj/effect/turf_decal/tile/brown/anticorner{
 	dir = 4
@@ -10164,8 +10186,8 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
-/turf/open/floor/iron/white/small,
-/area/ruin/space/has_grav/inteq_forgotten_permabrig)
+/turf/open/floor/plasteel/white/smooth/small,
+/area/ruin/space/has_grav/inteq_forgotten_permabrig/shower)
 "Zk" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Vault";
@@ -11200,8 +11222,8 @@ ye
 ye
 ye
 ye
-sz
-sz
+Os
+Os
 sz
 sz
 sz
@@ -11275,8 +11297,8 @@ ye
 Jc
 ye
 lO
-sz
-sz
+Os
+Os
 ye
 lO
 sz
@@ -11350,8 +11372,8 @@ Jc
 Jc
 ye
 lO
-sz
-sz
+Os
+Os
 ye
 lO
 sz
@@ -11425,7 +11447,7 @@ Jc
 ye
 ye
 ye
-sz
+Os
 ye
 ye
 ye
@@ -11500,10 +11522,10 @@ lO
 lO
 ye
 ye
-sz
+Os
 lO
-sz
-sz
+Os
+Os
 sz
 sz
 sz
@@ -11577,8 +11599,8 @@ lO
 lO
 lO
 lO
-sz
-sz
+Os
+Os
 sz
 sz
 sz
@@ -11635,7 +11657,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 lO
 lO
 Jc
@@ -11646,14 +11668,14 @@ lO
 lO
 lO
 lO
-lO
+CZ
 lO
 lO
 lO
 ye
 ye
 lO
-sz
+Os
 sz
 sz
 sz
@@ -11710,8 +11732,8 @@ sz
 lO
 lO
 lO
-sz
-sz
+Os
+Os
 lO
 lO
 lO
@@ -11722,13 +11744,13 @@ tH
 tH
 tH
 kw
-WL
+lO
 Jc
 Jc
 Jc
 ye
 lO
-sz
+Os
 sz
 sz
 sz
@@ -11754,29 +11776,29 @@ sz
 sz
 sz
 sz
-sz
-sz
+Os
+Os
 Kh
 Kh
 Dr
-sz
-sz
+Os
+Os
 Kh
 Kh
 Dr
-sz
-sz
+Os
+Os
 Kh
 Kh
 Dr
-sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
+Os
+Os
+Os
 lO
 lO
 lO
@@ -11798,12 +11820,12 @@ Pl
 Yp
 kw
 kw
-kw
-kw
-kw
-kw
-WP
-sz
+tS
+tS
+tS
+tS
+oz
+Os
 sz
 sz
 sz
@@ -11829,28 +11851,28 @@ sz
 sz
 sz
 sz
-sz
-sz
+Os
+Os
 Kh
 Kh
 Kh
-sz
-sz
+Os
+Os
 Kh
 Kh
 Kh
-sz
-sz
+Os
+Os
 Kh
 Kh
 Kh
-sz
-sz
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
+Os
+Os
 lO
 lO
 Jc
@@ -11873,14 +11895,14 @@ Pl
 Pl
 Pl
 dT
-kw
+tS
 Em
 yA
-kw
-sz
-sz
-sz
-sz
+tS
+Os
+Os
+Os
+Os
 ye
 ye
 sz
@@ -11904,7 +11926,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 ub
 Ed
 Ed
@@ -11920,10 +11942,10 @@ Ed
 Ed
 Ed
 ub
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
 lO
 lO
 lO
@@ -11948,13 +11970,13 @@ pq
 Nz
 Rj
 wx
-kw
+tS
 dc
 Ql
-kw
-sz
-sz
-sz
+tS
+Os
+Os
+Os
 ye
 lO
 ye
@@ -11979,7 +12001,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 Nr
 Nr
@@ -11995,9 +12017,9 @@ Nr
 Nr
 Nr
 Nr
-sz
-sz
-sz
+Os
+Os
+Os
 lO
 IP
 Oh
@@ -12023,14 +12045,14 @@ bk
 kw
 kw
 kw
-kw
-kw
+tS
+tS
 Hy
+tS
 kw
-kw
-sz
-sz
-sz
+Os
+Os
+Os
 Jc
 lO
 ye
@@ -12071,8 +12093,8 @@ Nr
 cG
 gu
 Zr
-sz
-sz
+Os
+Os
 lO
 Oh
 Oh
@@ -12103,9 +12125,9 @@ Ml
 vw
 Yp
 kw
-sz
-sz
-sz
+Os
+Os
+Os
 Jc
 Jc
 ye
@@ -12146,8 +12168,8 @@ Nr
 ur
 MO
 Nr
-sz
-sz
+Os
+Os
 lO
 Oh
 tV
@@ -12180,8 +12202,8 @@ kw
 kw
 kw
 kw
-WP
-sz
+oz
+Os
 Jc
 ye
 lO
@@ -12221,8 +12243,8 @@ Nr
 rJ
 Nr
 Nr
-sz
-sz
+Os
+Os
 lO
 Oh
 xh
@@ -12255,7 +12277,7 @@ aX
 Xm
 Sy
 tH
-sz
+Os
 Jc
 Jc
 Jc
@@ -12296,8 +12318,8 @@ Jm
 Jm
 Us
 Nr
-sz
-sz
+Os
+Os
 lO
 Oh
 BK
@@ -12330,7 +12352,7 @@ Nf
 Kk
 Ve
 tH
-sz
+Os
 lO
 Jc
 Jc
@@ -12371,8 +12393,8 @@ th
 th
 Nq
 Nr
-sz
-sz
+Os
+Os
 lO
 Oh
 uM
@@ -12405,7 +12427,7 @@ LP
 hu
 Sy
 tH
-sz
+Os
 lO
 ye
 Jc
@@ -12446,8 +12468,8 @@ bs
 bs
 qz
 UD
-sz
-sz
+Os
+Os
 lO
 Oh
 Oh
@@ -12480,8 +12502,8 @@ kw
 kw
 kw
 kw
-WP
-sz
+Os
+Os
 lO
 ye
 lO
@@ -12521,8 +12543,8 @@ Nr
 TF
 Nr
 Nr
-sz
-sz
+Os
+Os
 Sp
 Nk
 Oh
@@ -12554,10 +12576,10 @@ Pl
 Pl
 Yp
 kw
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
 ye
 lO
 "}
@@ -12596,7 +12618,7 @@ Nr
 ur
 kH
 Nr
-sz
+Os
 eG
 Cc
 Nk
@@ -12625,11 +12647,11 @@ kw
 kw
 Rf
 Pl
-kw
+tS
 Hy
-kw
-kw
-sz
+tS
+tS
+Os
 Vp
 Vp
 Vp
@@ -12671,7 +12693,7 @@ Nr
 CG
 gu
 Zr
-sz
+Os
 VX
 Nk
 Nk
@@ -12700,11 +12722,11 @@ kw
 uB
 xE
 xE
-kw
+tS
 Fj
 TJ
-kw
-sz
+tS
+Os
 XD
 XD
 XD
@@ -12729,7 +12751,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 Nr
 Nr
@@ -12745,8 +12767,8 @@ Nr
 Nr
 Nr
 Nr
-sz
-sz
+Os
+Os
 Sp
 Nk
 Nk
@@ -12775,11 +12797,11 @@ Rz
 qi
 AG
 Ml
-kw
+tS
 dU
 ay
-kw
-sz
+tS
+Os
 Jb
 kn
 kn
@@ -12804,7 +12826,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 xj
 ic
@@ -12820,7 +12842,7 @@ oe
 oe
 JD
 Nr
-sz
+Os
 lO
 Sp
 Nk
@@ -12850,10 +12872,10 @@ kw
 sG
 Pl
 Tc
-kw
-kw
-kw
-kw
+tS
+tS
+tS
+tS
 Jb
 Jb
 be
@@ -12879,7 +12901,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 Sf
 th
@@ -12895,7 +12917,7 @@ oe
 nu
 Lg
 Nr
-sz
+Os
 lO
 kw
 nl
@@ -12954,7 +12976,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 gK
 al
@@ -12970,8 +12992,8 @@ oe
 oe
 hh
 Nr
-sz
-sz
+Os
+Os
 kw
 Nf
 kw
@@ -13229,7 +13251,7 @@ Et
 ys
 OI
 Li
-oz
+lO
 VZ
 wT
 wT
@@ -13304,7 +13326,7 @@ CJ
 BC
 GQ
 Li
-oz
+lO
 VZ
 VZ
 VZ
@@ -13533,7 +13555,7 @@ WL
 lO
 lO
 ye
-sz
+Os
 sz
 "}
 (44,1,1) = {"
@@ -13554,7 +13576,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 Nr
 Bb
 Nr
@@ -13570,7 +13592,7 @@ Nr
 Nr
 Nr
 Nr
-sz
+Os
 Jc
 kw
 nb
@@ -13608,7 +13630,7 @@ lO
 lO
 ye
 ye
-sz
+Os
 sz
 "}
 (45,1,1) = {"
@@ -13629,8 +13651,8 @@ sz
 sz
 sz
 sz
-sz
-sz
+Os
+Os
 em
 Nr
 aI
@@ -13643,9 +13665,9 @@ ZU
 tf
 Dj
 Nr
-sz
-sz
-sz
+Os
+Os
+Os
 Jc
 kw
 me
@@ -13758,7 +13780,7 @@ WL
 lO
 Jc
 ye
-sz
+Os
 sz
 "}
 (47,1,1) = {"
@@ -13833,7 +13855,7 @@ lK
 mB
 Jc
 ye
-sz
+Os
 sz
 "}
 (48,1,1) = {"
@@ -13871,7 +13893,7 @@ Vt
 Ni
 xq
 Nr
-sz
+Os
 kw
 kw
 kw
@@ -13908,7 +13930,7 @@ nM
 yB
 lO
 lO
-sz
+Os
 sz
 "}
 (49,1,1) = {"
@@ -13946,7 +13968,7 @@ Nr
 OJ
 gu
 Zr
-sz
+Os
 lO
 lO
 Jc
@@ -14020,9 +14042,9 @@ xU
 Nr
 Nr
 Nr
-sz
-sz
-sz
+Os
+Os
+Os
 lO
 Jc
 Jc
@@ -14054,9 +14076,9 @@ gC
 lK
 qq
 lK
-WP
-sz
-sz
+oz
+Os
+Os
 sz
 sz
 sz
@@ -14094,10 +14116,10 @@ Pf
 NT
 Nr
 Zr
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
 lO
 Jc
 Jc
@@ -14168,12 +14190,12 @@ li
 li
 li
 gu
-sz
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
+Os
 lO
 Jc
 Jc
@@ -14204,8 +14226,8 @@ Kd
 lO
 lO
 lO
-sz
-sz
+Os
+Os
 sz
 sz
 sz
@@ -14242,14 +14264,14 @@ sz
 sz
 sz
 sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
+Os
+Os
+Os
 lO
 Jc
 Jc
@@ -14278,9 +14300,9 @@ gb
 gb
 gb
 gb
-DI
-sz
-sz
+dr
+Os
+Os
 sz
 sz
 sz
@@ -14317,15 +14339,15 @@ sz
 sz
 sz
 sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
+Os
+Os
+Os
+Os
 lO
 lO
 Jc
@@ -14355,7 +14377,7 @@ io
 gb
 lO
 lO
-sz
+Os
 sz
 sz
 sz
@@ -14393,15 +14415,15 @@ sz
 sz
 sz
 Jc
-sz
+Os
 lO
 Jc
 ye
-sz
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
+Os
 lO
 lO
 sx
@@ -14475,10 +14497,10 @@ ye
 Jc
 Jc
 lO
-sz
-sz
-sz
-sz
+Os
+Os
+Os
+Os
 sx
 Kc
 Lz
@@ -14551,9 +14573,9 @@ ye
 ye
 ye
 ye
-sz
-sz
-sz
+Os
+Os
+Os
 sx
 ep
 zu
@@ -14627,7 +14649,7 @@ ye
 Jc
 Jc
 ye
-sz
+Os
 YG
 sx
 sx
@@ -14702,9 +14724,9 @@ Jc
 Jc
 Jc
 Jc
-sz
-RV
-sz
+Os
+Jv
+Os
 sx
 St
 lk
@@ -14730,8 +14752,8 @@ Ek
 jq
 gb
 ye
-sz
-sz
+Os
+Os
 sz
 sz
 sz
@@ -14779,7 +14801,7 @@ sz
 sz
 sz
 sz
-sz
+Os
 sx
 nm
 nm
@@ -14860,10 +14882,10 @@ OA
 nm
 nm
 sx
-gb
+EU
 JW
 sw
-gb
+EU
 rF
 xv
 gb
@@ -14935,10 +14957,10 @@ sx
 sx
 GE
 sx
-gb
+EU
 Zj
 Od
-gb
+EU
 YU
 db
 oL
@@ -15009,8 +15031,8 @@ Jc
 ye
 ye
 lO
-sz
-gb
+Os
+EU
 sC
 pX
 jf
@@ -15081,14 +15103,14 @@ sz
 sz
 Jc
 Jc
-sz
-sz
-sz
-sz
-gb
+Os
+Os
+Os
+Os
+EU
 Lp
 fk
-gb
+EU
 Dl
 cl
 EA
@@ -15155,15 +15177,15 @@ sz
 sz
 sz
 sz
-sz
-sz
-sz
-sz
-sz
-gb
-gb
-gb
-gb
+Os
+Os
+Os
+Os
+YG
+EU
+EU
+EU
+EU
 Ii
 rQ
 ch
@@ -15179,9 +15201,9 @@ GG
 Mj
 Hg
 gb
-sz
-RV
-sz
+Os
+Jv
+Os
 sz
 sz
 sz
@@ -15232,9 +15254,9 @@ sz
 sz
 sz
 sz
-sz
-sz
-ba
+Os
+Os
+ng
 Jc
 Jc
 Jc
@@ -15308,11 +15330,11 @@ sz
 sz
 sz
 sz
-sz
-sz
+Os
+Os
 ng
 Jc
-Os
+ye
 gb
 gb
 gb
@@ -15328,7 +15350,7 @@ AT
 Mn
 gb
 Jc
-sz
+Os
 ye
 lO
 sz
@@ -15388,7 +15410,7 @@ sz
 ng
 ng
 lO
-lO
+ba
 ye
 ye
 RV

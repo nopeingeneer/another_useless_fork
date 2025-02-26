@@ -177,11 +177,12 @@
 	vend_reply = "Спасибо за использование AtmosDrobe!"
 	products = list(/obj/item/clothing/accessory/pocketprotector = 3,
 					/obj/item/clothing/head/beret/atmos = 3,
-					/obj/item/storage/backpack/industrial = 3,
-					/obj/item/storage/backpack/satchel/eng = 3,
-					/obj/item/storage/backpack/duffelbag/engineering = 3,
+					/obj/item/storage/backpack/atmospheric = 3,
+					/obj/item/storage/backpack/satchel/atmospheric = 3,
+					/obj/item/storage/backpack/duffelbag/atmospheric = 3,
 					/obj/item/clothing/head/hardhat/weldhat/dblue = 3,
 					/obj/item/clothing/suit/hooded/wintercoat/engineering/atmos = 3,
+					/obj/item/toy/plush/bm/atmosian = 1,
 					/obj/item/clothing/under/rank/engineering/atmospheric_technician = 5,
 					/obj/item/clothing/under/rank/engineering/atmospheric_technician/skirt = 5,
 					/obj/item/clothing/shoes/sneakers/black = 5)
@@ -789,7 +790,7 @@
 		/obj/item/clothing/head/maid/syndicate/civil = 5,
 		/obj/item/clothing/head/helmet/swat/ds/civil = 5,
 		/obj/item/clothing/head/hats/warden/syndicate/civil = 5,
-		/obj/item/card/id/syndicate/civilian/vending = 5
+		/obj/item/card/id/callsign = 5
 	)
 	refill_canister = /obj/item/vending_refill/wardrobe/syndie_wardrobe/civil
 	light_color = COLOR_MOSTLY_PURE_RED

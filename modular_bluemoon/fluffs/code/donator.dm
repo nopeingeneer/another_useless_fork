@@ -68,7 +68,7 @@
 /datum/gear/donator/bm/gaston
 	name = "Gaston"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/chaotic_toaster/gaston
+	path = /obj/item/toy/plush/bm/gaston
 	ckeywhitelist = list("gastonix")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
@@ -321,7 +321,7 @@
 	name = "Tratch Patch"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/accessory/tratch_patch
-	ckeywhitelist = list("fryktik", "hazzi", "targon38", "ghos7ik")
+	ckeywhitelist = list("fryktik", "hazzi", "targon38", "ghos7ik", "devildeadspace", "trora", "happycrab")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/SH_jacket
@@ -341,28 +341,28 @@
 /datum/gear/donator/bm/emma_plush
 	name = "Emma Plush"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/mammal/fox/emma
+	path = /obj/item/toy/plush/bm/emma
 	ckeywhitelist = list("vulpshiro", "dolbajob", "ordinarylife")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/shiro_plush
 	name = "Shiro Plush"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/mammal/fox/emma/shiro
+	path = /obj/item/toy/plush/bm/emma/shiro
 	ckeywhitelist = list("vulpshiro", "dolbajob", "ordinarylife")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/raita_plush
 	name = "Raita Plush"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/mammal/fox/emma/raita
+	path = /obj/item/toy/plush/bm/emma/raita
 	ckeywhitelist = list("vulpshiro", "dolbajob", "ordinarylife")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/who_plush
 	name = "Security Officer Plush"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/nukeplushie/who
+	path = /obj/item/toy/plush/bm/who
 	ckeywhitelist = list("stgs")
 	subcategory = LOADOUT_SUBCATEGORIES_DON04
 
@@ -426,7 +426,7 @@
 /datum/gear/donator/bm/omega_plushie
 	name = "Omega Plushie"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/nukeplushie/omega
+	path = /obj/item/toy/plush/bm/omega
 	ckeywhitelist = list("malopharan")
 	subcategory = LOADOUT_SUBCATEGORIES_DON04
 
@@ -468,7 +468,7 @@
 /datum/gear/donator/bm/vance_plush
 	name = "Vance Plush"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/sergal/judas/vance
+	path = /obj/item/toy/plush/bm/judas/vance
 	ckeywhitelist = list("littlemouse2729")
 	subcategory = LOADOUT_SUBCATEGORIES_DON04
 
@@ -698,7 +698,7 @@
 /datum/gear/donator/bm/Doctor_K
 	name = "Doctor K plushie"
 	slot = ITEM_SLOT_BACKPACK
-	path = /obj/item/toy/plush/doctor_k
+	path = /obj/item/toy/plush/bm/doctor_k
 	ckeywhitelist = list("sanecman")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
@@ -790,7 +790,7 @@
 	name = "Acrador kit"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/storage/box/acrador_kit
-	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig")
+	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig", "omantis")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
 /datum/gear/donator/bm/goal
@@ -804,7 +804,7 @@
 	name = "R-HSA-12"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/head/helmet/sec/rhsa12
-	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig")
+	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig", "omantis")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 	restricted_desc = "Head of Security, Warden, Detective, Security Officer, Brig Physician, Peacekeeper, Blueshield."
 	restricted_roles = list("Head of Security", "Warden", "Detective", "Security Officer", "Brig Physician", "Peacekeeper", "Blueshield")
@@ -813,7 +813,7 @@
 	name = "R-SA-12"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/suit/armor/rsa12
-	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig")
+	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig", "omantis")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 	restricted_desc = "Head of Security, Warden, Detective, Security Officer, Brig Physician, Peacekeeper, Blueshield."
 	restricted_roles = list("Head of Security", "Warden", "Detective", "Security Officer", "Brig Physician", "Peacekeeper", "Blueshield")
@@ -822,7 +822,7 @@
 	name = "Underarmor suit"
 	slot = ITEM_SLOT_BACKPACK
 	path = /obj/item/clothing/under/rank/security/officer/acradorsuit
-	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig")
+	ckeywhitelist = list("someoldvg", "enigma418", "flippingtable", "allazarius", "trora", "siamant", "mihana964", "wangig", "omantis")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 	restricted_desc = "Head of Security, Warden, Detective, Security Officer, Brig Physician, Peacekeeper, Blueshield."
 	restricted_roles = list("Head of Security", "Warden", "Detective", "Security Officer", "Brig Physician", "Peacekeeper", "Blueshield")
@@ -1083,3 +1083,163 @@
     path = /obj/item/clothing/suit/donator/bm/agentcape
     ckeywhitelist = list("sosnovskii")
     subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/kladmen_panties
+    name = "Panties"
+    slot = ITEM_SLOT_OCLOTHING
+    path = /obj/item/clothing/underwear/briefs/kladmen_panties
+    ckeywhitelist = list("kladmenuwu")
+    subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/kladmen_bra
+    name = "Bra - A bra"
+    slot = ITEM_SLOT_OCLOTHING
+    path = /obj/item/clothing/underwear/shirt/bra/kladmen_bra
+    ckeywhitelist = list("kladmenuwu")
+    subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/f_haori
+	name = "Flaming Haori"
+	slot = ITEM_SLOT_NECK
+	path = /obj/item/clothing/neck/tie/f_haori
+	ckeywhitelist = list ("romontesque")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/SMART_fabric_boatcloak
+	name = "SMART-fabric boatcloak"
+	slot = ITEM_SLOT_NECK
+	path = /obj/item/clothing/neck/SMART_fabric_boatcloak
+	ckeywhitelist = list("kijoking")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/famas098_NoirSuitskirt
+	name = "Noir suitskirt"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/rank/security/detective/grey/skirt/no_armor
+	ckeywhitelist = list("famas098")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/letuale
+	name = "Элегантное красное платье"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/rank/civilian/ElegantRedDress
+	ckeywhitelist = list("loonel")
+
+/datum/gear/donator/bm/papermaskunderhair
+	name = "The paper mask"
+	slot = ITEM_SLOT_MASK
+	path = /obj/item/clothing/mask/paper/underhair
+	ckeywhitelist = list("kijoking")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/sierra_shock_collar
+	name = "Shock Collar"
+	slot = ITEM_SLOT_POCKETS
+	path = /obj/item/electropack/shockcollar
+	ckeywhitelist = list("sierraiv")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/sierra_remotecontrol
+	name = "remote signaling device"
+	slot = ITEM_SLOT_POCKETS
+	path = /obj/item/assembly/signaler
+	ckeywhitelist = list("sierraiv")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/lurban_misteran
+	name = "urban camouflage uniform"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/donator/bm/urban_misteran
+	ckeywhitelist = list("misteran")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/SyndAngelicJaket
+	name = "Angelic-made Syndicate parade Jacket"
+	slot = ITEM_SLOT_OCLOTHING
+	path = /obj/item/clothing/suit/donator/bm/SyndAngelicJaket
+	ckeywhitelist = list("akiyamagw")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/royal_hunters
+	name = "Royal hunters hat"
+	slot = ITEM_SLOT_HEAD
+	path = /obj/item/clothing/head/donator/bm/royal_hunters
+	ckeywhitelist = list("gisya")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/angel_vulgar_dress
+	name = "Angelic Vulgar Dress"
+	slot = ITEM_SLOT_UNDERWEAR
+	path = /obj/item/clothing/under/bm/angelrevskirt
+	ckeywhitelist = list("angrylaska")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/ghotic_vulgar_dress
+	name = "Ghotic Vulgar Dress"
+	slot = ITEM_SLOT_UNDERWEAR
+	path = /obj/item/clothing/under/bm/gothrevskirt
+	ckeywhitelist = list("angrylaska")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/prisoner
+	name = "prison jumpsuit"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/rank/prisoner
+	ckeywhitelist = list("borisovych")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/borisovych_SecurityJumpskirt
+	name = "security jumpskirt"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/rank/security/officer/skirt/no_armor
+	ckeywhitelist = list("borisovych")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_tailbow
+	name = "tailbow"
+	path = /obj/item/clothing/wrists/donator/bm/savannah_tailbow
+	ckeywhitelist = list("n1ght1ngale", "winterschock")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_piercing
+	name = "piercings and bracers"
+	path = /obj/item/clothing/underwear/socks/savannah_piercing
+	ckeywhitelist = list("n1ght1ngale")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_boots
+	name = "Archangel Group boots"
+	path = /obj/item/clothing/shoes/archangel_boots
+	ckeywhitelist = list("n1ght1ngale")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_sleepwear
+	name = "sleepwear"
+	path = /obj/item/clothing/underwear/shirt/toggle/savannah_sleepwear
+	ckeywhitelist = list("n1ght1ngale")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_z_turtleneck
+	name = "Archangel Group turtleneck"
+	path = /obj/item/clothing/under/donator/bm/archangel_turtleneck
+	ckeywhitelist = list("n1ght1ngale")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/savannah_plusie
+	name = "Plushy Savannah"
+	path = /obj/item/toy/plush/bm/plushy_savannah
+	ckeywhitelist = list("n1ght1ngale")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
+
+/datum/gear/donator/bm/tavern_skirt
+	name = "Tavern skirt"
+	slot = ITEM_SLOT_ICLOTHING
+	path = /obj/item/clothing/under/donator/bm/tavern_skirt
+	ckeywhitelist = list("fedor1545")
+	subcategory = LOADOUT_SUBCATEGORIES_DON04
+
+/datum/gear/donator/bm/elf_bottle
+	name = "Potion bottle"
+	path = /obj/item/reagent_containers/glass/beaker/elf_bottle
+	ckeywhitelist = list("fedor1545")
+	subcategory = LOADOUT_SUBCATEGORIES_DON04

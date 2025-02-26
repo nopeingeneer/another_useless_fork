@@ -28,7 +28,7 @@
 				/obj/item/canvas/twentyfour_twentyfour = 5,
 				/obj/item/canvas/twentythreeXnineteen = 5,
 				/obj/item/canvas/twentythreeXtwentythree = 5,
-				/obj/item/wallframe/painting/ = 5,
+				/obj/item/wallframe/painting = 5,
 			),
 		),
 		list(
@@ -45,19 +45,50 @@
 				/obj/item/storage/dice = 10,
 				/obj/item/toy/prizeball/therapy = 6,
 				/obj/item/tvcamera = 3,
+				/obj/item/toy/nyamagotchi = 10,
+				/obj/item/gun/ballistic/revolver/russian/lewd = 5,
 			),
 		),
+		list(
+			"name" = "cosmetic",
+			"icon" = "theater-masks",
+			"products" = list(
+				/obj/item/lipstick/white = 5,
+				/obj/item/lipstick = 5,
+				/obj/item/lipstick/purple = 5,
+				/obj/item/lipstick/jade = 5,
+				/obj/item/lipstick/black = 5,
+				/obj/item/lipstick/yellow = 5,
+				/obj/item/lipstick/blue = 5,
+				/obj/item/lipstick/teal = 5,
+				/obj/item/lipstick/fuchsia = 5,
+				/obj/item/lipstick/navy = 5,
+				/obj/item/lipstick/aqua = 5,
+				/obj/item/lipstick/white = 5,
+				/obj/item/nailpolish/red = 5,
+				/obj/item/nailpolish/blue = 5,
+				/obj/item/nailpolish/aqua = 5,
+				/obj/item/nailpolish/black = 5,
+				/obj/item/nailpolish/white = 5,
+				/obj/item/nailpolish/navy = 5,
+				/obj/item/nailpolish/yellow = 5,
+				/obj/item/nailpolish/purple = 5,
+			),
+		)
 	)
 	contraband = list(
 		/obj/item/dice/fudge = 9,
 		/obj/item/cardpack/syndicate = 10,
 		/obj/item/clothing/shoes/wheelys = 4,
-//		/obj/item/gun/ballistic/revolver/russian = 1, //the most dangerous game
+		/obj/item/gun/ballistic/revolver/russian = 1,
 	)
 	premium = list(
 		/obj/item/disk/holodisk = 5,
-//		/obj/item/rcl = 2,
+		/obj/item/rcl = 2,
 		/obj/item/airlock_painter = 1,
+		/obj/item/pipe_painter = 1,
+		/obj/item/airlock_painter/decal = 1,
+		/obj/item/airlock_painter/decal/tile = 1,
 		/obj/item/melee/skateboard/pro = 3,
 		/obj/item/melee/skateboard/hoverboard = 1,
 	)

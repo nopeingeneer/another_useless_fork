@@ -143,7 +143,7 @@
 	// BLUEMOON ADDITION AHEAD - стул ломается при попытке сесть на него сверхтяжёлым персонажем
 	if(HAS_TRAIT(M, TRAIT_BLUEMOON_HEAVY_SUPER))
 		visible_message(span_warning("[src] buckles under the weight of [M] causing it to break!"))
-		playsound(src, 'modular_bluemoon/heavy_and_superheavy_quirks/chair_break.ogg', 70, TRUE)
+		playsound(src, 'modular_bluemoon/sound/effects/chair_break.ogg', 70, TRUE)
 		unbuckle_mob(M, TRUE)
 		deconstruct(FALSE)
 	// BLUEMOON ADDITION END
@@ -287,7 +287,6 @@
 	name = "stool"
 	desc = "Apply butt."
 	icon_state = "stool"
-	can_buckle = 0
 	buildstackamount = 1
 	item_chair = /obj/item/chair/stool
 

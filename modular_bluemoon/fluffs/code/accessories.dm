@@ -96,6 +96,16 @@
 
 ////////////////////////
 
+/obj/item/clothing/neck/tie/f_haori
+	name = "Flaming Haori"
+	desc = "A white haori with a flaming pattern on the end. It seems to radiate heat and energy."
+	icon = 'modular_bluemoon/fluffs/icons/obj/clothing/accessories.dmi'
+	mob_overlay_icon = 'modular_bluemoon/fluffs/icons/mob/clothing/accessories.dmi'
+	icon_state = "f_haori"
+	item_state = "f_haori"
+
+////////////////////////
+
 /obj/item/clothing/neck/tie/oftok
 	name = "Holographical Token"
 	desc = "A strange holographic token made of strong material to mark something."
@@ -197,3 +207,12 @@
 	mob_overlay_icon = 'modular_bluemoon/fluffs/icons/mob/clothing/accessories.dmi'
 	icon_state = "shoulder_coat"
 	item_state = "shoulder_coat"
+
+/obj/item/clothing/underwear/socks/savannah_piercing
+	name = "piercings and bracers"
+	desc = "A gold piercings and bracers."
+	icon = 'modular_bluemoon/fluffs/icons/obj/clothing/accessories.dmi'
+	mob_overlay_icon = 'modular_bluemoon/fluffs/icons/mob/clothing/accessories.dmi'
+	icon_state = "pier"
+	slot_flags = ITEM_SLOT_SOCKS
+	body_parts_covered = 0
