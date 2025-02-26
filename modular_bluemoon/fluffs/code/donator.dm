@@ -1122,7 +1122,7 @@
 /datum/gear/donator/bm/letuale
 	name = "Элегантное красное платье"
 	slot = ITEM_SLOT_ICLOTHING
-	path = /obj/item/clothing/under/rank/civilian/ElegantRedDress
+	path = /obj/item/clothing/under/donator/bm/ElegantRedDress
 	ckeywhitelist = list("loonel")
 
 /datum/gear/donator/bm/papermaskunderhair
@@ -1231,6 +1231,12 @@
 	ckeywhitelist = list("n1ght1ngale")
 	subcategory = LOADOUT_SUBCATEGORIES_DON02
 
+/datum/gear/donatom/bm/pet_jruttie
+	name = "Jruttie Cat"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/choice_beacon/pet/jruttie
+	ckeywhitelist = list("scramblescream", "nai1ten")
+
 /datum/gear/donator/bm/tavern_skirt
 	name = "Tavern skirt"
 	slot = ITEM_SLOT_ICLOTHING
@@ -1243,3 +1249,10 @@
 	path = /obj/item/reagent_containers/glass/beaker/elf_bottle
 	ckeywhitelist = list("fedor1545")
 	subcategory = LOADOUT_SUBCATEGORIES_DON04
+
+/datum/gear/donator/bm/wh_kit
+	name = "A box of Unholy Armor"
+	slot = ITEM_SLOT_BACKPACK
+	path = /obj/item/storage/box/donator/bm/wh_kit
+	ckeywhitelist = list("darksungwyndolin")
+	subcategory = LOADOUT_SUBCATEGORIES_DON02
