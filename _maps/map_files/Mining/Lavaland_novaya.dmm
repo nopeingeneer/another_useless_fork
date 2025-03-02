@@ -3601,9 +3601,6 @@
 /turf/open/floor/plasteel/white,
 /area/mine/xenoarch_area_c)
 "dbw" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 5
-	},
 /turf/open/pool,
 /area/ruin/lavaland/unpowered/deepspaceone/comms_officer/shower)
 "dbH" = (
@@ -4073,12 +4070,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
-"dwo" = (
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 10
-	},
-/turf/open/pool,
-/area/ruin/lavaland/unpowered/deepspaceone/comms_officer/shower)
 "dwy" = (
 /obj/structure/flora/rock/icy,
 /turf/open/floor/grass/grass0,
@@ -23556,9 +23547,6 @@
 /area/ruin/lavaland/unpowered/deepspaceone/main)
 "udn" = (
 /obj/structure/pool/ladder,
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 9
-	},
 /turf/open/pool,
 /area/ruin/lavaland/unpowered/deepspaceone/comms_officer/shower)
 "udq" = (
@@ -26140,9 +26128,6 @@
 /obj/machinery/pool/drain{
 	pixel_x = -17;
 	pixel_y = 17
-	},
-/obj/effect/turf_decal/trimline/brown/filled/line{
-	dir = 6
 	},
 /turf/open/pool,
 /area/ruin/lavaland/unpowered/deepspaceone/comms_officer/shower)
@@ -103295,7 +103280,7 @@ pDw
 dbH
 ttB
 udn
-dwo
+dbw
 uls
 wAW
 eKp
