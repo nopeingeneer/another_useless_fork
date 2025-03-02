@@ -4628,6 +4628,7 @@
 #include "modular_bluemoon\krashly\code\uplink\uplink.dm"
 #include "modular_bluemoon\krashly\code\uplink\uplink_items.dm"
 #include "modular_bluemoon\krashly\modulars\clownfart\code.dm"
+#include "modular_bluemoon\nopeingeneer\code\advanced_disks.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\blackopsgear.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\emotes.dm"
 #include "modular_bluemoon\olgachan\blackmesafromnova\code\floormesa.dm"

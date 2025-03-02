@@ -113151,9 +113151,6 @@
 	},
 /turf/open/floor/plating/beach/sand,
 /area/hallway/primary/fore)
-"ufw" = (
-/turf/open/floor/plasteel,
-/area/icemoon/surface/outdoors)
 "ufA" = (
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
@@ -235029,7 +235026,7 @@ uuB
 dXi
 uuB
 dXi
-ufw
+xbk
 hpX
 veP
 tCu
@@ -236314,7 +236311,7 @@ oAu
 hem
 ltA
 fYx
-ufw
+xbk
 mbi
 tCu
 vyR

@@ -140,7 +140,7 @@
 	dir = 10;
 	level = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "aK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer3{
@@ -173,7 +173,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "aT" = (
 /obj/structure/disposalpipe/segment,
@@ -336,7 +336,7 @@
 	light_color = "#e8eaff"
 	},
 /obj/item/lightreplacer,
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "bG" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
@@ -530,7 +530,7 @@
 	dir = 8;
 	level = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "cy" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -598,7 +598,7 @@
 	dir = 4;
 	level = 1
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "cW" = (
 /obj/structure/sink/kitchen/directional/east,
@@ -824,10 +824,10 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "eA" = (
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "eK" = (
 /obj/machinery/vending/games{
@@ -4903,7 +4903,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "HL" = (
 /obj/structure/sign/directions/science{
@@ -7428,7 +7428,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
 	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "XV" = (
 /obj/structure/window/reinforced/survival_pod{
