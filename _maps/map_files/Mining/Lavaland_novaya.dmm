@@ -17537,7 +17537,6 @@
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors)
 "oFx" = (
-/obj/machinery/porta_turret/syndicate,
 /turf/closed/wall/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "oFR" = (
@@ -20228,10 +20227,15 @@
 /turf/open/floor/carpet/royalblue,
 /area/mine/storage)
 "rcM" = (
-/obj/machinery/porta_turret/syndicate,
-/obj/machinery/porta_turret/syndicate,
-/turf/closed/wall/mineral/plastitanium,
-/area/ruin/lavaland/unpowered/deepspaceone/main)
+/obj/machinery/suit_storage_unit/syndicate/cybersun,
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ruin/lavaland/unpowered/deepspaceone/armory)
 "rdh" = (
 /obj/item/pickaxe,
 /obj/structure/stone_tile/cracked{
@@ -20652,10 +20656,12 @@
 /turf/open/indestructible/boss,
 /area/lavaland/necropolis)
 "rvd" = (
-/obj/machinery/power/apc/auto_name/north,
-/obj/machinery/power/apc/auto_name/north,
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/lavaland/unpowered)
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/lavaland/unpowered/deepspaceone/armory)
 "rvu" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
@@ -20707,6 +20713,12 @@
 /obj/effect/turf_decal/bot_white,
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
+"rwQ" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "rxk" = (
 /obj/structure/grille/broken,
 /turf/open/floor/plating,
@@ -25894,9 +25906,11 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wnV" = (
-/obj/machinery/power/apc/auto_name/north,
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/lavaland/unpowered)
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wnZ" = (
 /obj/structure/sign/directions/supply{
 	dir = 1;
@@ -98391,7 +98405,7 @@ llq
 dee
 dee
 dee
-rvd
+tfw
 tfw
 sjX
 dbH
@@ -98666,7 +98680,7 @@ oGb
 hMM
 bmm
 giZ
-dmN
+rvd
 myb
 bmm
 gGk
@@ -99162,7 +99176,7 @@ llq
 dee
 dee
 dee
-wnV
+tfw
 tfw
 dbH
 goM
@@ -100465,7 +100479,7 @@ dHj
 eyB
 bmm
 qdd
-qdd
+rcM
 qdd
 bmm
 cMu
@@ -102008,7 +102022,7 @@ cjc
 jaC
 hqF
 wNw
-oUQ
+sdp
 tfw
 hNp
 kix
@@ -114626,12 +114640,12 @@ tfw
 tfw
 tfw
 tfw
-fES
-fES
-fES
-fES
-fES
-fES
+rwQ
+wnV
+wnV
+wnV
+wnV
+wnV
 tru
 tru
 tru
@@ -114892,7 +114906,7 @@ tfw
 tfw
 tfw
 tfw
-rcM
+atc
 tfw
 tfw
 tfw

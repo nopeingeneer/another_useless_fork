@@ -159,13 +159,13 @@
 	H.faction |= ROLE_SYNDICATE
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/shaft
-	name = "Syndicate Shaft-Miner Specialist"
+	name = "Syndicate Security Specialist"
 	roundstart = FALSE
 	death = FALSE
-	job_description = "Syndicate Shaft-Miner Specialist"
+	job_description = "Syndicate Security Specialist"
 	icon = 'icons/obj/machines/sleeper.dmi'
 	icon_state = "sleeper_s"
-	short_desc = "Вы Шахтёр Синдиката, работающий на Аванпосту Лаваленда и изучающий аномальное поле Системы Синих Лун. Вы второй по главенству оперативник после Специалиста Прослушки на Дюне и исполняете роль офицера."
+	short_desc = "Вы Специалист по обеспечению безопасности Синдиката, работающий на Аванпосту Лаваленда и изучающий аномальное поле Системы Синих Лун. Вы второй по главенству оперативник после Специалиста Прослушки на Дюне."
 	flavour_text = "К сожалению это или к счастью, но сотрудники вашего партнёра, Nanotrasen, начали добычу полезных ископаемых в этом секторе. Продолжайте свои исследования как можно лучше и старайтесь особо не высовываться, и не провоцировать этих же самых сотрудников."
 	important_info = "Вы не антагонист."
 	outfit = /datum/outfit/lavaland_syndicate/shaft
@@ -174,8 +174,8 @@
 	loadout_enabled = TRUE
 
 /datum/outfit/lavaland_syndicate/shaft
-	name = "Syndicate Shaft-Miner Specialist"
-	name = "Syndicate Shaft-Miner Specialist"
+	name = "Syndicate Security Specialist"
+	name = "Syndicate Security Specialist"
 	r_hand = /obj/item/melee/transforming/energy/sword/saber
 	uniform = /obj/item/clothing/under/syndicate
 	suit = /obj/item/clothing/suit/armor/vest
@@ -185,7 +185,7 @@
 	ears = /obj/item/radio/headset/ds1
 	back = /obj/item/storage/backpack/duffelbag/syndie
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol
-	id = /obj/item/card/id/syndicate/anyone
+	id = /obj/item/card/id/syndicate/anyone/shaft
 	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/anchor, /obj/item/implant/deathrattle/deepspacecrew)
 
 /obj/effect/mob_spawn/human/lavaland_syndicate/comms
