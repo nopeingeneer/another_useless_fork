@@ -778,13 +778,13 @@
 	name = "storage marker"
 	},
 /obj/machinery/door/airlock/hatch/syndicate,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "glacier_rbmk"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "aJQ" = (
@@ -5814,15 +5814,6 @@
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
 	},
-/obj/item/storage/firstaid/regular{
-	pixel_x = -3;
-	pixel_y = -3
-	},
-/obj/item/storage/firstaid/brute,
-/obj/item/storage/firstaid/fire{
-	pixel_x = 3;
-	pixel_y = 3
-	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "fbN" = (
@@ -9126,6 +9117,7 @@
 	pixel_y = 24
 	},
 /obj/effect/turf_decal/bot,
+/obj/structure/tank_dispenser,
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "hTY" = (
@@ -11956,10 +11948,10 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "glacier_rbmk"
-	},
 /obj/machinery/door/airlock/hatch/syndicate,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "kvU" = (
@@ -13482,6 +13474,12 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/stockparts/deluxe,
 /obj/item/storage/box/stockparts/deluxe,
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = -5
+	},
+/obj/item/tank/internals/emergency_oxygen/double{
+	pixel_x = 4
+	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "lEh" = (
@@ -19574,10 +19572,8 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/delivery/white,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "glacier_rbmk"
-	},
 /obj/machinery/door/airlock/hatch/syndicate,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "qDk" = (
@@ -20630,13 +20626,13 @@
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "ruC" = (
 /obj/machinery/door/airlock/hatch,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper_multi{
-	cycle_id = "glacier_rbmk"
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
 /obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "ruN" = (
@@ -22771,6 +22767,15 @@
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
 "ttd" = (
 /obj/structure/closet/wall/white/med,
+/obj/item/storage/firstaid/fire{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/firstaid/brute,
+/obj/item/storage/firstaid/regular{
+	pixel_x = -3;
+	pixel_y = -3
+	},
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "tte" = (
@@ -98412,13 +98417,13 @@ dbH
 dbH
 dbH
 dbH
+oUQ
 sdp
 sdp
 sdp
 sdp
 sdp
-sdp
-sdp
+oUQ
 sdp
 sdp
 bmm
