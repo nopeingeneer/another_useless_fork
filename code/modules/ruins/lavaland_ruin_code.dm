@@ -150,7 +150,7 @@
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	ears = /obj/item/radio/headset/ds1
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol
 	id = /obj/item/card/id/syndicate/anyone
 	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/anchor, /obj/item/implant/deathrattle/deepspacecrew)

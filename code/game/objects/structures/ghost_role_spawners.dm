@@ -1464,7 +1464,7 @@
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	ears = /obj/item/radio/headset/ds2
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/crowbar/red = 1,
@@ -1477,7 +1477,7 @@
 	name = "DS-2 Mining Officer"
 	uniform = /obj/item/clothing/under/syndicate/overalls
 	belt = /obj/item/storage/bag/ore
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/crowbar/red = 1,
@@ -1498,7 +1498,7 @@
 /datum/outfit/ds2/syndicate/service
 	name = "DS-2 General Staff"
 	uniform = /obj/item/clothing/under/syndicate
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	suit = /obj/item/clothing/suit/apron/chef
 	head = /obj/item/clothing/head/soft/mime
 	id = /obj/item/card/id/syndicate/advanced/black/general
@@ -1512,7 +1512,7 @@
 	name = "DS-2 Engine Technician"
 	uniform = /obj/item/clothing/under/syndicate/overalls
 	head = /obj/item/clothing/head/soft/sec/syndicate
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		)
@@ -1534,7 +1534,7 @@
 	suit = /obj/item/clothing/suit/toggle/labcoat/science
 	glasses = /obj/item/clothing/glasses/science
 	gloves = /obj/item/clothing/gloves/color/black
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	id = /obj/item/card/id/syndicate/advanced/black/researcher
 	id_trim = /datum/id_trim/syndicom/ds2/researcher
 
@@ -1548,7 +1548,7 @@
 	suit = /obj/item/clothing/suit/toggle/labcoat/syndicate
 	belt = /obj/item/storage/belt/medolier/full
 	gloves = /obj/item/clothing/gloves/color/latex/nitrile/hsc
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	id_trim = /datum/id_trim/syndicom/ds2/medicalofficer
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
@@ -1565,7 +1565,7 @@
 	uniform = /obj/item/clothing/under/syndicate/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	suit = /obj/item/clothing/suit/armor/bulletproof/old
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	head = /obj/item/clothing/head/helmet/swat/ds
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
 	r_pocket = /obj/item/flashlight/seclite
@@ -1589,7 +1589,7 @@
 	uniform = /obj/item/clothing/under/syndicate
 	shoes = /obj/item/clothing/shoes/combat
 	ears = /obj/item/radio/headset/ds2/command
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	backpack_contents = list(
 		/obj/item/storage/box/survival = 1,
 		/obj/item/crowbar/red = 1,
@@ -1609,7 +1609,7 @@
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
 	suit = /obj/item/clothing/suit/armor/vest/warden/syndicate
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	head = /obj/item/clothing/head/HoS/beret/syndicate
 	r_pocket = /obj/item/flashlight/seclite
 	implants = list(
@@ -1629,7 +1629,7 @@
 	uniform = /obj/item/clothing/under/syndicate/sniper
 	head = /obj/item/clothing/head/fedora
 	shoes = /obj/item/clothing/shoes/laceup
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	id_trim = /datum/id_trim/syndicom/ds2/corporateliasion
 	id = /obj/item/card/id/syndicate/advanced/black/command/corporateliaison
 
@@ -1645,7 +1645,7 @@
 	mask = /obj/item/clothing/mask/chameleon
 	shoes = /obj/item/clothing/shoes/combat
 	gloves = /obj/item/clothing/gloves/tackler/combat/insulated
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	l_pocket = /obj/item/melee/transforming/energy/sword/saber
 	r_pocket = /obj/item/gun/ballistic/automatic/pistol
 	implants = list(/obj/item/implant/weapons_auth)
@@ -1662,7 +1662,7 @@
 	uniform = /obj/item/clothing/under/rank/captain/utility/syndicate
 	neck = /obj/item/clothing/neck/cloak/syndieadm
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/syndicate
-	back =/obj/item/storage/backpack/duffelbag/syndie
+	back = /obj/item/storage/backpack/duffelbag/syndie
 	belt = /obj/item/gun/ballistic/automatic/pistol/APS
 	head = /obj/item/clothing/head/HoS/syndicate
 	id = /obj/item/card/id/syndicate/advanced/black/gold
