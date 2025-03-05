@@ -1496,12 +1496,12 @@
 	dir = 8
 	},
 /obj/structure/table/glass,
-/obj/item/pipe{
-	dir = 8
-	},
 /obj/item/storage/toolbox/mechanical,
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
@@ -2761,7 +2761,7 @@
 "cfp" = (
 /obj/structure/fans/tiny,
 /obj/structure/fans/tiny,
-/obj/item/pipe{
+/obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 6
 	},
 /turf/open/floor/plasteel,
@@ -4987,11 +4987,11 @@
 /turf/open/floor/plasteel/rivets/corner,
 /area/mine/xenoarch_area_c)
 "dRQ" = (
-/obj/item/pipe{
-	dir = 5
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 5
 	},
 /turf/open/floor/plasteel/dark/side{
 	dir = 4
@@ -21485,11 +21485,11 @@
 "qUq" = (
 /obj/effect/spawner/structure/window/plastitanium,
 /obj/structure/grille,
-/obj/item/pipe{
-	dir = 8
-	},
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
@@ -22026,8 +22026,8 @@
 /turf/open/indestructible/boss,
 /area/lavaland/necropolis)
 "rpB" = (
-/obj/item/pipe{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/general/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
