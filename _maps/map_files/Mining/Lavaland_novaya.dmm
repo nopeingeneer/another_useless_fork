@@ -1428,12 +1428,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
-"beE" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden{
-	dir = 4
-	},
-/turf/open/floor/glass/reinforced,
-/area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "bfx" = (
 /obj/structure/window/reinforced/clockwork{
 	dir = 8
@@ -4427,12 +4421,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/mine/xenoarch_area_a)
-"dyg" = (
-/obj/structure/cable/yellow{
-	icon_state = "4-8"
-	},
-/turf/open/floor/glass/reinforced,
-/area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "dyQ" = (
 /obj/structure/fence{
 	dir = 4
@@ -4640,7 +4628,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "dGd" = (
 /obj/structure/stone_tile{
@@ -8048,7 +8036,7 @@
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
 "gBJ" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "gBN" = (
 /obj/structure/filingcabinet,
@@ -10086,6 +10074,9 @@
 	},
 /obj/machinery/computer/pandemic,
 /obj/effect/turf_decal/bot,
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/virology)
 "iif" = (
@@ -10253,7 +10244,7 @@
 /area/mine/storage)
 "isi" = (
 /obj/machinery/door/window/survival_pod{
-	req_access_txt = "151"
+	req_access_txt = "150"
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
@@ -10513,7 +10504,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/manifold4w/supply/hidden,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "iAi" = (
 /obj/structure/chair/office/light{
@@ -10564,6 +10555,9 @@
 	},
 /obj/effect/turf_decal/tile/green{
 	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/virology)
@@ -10635,7 +10629,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 10
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "iGL" = (
 /obj/structure/stone_tile/surrounding_tile/cracked,
@@ -16787,13 +16781,13 @@
 /turf/open/floor/wood,
 /area/mine/living_quarters)
 "nji" = (
-/obj/machinery/chem_dispenser,
 /obj/effect/turf_decal/stripes/blue{
 	dir = 1
 	},
 /obj/structure/window/reinforced/survival_pod{
 	dir = 4
 	},
+/obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry)
 "njK" = (
@@ -17831,6 +17825,9 @@
 	desc = "Used to grind things up into raw materials and liquids.";
 	pixel_y = 5
 	},
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/virology)
 "oad" = (
@@ -18359,10 +18356,10 @@
 /turf/open/floor/grass/grass0,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "oti" = (
-/obj/machinery/chem_dispenser,
 /obj/effect/turf_decal/stripes/blue{
 	dir = 6
 	},
+/obj/machinery/chem_dispenser/fullupgrade,
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry)
 "otO" = (
@@ -20154,7 +20151,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 4
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "pYk" = (
 /obj/machinery/door/airlock/maintenance,
@@ -20447,7 +20444,7 @@
 /area/mine/storage)
 "qhg" = (
 /obj/machinery/door/window/survival_pod{
-	req_access_txt = "151"
+	req_access_txt = "150"
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry)
@@ -23389,7 +23386,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "syK" = (
 /obj/machinery/suit_storage_unit/mining,
@@ -23673,7 +23670,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "sKO" = (
 /obj/effect/turf_decal/tile/green{
@@ -23950,7 +23947,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 8
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "sWv" = (
 /obj/structure/table/wood/mushroom,
@@ -24129,7 +24126,7 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "tei" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer1{
@@ -25256,7 +25253,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 4
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "tZF" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -26543,7 +26540,7 @@
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden,
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "uYX" = (
 /obj/structure/table,
@@ -27173,7 +27170,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden{
 	dir = 6
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "vzD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible,
@@ -27629,10 +27626,6 @@
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 8
-	},
-/obj/machinery/light{
-	dir = 4;
-	light_color = "#c1caff"
 	},
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -30686,7 +30679,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
 	},
-/turf/open/floor/glass/reinforced,
+/turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "ylx" = (
 /obj/structure/table,
@@ -118157,8 +118150,8 @@ nEu
 mUS
 dFM
 teb
-dyg
-beE
+atS
+uhU
 iOt
 mjh
 fJA
@@ -118412,7 +118405,7 @@ gGk
 wLK
 clY
 cSo
-eGO
+pyH
 tZq
 vzs
 gBJ
