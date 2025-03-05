@@ -119,6 +119,14 @@
 /area/ruin/lavaland/unpowered/deepspaceone/reactor
 	name = "DS-1 'Dune' | Reactor"
 
+/area/ruin/lavaland/unpowered/deepspaceone/virology
+	name = "DS-1 'Dune' | Virology"
+
+/area/ruin/lavaland/unpowered/deepspaceone/general_staff
+	name = "DS-1 'Dune' | General Staff Quarters"
+
+/area/ruin/lavaland/unpowered/deepspaceone/chemistry
+	name = "DS-1 'Dune' | General Cchemistry"
 
 //Xeno Nest
 
