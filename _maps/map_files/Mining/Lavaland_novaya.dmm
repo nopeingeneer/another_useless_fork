@@ -91,11 +91,6 @@
 	state = 2;
 	icon_state = "box_1"
 	},
-/obj/structure/frame/machine{
-	anchored = 1;
-	state = 2;
-	icon_state = "box_1"
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/siding/dark{
 	dir = 4
@@ -2200,6 +2195,7 @@
 /obj/effect/turf_decal/tile/dark{
 	dir = 4
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/cargo)
 "bHO" = (
@@ -5035,6 +5031,12 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
 	dir = 4
 	},
+/obj/item/storage/box/beakers/bluespace{
+	pixel_x = -6
+	},
+/obj/item/storage/box/beakers/bluespace{
+	pixel_x = 7
+	},
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry)
 "dUZ" = (
@@ -6902,6 +6904,7 @@
 /obj/item/slime_extract/grey{
 	pixel_y = -4
 	},
+/obj/item/storage/bag/bio,
 /turf/open/floor/plasteel/dark/side,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
 "fEI" = (
@@ -17178,7 +17181,7 @@
 /turf/open/floor/circuit/green/anim,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
 "nzh" = (
-/obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden,
 /turf/open/floor/circuit/telecomms,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "nzT" = (
@@ -21004,11 +21007,6 @@
 	state = 2;
 	icon_state = "box_1"
 	},
-/obj/structure/frame/machine{
-	anchored = 1;
-	state = 2;
-	icon_state = "box_1"
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/siding/dark{
 	dir = 10
@@ -23889,6 +23887,7 @@
 /obj/item/slime_extract/grey{
 	pixel_y = -4
 	},
+/obj/item/storage/bag/bio,
 /turf/open/floor/plasteel/dark/side,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
 "sUC" = (
@@ -29832,6 +29831,12 @@
 /obj/machinery/reagentgrinder,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 2
+	},
+/obj/item/storage/bag/chemistry{
+	pixel_x = -4
+	},
+/obj/item/storage/bag/chemistry{
+	pixel_x = 4
 	},
 /turf/open/floor/plasteel/white,
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry)
