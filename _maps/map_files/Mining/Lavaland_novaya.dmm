@@ -6789,7 +6789,7 @@
 	icon_state = "plant-33"
 	},
 /obj/machinery/button/door{
-	id = "interdynecomm";
+	id = "interdynecommcameraroom";
 	pixel_x = -25;
 	normaldoorcontrol = 1;
 	specialfunctions = 4
@@ -25009,7 +25009,7 @@
 	dir = 4
 	},
 /obj/machinery/door/airlock/highsecurity{
-	id_tag = "interdynecomm";
+	id_tag = "interdynecommcameraroom";
 	name = "Comms Officer";
 	req_access_txt = "151"
 	},
