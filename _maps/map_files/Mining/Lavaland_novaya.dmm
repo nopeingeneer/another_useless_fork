@@ -13116,6 +13116,8 @@
 /area/ruin/lavaland/unpowered/ash_walkers)
 "kIw" = (
 /obj/machinery/door/airlock/hatch,
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/delivery/white,
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
 "kJg" = (
@@ -21407,6 +21409,11 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
+/obj/effect/turf_decal/delivery/white{
+	color = "#00ff00";
+	name = "green"
+	},
+/obj/structure/fans/tiny,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/virology)
 "qQE" = (
