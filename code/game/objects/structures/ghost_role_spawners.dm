@@ -1467,7 +1467,7 @@
 		)
 	id = /obj/item/card/id/syndicate/advanced/black
 	id_trim = /datum/id_trim/syndicom/ds2
-	implants = list(/obj/item/implant/weapons_auth, obj/item/implant/deathrattle/deepspacecrew)
+	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/deathrattle/deepspacecrew)
 
 /datum/outfit/ds2/syndicate/miner
 	name = "DS-2 Mining Officer"
@@ -1591,7 +1591,7 @@
 		/obj/item/crowbar/red = 1,
 		/obj/item/lighter/gonzofist = 1)
 	id = /obj/item/card/id/syndicate/advanced/black/command
-	implants = list(/obj/item/implant/weapons_auth, obj/item/implant/deathrattle/deepspacecrew)
+	implants = list(/obj/item/implant/weapons_auth, /obj/item/implant/deathrattle/deepspacecrew)
 	id_trim = /datum/id_trim/syndicom/ds2
 
 /obj/item/card/id/syndicate/advanced/black/command
