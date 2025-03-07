@@ -1371,8 +1371,6 @@
 
 	var/obj/item/implant/anchor/ghost_anchor = new
 	ghost_anchor.implant(new_spawn, null, TRUE)
-	var/obj/item/implant/deathrattle/deepspacecrew = new
-	deepspacecrew.implant(new_spawn, null, TRUE)
 
 /obj/effect/mob_spawn/human/ds2/syndicate_command/special(mob/living/carbon/human/new_spawn)
 	. = ..()
@@ -1380,8 +1378,6 @@
 
 	var/obj/item/implant/anchor/ghost_anchor = new
 	ghost_anchor.implant(new_spawn, null, TRUE)
-	var/obj/item/implant/deathrattle/deepspacecrew = new
-	deepspacecrew.implant(new_spawn, null, TRUE)
 
 /obj/effect/mob_spawn/human/ds2/syndicate/service
 	mob_name = "a Waffle Co worker"
@@ -1471,7 +1467,7 @@
 		)
 	id = /obj/item/card/id/syndicate/advanced/black
 	id_trim = /datum/id_trim/syndicom/ds2
-	implants = list(/obj/item/implant/weapons_auth)
+	implants = list(/obj/item/implant/weapons_auth, obj/item/implant/deathrattle/deepspacecrew)
 
 /datum/outfit/ds2/syndicate/miner
 	name = "DS-2 Mining Officer"
@@ -1595,7 +1591,7 @@
 		/obj/item/crowbar/red = 1,
 		/obj/item/lighter/gonzofist = 1)
 	id = /obj/item/card/id/syndicate/advanced/black/command
-	implants = list(/obj/item/implant/weapons_auth)
+	implants = list(/obj/item/implant/weapons_auth, obj/item/implant/deathrattle/deepspacecrew)
 	id_trim = /datum/id_trim/syndicom/ds2
 
 /obj/item/card/id/syndicate/advanced/black/command

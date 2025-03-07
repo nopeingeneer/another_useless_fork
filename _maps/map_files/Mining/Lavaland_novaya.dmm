@@ -178,10 +178,13 @@
 "agl" = (
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable/yellow{
-	icon_state = "2-8"
+	icon_state = "4-8"
 	},
 /obj/structure/cable/yellow{
-	icon_state = "0-8"
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow{
+	icon_state = "2-8"
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
@@ -480,9 +483,9 @@
 /turf/open/floor/engine,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
 "asS" = (
-/obj/item/stack/sheet/mineral/plasma,
-/turf/open/lava/smooth/lava_land_surface,
-/area/ruin/lavaland/unpowered)
+/obj/structure/marker_beacon/burgundy,
+/turf/open/water/safe/cooling_luiquid,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "atc" = (
 /obj/machinery/porta_turret/syndicate,
 /turf/closed/wall/mineral/plastitanium,
@@ -3981,10 +3984,7 @@
 	dir = 8
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "dfy" = (
 /obj/structure/cable/yellow{
@@ -4904,10 +4904,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 5
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "dOJ" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
@@ -6537,10 +6534,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "fmJ" = (
 /obj/structure/cable/yellow{
@@ -6573,8 +6567,9 @@
 /turf/open/floor/plasteel/dark/textured/large,
 /area/mine/xenoarch_area_c)
 "fnD" = (
-/obj/machinery/power/rtg/advanced,
-/obj/structure/cable/yellow,
+/obj/structure/cable/yellow{
+	icon_state = "1-8"
+	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "fpH" = (
@@ -6801,10 +6796,7 @@
 "fAj" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "fAr" = (
 /obj/structure/cable/yellow{
@@ -7576,7 +7568,7 @@
 	dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe,
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "gfP" = (
 /obj/structure/frame/computer,
@@ -7839,10 +7831,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 9
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "gsb" = (
 /obj/docking_port/stationary{
@@ -8217,6 +8206,9 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "gHW" = (
@@ -8314,9 +8306,6 @@
 "gKB" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
-	},
-/obj/structure/cable/yellow{
-	icon_state = "2-4"
 	},
 /obj/machinery/power/rtg/advanced,
 /obj/structure/cable/yellow{
@@ -8615,6 +8604,13 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
+"gVL" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "gWp" = (
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 8
@@ -9248,6 +9244,7 @@
 /obj/item/tank/internals/emergency_oxygen/double{
 	pixel_x = 4
 	},
+/obj/item/clothing/mask/gas/military,
 /turf/open/floor/wood,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "hEH" = (
@@ -9673,10 +9670,7 @@
 	dir = 6
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "hRj" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -9814,10 +9808,7 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "hUG" = (
 /obj/structure/disposalpipe/segment,
@@ -10758,10 +10749,7 @@
 /obj/structure/railing{
 	dir = 10
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "iOM" = (
 /obj/machinery/airalarm{
@@ -11678,10 +11666,7 @@
 	dir = 5
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "jCk" = (
 /obj/structure/closet/secure_closet/personal/patient,
@@ -11976,10 +11961,7 @@
 	dir = 10
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "jOl" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
@@ -12291,7 +12273,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe,
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "kbf" = (
 /obj/structure/cable/yellow{
@@ -12456,10 +12438,7 @@
 	dir = 9
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "khq" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer3{
@@ -13087,10 +13066,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 10
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "kHe" = (
 /obj/machinery/button/door{
@@ -16724,7 +16700,7 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible{
 	dir = 8
 	},
-/turf/open/water/safe,
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "nhD" = (
 /obj/structure/disposalpipe/segment{
@@ -16738,6 +16714,16 @@
 	},
 /turf/open/floor/plasteel/dark/textured/large,
 /area/mine/xenoarch_area_c)
+"nhM" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "nir" = (
 /obj/machinery/door/airlock/research{
 	name = "Science Division";
@@ -17529,10 +17515,7 @@
 	},
 /obj/structure/railing,
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "nKN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
@@ -18734,6 +18717,12 @@
 "oFx" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
+"oFC" = (
+/obj/structure/cable/yellow{
+	icon_state = "2-4"
+	},
+/turf/open/floor/plating,
+/area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "oFR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -19394,10 +19383,6 @@
 /obj/structure/window/reinforced/survival_pod,
 /turf/open/floor/engine,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
-"piI" = (
-/obj/structure/lattice/catwalk,
-/turf/open/water/safe,
-/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "pjz" = (
 /obj/machinery/vending/cola/random,
 /turf/open/floor/plasteel,
@@ -19459,6 +19444,13 @@
 /area/mine/storage)
 "ppW" = (
 /obj/effect/turf_decal/stripes/line,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "pqf" = (
@@ -21240,7 +21232,7 @@
 	dir = 1
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe,
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "qNm" = (
 /obj/structure/window/reinforced/survival_pod{
@@ -21626,6 +21618,16 @@
 /obj/effect/spawner/structure/window/plasma/reinforced,
 /turf/open/floor/plating,
 /area/mine/xenoarch_area_a)
+"qYH" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "qYQ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -22348,10 +22350,7 @@
 /obj/structure/marker_beacon/burgundy,
 /obj/structure/railing,
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "rEg" = (
 /turf/closed/mineral/random/labormineral/volcanic,
@@ -22812,8 +22811,6 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/machinery/power/terminal,
-/obj/structure/cable/yellow,
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "rWR" = (
@@ -27259,10 +27256,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 6
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "vFB" = (
 /obj/effect/turf_decal/bot,
@@ -28080,10 +28074,7 @@
 /area/ruin/lavaland/unpowered/deepspaceone/dormitories)
 "wsN" = (
 /obj/structure/railing,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wtj" = (
 /obj/structure/table,
@@ -28113,10 +28104,7 @@
 /obj/machinery/atmospherics/pipe/heat_exchanging/simple{
 	dir = 4
 	},
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wui" = (
 /obj/effect/turf_decal/tile/purple,
@@ -28283,10 +28271,7 @@
 /turf/open/floor/plasteel,
 /area/mine/xenoarch_area_c)
 "wCc" = (
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wCv" = (
 /obj/structure/fluff/drake_statue{
@@ -28889,10 +28874,7 @@
 	},
 /obj/structure/railing,
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "wTi" = (
 /obj/machinery/button/door{
@@ -29309,10 +29291,7 @@
 /area/ruin/lavaland/unpowered/deepspaceone/medbay)
 "xgE" = (
 /obj/structure/lattice/catwalk,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "xgW" = (
 /obj/machinery/light,
@@ -29993,10 +29972,10 @@
 /turf/open/floor/plasteel/dark/textured/half,
 /area/mine/xenoarch_area_c)
 "xFj" = (
+/obj/machinery/power/rtg/advanced,
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/power/rtg/advanced,
 /obj/structure/cable/yellow{
 	icon_state = "0-4"
 	},
@@ -30544,10 +30523,8 @@
 /area/mine/storage)
 "ydx" = (
 /obj/machinery/atmospherics/pipe/heat_exchanging/junction,
-/turf/open/water/safe{
-	initial_temperature = 2.7;
-	name = "cooling luqid"
-	},
+/obj/structure/lattice/catwalk,
+/turf/open/water/safe/cooling_luiquid,
 /area/ruin/lavaland/unpowered/deepspaceone/reactor)
 "ydS" = (
 /obj/structure/chair/office/dark{
@@ -103745,7 +103722,7 @@ tfw
 tfw
 tfw
 tfw
-hbZ
+llq
 llq
 llq
 tfw
@@ -112236,8 +112213,8 @@ iMp
 dNv
 uls
 tfw
-asS
-asS
+tfw
+tfw
 tfw
 hNp
 jeU
@@ -118169,7 +118146,7 @@ oko
 oHT
 mhO
 xFj
-izm
+oFC
 ppW
 qWR
 eyA
@@ -118437,7 +118414,7 @@ mhO
 mhO
 wQZ
 rKM
-rKM
+gVL
 rKM
 uIY
 fES
@@ -118699,7 +118676,7 @@ fES
 fES
 fES
 fES
-tcS
+hDe
 oSM
 hdo
 tfw
@@ -119409,7 +119386,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -119666,7 +119643,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -119716,7 +119693,7 @@ gmF
 iMt
 tfw
 tfw
-xZc
+nhM
 fES
 hqj
 jiI
@@ -119923,7 +119900,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -120180,7 +120157,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -120437,7 +120414,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -120694,8 +120671,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -120951,8 +120928,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -121208,8 +121185,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -121258,7 +121235,7 @@ gmF
 iMt
 tfw
 tfw
-bIX
+qYH
 fES
 hqj
 rMx
@@ -121465,8 +121442,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -121722,8 +121699,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -121979,7 +121956,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -122033,13 +122010,13 @@ xZc
 fES
 fES
 fES
+sdB
 fES
-fES
 tcS
 tcS
 tcS
 tcS
-tcS
+hDe
 wCc
 tfw
 tfw
@@ -122750,8 +122727,8 @@ llq
 llq
 llq
 llq
-dee
-dee
+llq
+llq
 tfw
 tfw
 tfw
@@ -123007,7 +122984,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -123064,7 +123041,7 @@ tru
 uLF
 tcS
 tuF
-hDe
+tcS
 tcS
 hdo
 wCc
@@ -123264,7 +123241,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -123521,7 +123498,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -123580,7 +123557,7 @@ tcS
 fAj
 xgE
 xgE
-jSW
+wCc
 wsN
 wCc
 tfw
@@ -123779,7 +123756,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -124036,7 +124013,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -124293,7 +124270,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -124550,7 +124527,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -124603,7 +124580,7 @@ tru
 tru
 tru
 tru
-piI
+xgE
 kHa
 wtZ
 wtZ
@@ -124807,7 +124784,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -125064,7 +125041,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -125124,7 +125101,7 @@ xgE
 jSW
 jSW
 tcS
-hDe
+asS
 wCc
 tfw
 tfw
@@ -125321,7 +125298,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -125578,7 +125555,7 @@ llq
 llq
 llq
 llq
-dee
+llq
 tfw
 tfw
 tfw
@@ -126398,7 +126375,7 @@ tfw
 tfw
 tfw
 tfw
-bIX
+qYH
 wnV
 wnV
 wnV
