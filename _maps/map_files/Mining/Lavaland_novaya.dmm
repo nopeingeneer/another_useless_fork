@@ -4448,6 +4448,8 @@
 "dAb" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/toy/mecha/deathripley,
+/obj/item/stock_parts/cell/bluespacereactor,
+/obj/item/inducer/sci/combat,
 /turf/open/floor/wood/wood_large,
 /area/ruin/lavaland/unpowered/deepspaceone/comms_officer)
 "dAL" = (
@@ -15860,6 +15862,7 @@
 /obj/effect/turf_decal/siding/dark{
 	dir = 6
 	},
+/obj/item/inducer/syndicate,
 /turf/open/floor/plasteel/dark,
 /area/ruin/lavaland/unpowered/deepspaceone/testlab)
 "mEi" = (
