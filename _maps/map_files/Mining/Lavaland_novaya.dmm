@@ -8206,10 +8206,7 @@
 "gHO" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
+	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
@@ -13406,9 +13403,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{
 	dir = 10
 	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
 "kTr" = (
@@ -15358,14 +15352,6 @@
 	},
 /turf/open/indestructible/boss,
 /area/lavaland/necropolis)
-"mnC" = (
-/obj/structure/fans/tiny,
-/obj/machinery/door/airlock/external{
-	req_access_txt = "150"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/plating,
-/area/ruin/lavaland/unpowered/deepspaceone/main)
 "moF" = (
 /obj/effect/turf_decal/tile/dark_green/half,
 /turf/open/floor/plasteel/dark/textured/half,
@@ -21559,9 +21545,6 @@
 	},
 /obj/machinery/atmospherics/components/binary/volume_pump/on/layer3{
 	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
 /area/ruin/lavaland/unpowered/deepspaceone/engineering)
@@ -113753,7 +113736,7 @@ cMu
 cMu
 cMu
 cMu
-mnC
+qPi
 siL
 cea
 nHw

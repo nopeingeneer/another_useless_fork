@@ -126,7 +126,7 @@
 	name = "DS-1 'Dune' | General Staff Quarters"
 
 /area/ruin/lavaland/unpowered/deepspaceone/chemistry
-	name = "DS-1 'Dune' | General Cchemistry"
+	name = "DS-1 'Dune' | General Chemistry"
 
 //Xeno Nest
 
