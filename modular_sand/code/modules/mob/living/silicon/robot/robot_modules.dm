@@ -39,7 +39,7 @@
 		/obj/item/stack/rods/cyborg,
 		/obj/item/stack/tile/plasteel/cyborg,
 		/obj/item/stack/cable_coil/cyborg,
-		/obj/item/storage/part_replacer/bluespace/cyborg
+		/obj/item/storage/part_replacer/bluespace/cyborg,
 		/obj/item/restraints/handcuffs/cable/zipties,
 		/obj/item/melee/baton/loaded,
 		/obj/item/stack/medical/gauze/cyborg,
