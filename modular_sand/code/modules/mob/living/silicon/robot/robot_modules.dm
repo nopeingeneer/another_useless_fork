@@ -31,7 +31,7 @@
 		/obj/item/wirecutters/cyborg,
 		/obj/item/multitool/cyborg,
 		/obj/item/gripper,
-		/obj/item/gripper/medical
+		/obj/item/gripper/medical,
 		/obj/item/lightreplacer/cyborg,
 		/obj/item/stack/sheet/metal/cyborg,
 		/obj/item/stack/sheet/glass/cyborg,
@@ -41,7 +41,7 @@
 		/obj/item/stack/cable_coil/cyborg,
 		/obj/item/storage/part_replacer/bluespace/cyborg
 		/obj/item/restraints/handcuffs/cable/zipties,
-		/obj/item/melee/baton/loaded
+		/obj/item/melee/baton/loaded,
 		/obj/item/stack/medical/gauze/cyborg,
 		/obj/item/shockpaddles/cyborg,
 		/obj/item/healthanalyzer/advanced,
@@ -52,7 +52,7 @@
 		/obj/item/gun/medbeam,
 		/obj/item/reagent_containers/borghypo/syndicate,
 		/obj/item/stack/medical/bone_gel
-		/obj/item/bonesetter/bone
+		/obj/item/bonesetter/bone,
 		/obj/item/borg/lollipop,
 		/obj/item/borg_shapeshifter,
 		/obj/item/cyborg_inducer
