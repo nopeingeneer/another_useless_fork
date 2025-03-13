@@ -51,7 +51,7 @@
 		/obj/item/scalpel/advanced,
 		/obj/item/gun/medbeam,
 		/obj/item/reagent_containers/borghypo/syndicate,
-		/obj/item/stack/medical/bone_gel
+		/obj/item/stack/medical/bone_gel,
 		/obj/item/bonesetter/bone,
 		/obj/item/borg/lollipop,
 		/obj/item/borg_shapeshifter,
