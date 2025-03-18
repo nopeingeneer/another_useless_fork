@@ -2,9 +2,9 @@
  * Stores recently played gamemodes, maps, etc.
  */
 /datum/controller/subsystem/persistence
-	var/list/saved_modes = list(1,2)
-	var/list/saved_chaos = list(5,5)
-	var/list/saved_dynamic_rules = list(list(),list())
+	var/list/saved_modes = list(1,2,3)
+	var/list/saved_chaos = list(5,5,5)
+	var/list/saved_dynamic_rules = list(list(),list(),list())
 	var/average_threat = 50
 	var/list/saved_maps
 	var/last_dynamic_gamemode = "" //BLUEMOON ADDITION
@@ -27,6 +27,7 @@
 	var/json_file = null
 	var/list/file_data = list()
 	if(!GLOB.midround_recorded)
+		saved_modes[3] = saved_modes[2]
 		saved_modes[2] = saved_modes[1]
 		saved_modes[1] = SSticker.mode.config_tag
 		json_file = file("data/RecentModes.json")
@@ -37,6 +38,7 @@
 		message_admins("Режим был записан посреди раунда через midround_record, и по окончанию раунда записан не будет.")
 	if(!record_chaos)
 		return
+	saved_chaos[3] = saved_chaos[2]
 	saved_chaos[2] = saved_chaos[1]
 	saved_chaos[1] = SSticker.mode.get_chaos()
 	average_threat = (SSactivity.get_average_threat() + average_threat) / 2

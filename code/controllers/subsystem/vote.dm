@@ -671,6 +671,7 @@ SUBSYSTEM_DEF(vote)
 
 /datum/controller/subsystem/vote/proc/check_combo()
 	var/list/roundtypes = list()
+	var/much_to_check = ROUNDTYPE_MAX_COMBO
 	log_world("SSpersistence.saved_modes contents:")
 	for (var/mode in SSpersistence.saved_modes)
 		log_world("- [mode]: [SSpersistence.saved_modes[mode]]")
@@ -678,10 +679,13 @@ SUBSYSTEM_DEF(vote)
 	for (var/mode in SSpersistence.saved_modes)
 		if(!istext(mode))
 			continue
+		if(!much_to_check)
+			break
+		much_to_check--
 		if(!(mode in roundtypes))
 			roundtypes[mode] = 0
 		roundtypes[mode]++
-		if (roundtypes[mode] >= 2)
+		if(roundtypes[mode] >= ROUNDTYPE_MAX_COMBO)
 			return mode
 	return FALSE
 
@@ -735,7 +739,7 @@ SUBSYSTEM_DEF(vote)
 					. += "<br>Последняя вариация: <b>ТИМБАЗА ИЛИ ХАРД</b>."
 				else
 					. += "<br>Последняя вариация: <b>[SSpersistence.last_dynamic_gamemode]</b>."
-			. += "<h4>Если Режим выпадает  два раза подряд - форсится обратный.</h4>"
+			. += "<h4>Если Режим выпадает [ROUNDTYPE_MAX_COMBO] раза подряд - форсится обратный.</h4>"
 			if (length(SSpersistence.saved_modes))
 				. += "<br>Последние режимы: <b>[jointext(SSpersistence.saved_modes, ", ")]</b>."
 			. += "<br>Осталось времени: [DisplayTimeText((SSticker.timeLeft - ROUNDTYPE_VOTE_END_PENALTY))]<hr><ul>"
