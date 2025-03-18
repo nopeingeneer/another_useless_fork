@@ -37,6 +37,7 @@
 		message_admins("Режим был записан посреди раунда через midround_record, и по окончанию раунда записан не будет.")
 	if(!record_chaos)
 		return
+	saved_chaos[3] = saved_chaos[2]
 	saved_chaos[2] = saved_chaos[1]
 	saved_chaos[1] = SSticker.mode.get_chaos()
 	average_threat = (SSactivity.get_average_threat() + average_threat) / 2
